@@ -11,15 +11,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20151026063735) do
+ActiveRecord::Schema.define(:version => 20151026103219) do
+
+  create_table "notices", :force => true do |t|
+    t.string   "title"
+    t.text     "content"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "notices", ["user_id"], :name => "index_notices_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "email"
     t.string   "phone"
     t.string   "password_digest"
     t.string   "user_type"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
+    t.string   "password_confirmation"
   end
 
 end

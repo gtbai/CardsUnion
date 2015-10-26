@@ -28,15 +28,16 @@
     <![endif]-->
   </head>
   <body>
-      <div style="position:absolute; left:0; top:0; width:100%; height:100%">
+      <div style="position:fixed; left:0; top:0; width:100%; height:100%">
         <img src="../images/signbg.jpg" width=100% height=100%>
       </div>
         <br><br><br><br>
-      <div class="col-md-3 has-success col-md-offset-5">
-        <%= form_for(@user) do |f| %>
-        <% @user.errors.full_messages.each do |msg| %>
+        <div class="col-md-6 col-md-offset-5"><% @user.errors.full_messages.each do |msg| %>
            <p><%= msg %></p>
         <% end %>
+        </div>
+      <div class="col-md-3 has-success col-md-offset-5">
+        <%= form_for(@user) do |f| %>
         <div class="form-group">
           <label for="exampleInputEmail1" > Email address</label>
             <%= f.text_field :email, autofocus: true, placeholder: "Email" ,
@@ -48,12 +49,11 @@
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1" style="opacity:.9">Password</label>
-            <%= f.password_field :password_confirmation, placeholde: "Repeat Password", class:"form-control", id: "exampleInputPassword1"%>
+            <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class:"form-control", id: "exampleInputPassword1"%>
         </div>
-
         <div class="form-group">
-          <label for="exampleInputPassword1" style="opacity:.9">Password Confirmation: </label>
-            <%= f.password_field :password, placeholde: "Password", autocomplete: "off", class:"form-control", id: "exampleInputPassword1"%>
+          <label for="exampleInputPassword1" style="opacity:.9">Password Confirmation:</label>
+            <%= f.password_field :password_confirmation, placeholde: "Repeat Password", class:"form-control", id: "exampleInputPassword1"%>
         </div>
 
         <div class=" form-group">
