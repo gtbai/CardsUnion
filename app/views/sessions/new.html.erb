@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Log In</title>
+
+   <!-- Bootstrap -->
+    <link href="../stylesheets/bootstrap.min.css" rel="stylesheet">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body background="../images/login_bg.jpg">
+      <nav class="navbar navbar-default navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+          <!--<form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>-->
+          <ul class="nav navbar-nav navbar-right ">
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">Log in</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <br><br>
+    <div class="col-md-3 has-success col-md-offset-8 jumbotron">
+      <%= form_for(:session, url:login_path) do |f| %>
+      <div class="form-group">
+        <label for="exampleInputEmail1" > Email address</label>
+         <%= f.text_field :email, autofocus: true, placeholder: "Email" ,
+            class: "form-control", id: "exampleInputEmail1" %>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputPassword1" style="opacity:.9">Password</label>
+       <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class:"form-control", id: "exampleInputPassword1"%>
+      </div>
+
+      <!--<div class="input-group col-md-12 ">
+      <label for="exampleInputPassword1">User Type</label>
+      <select name="user_type" class="form-control">
+      <option value="merchant">I'm a merchant</option>
+      <option value="consumer">I'm a consumer</option>
+      </select>
+      </div>-->
+
+      <div class="form-group">
+        <label for="selectUserType">Choose Your User Type</label>
+          <%= f.select :user_type, [['I am a merchant!', 'merchant'], ['I am a consumer!', 'consumer']] , {}, {class: "form-control", id: "selectUserType"} %>
+      </div>
+
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+      <%= f.submit "Log in" , class: "btn btn-block btn-success"%>
+      <%= link_to "Don't have an account? Sign Up", new_user_path, {class: "btn btn-block btn-info"} %>
+      <% end %>
+    </div>
+    <!--<div class="jumbotron"> This is button model.
+      <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -29,7 +29,7 @@
   </head>
   <body>
       <div style="position:fixed; left:0; top:0; width:100%; height:100%">
-        <img src="../images/signbg.jpg" width=100% height=100%>
+        <img src="../images/signup_bg.jpg" width=100% height=100%>
       </div>
         <br><br><br><br>
         <div class="col-md-6 col-md-offset-5"><% @user.errors.full_messages.each do |msg| %>
@@ -57,19 +57,9 @@
         </div>
 
         <div class=" form-group">
-        <label for="exampleInputPassword1">Choose Your User Type</label>
-          <%= f.select :user_type, [['I am a merchant!', 'merchant'], ['I am a consumer!', 'consumer']] , {}, {class: "form-control"}%>
+        <label for="selectUserType">Choose Your User Type</label>
+          <%= f.select :user_type, [['I am a merchant!', 'merchant'], ['I am a consumer!', 'consumer']] , {}, {class: "form-control", id: "selectUserType"}%>
         </div>
-        <!--<br>
-        <div class="input-group">
-          <div class="input-group-btn">
-            <button type="button" class="btn btn-default btn-block dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose Your User Type <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li class="col-md-12"><a href="#">I'm a merchant</a></li>
-              <li class="col-md-12"><a href="#">I'm a consumer</a></li>
-            </ul>
-          </div>
-        </div>-->
         <div>
           <br>
             <%= f.submit "Sign Up" , class: "btn btn-block btn-success"%>

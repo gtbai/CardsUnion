@@ -1,6 +1,8 @@
 class NoticesController < ApplicationController
   # GET /notices
   # GET /notices.json
+  # Remember to remove :index from the line below
+  before_action :require_user, only: [:index, :show]
   def index
     @notices = Notice.all
 
