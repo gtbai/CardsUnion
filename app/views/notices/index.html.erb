@@ -1,3 +1,4 @@
+<%= link_to "Log out", logout_path, method: "delete" %>
 <h1>Listing notices</h1>
 
 <table>
@@ -23,5 +24,6 @@
 </table>
 
 <br />
-
+<% if current_user && current_user.merchant? %>
 <%= link_to 'New Notice', new_notice_path %>
+<% end %>

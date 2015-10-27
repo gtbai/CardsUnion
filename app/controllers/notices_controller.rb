@@ -1,8 +1,9 @@
 class NoticesController < ApplicationController
+  include AbstractController::Callbacks
+  before_filter :require_user, only: [:index, :show]
+  before_filter :require_merchant, only: [:new, :edit]
   # GET /notices
   # GET /notices.json
-  # Remember to remove :index from the line below
-  before_action :require_user, only: [:index, :show]
   def index
     @notices = Notice.all
 
