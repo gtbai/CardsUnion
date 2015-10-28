@@ -1,0 +1,20 @@
+body{
+	background: url("../images/mainbg2.jpg");
+	background-size: cover;
+	height: 50%;
+	background-repeat: no-repeat;
+}
+
+a.notices:link{
+	color: #000000;
+	background-color: #000000;
+};
+
+a.notices:visited{
+	color: #000000;
+	background-color: #000000;
+};
+
+a.notices{
+	margin-right: 20px;
+}
