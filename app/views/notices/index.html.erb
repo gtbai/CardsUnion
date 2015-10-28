@@ -1,28 +1,34 @@
-<h1>Listing notices</h1>
-
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Content</th>
-    <th>User</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
+<div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
+      <%= image_tag("mainbg2.jpg", width: "100%", height: "100%") %>
+</div>
+<br><br><br><br>
+<div class="btn-group col-md-10 col-md-offset-1">
+  <button type="button" class="btn btn-info btn-lg col-md-11">Choose Service You Want Here~</button>
+  <button type="button" class="btn btn-info btn-lg col-md-1 dropdown-toggle" data-toggle="dropdown" >
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Type1</a></li>
+    <li><a href="#">Type2</a></li>
+    <li><a href="#">Type3</a></li>
+  </ul>
+</div>
+<br><br><br><br><br><br>
 <% @notices.each do |notice| %>
-  <tr>
-    <td><%= notice.title %></td>
-    <td><%= notice.content %></td>
-    <td><%= notice.user %></td>
-    <td><%= link_to 'Show', notice %></td>
-    <td><%= link_to 'Edit', edit_notice_path(notice) %></td>
-    <td><%= link_to 'Destroy', notice, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
+  <div class="jumbotron col-md-offset-1 col-md-10">
+    <h2>Title : <%= notice.title %></h2>
+    <p>Content : <%= notice.content %></p>
+    <br />
+    <div class="text-center">
+    <%= link_to 'Details', notice ,type: "button", class:"btn btn-lg btn-info" %>
+    <%= link_to ' Edit ', edit_notice_path(notice) , class:"btn btn-lg btn-success" %>
+    <%= link_to 'Destroy', notice, class:"btn btn-lg btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+  </div>
 <% end %>
-</table>
-
-<br />
 <% if current_user && current_user.merchant? %>
-<%= link_to 'New Notice', new_notice_path %>
+<div>
+  <h4 class="col-md-offset-1 btn btn-lg btn-success"><%= link_to 'New Notice', new_notice_path %><h4>
+</div>
 <% end %>
