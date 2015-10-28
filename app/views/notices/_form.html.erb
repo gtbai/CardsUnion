@@ -10,20 +10,22 @@
       </ul>
     </div>
   <% end %>
-<div class="col-md-4 jumbotron col-md-offset-5">
-  <h1>New notice</h1>
+  <br />
+<div class="col-md-6 form-group col-md-offset-3">
+  
   <div class="field">
     <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.text_field :title ,class: "form-control"%>
   </div>
   <div class="field">
     <%= f.label :content %><br />
-    <%= f.text_area :content %>
+    <%= f.text_area :content ,class: "form-control" , rows: "15" %>
+    <br />
   </div>
-  <div class="field">
+  <!--<div class="field">
     <%= f.label :user %><br />
-    <%= f.text_field :user %>
-  </div>
+    <%= f.text_field :user , class: "form-control" %>
+  </div>-->
   <div class="actions">
     <%= f.submit "Create" , class: "btn btn-block btn-success"%>
   </div>
