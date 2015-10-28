@@ -77713,3 +77713,2077 @@ Served asset /application.js - 304 Not Modified (7ms)
 
 Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:47:25 +0800
 Served asset /mainbg2.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/notices" for 127.0.0.1 at 2015-10-28 19:50:21 +0800
+Processing by NoticesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNotice Load (0.8ms)[0m  SELECT "notices".* FROM "notices" 
+  Rendered notices/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 71.3ms (Views: 62.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /extention.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /users.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:22 +0800
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:50:25 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (95ms)
+
+
+Started GET "/notices/7" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Processing by NoticesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNotice Load (0.4ms)[0m  SELECT "notices".* FROM "notices" WHERE "notices"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered notices/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 48.7ms (Views: 40.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /notices.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:48 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:50:49 +0800
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/notices/7/edit" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Processing by NoticesController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNotice Load (0.4ms)[0m  SELECT "notices".* FROM "notices" WHERE "notices"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered notices/_form.html.erb (8.2ms)
+  Rendered notices/edit.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 47.9ms (Views: 42.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /application.css - 304 Not Modified (44ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /users.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:20 +0800
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:51:21 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (5ms)
+
+
+Started PUT "/notices/7" for 127.0.0.1 at 2015-10-28 19:51:25 +0800
+Processing by NoticesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CF86tLsZfokLd+BpesEGsAewpPl3xdm3J4LHh/V+MVg=", "notice"=>{"title"=>"DongNI Barbershop", "content"=>"DongNi Barbershop is ON SALE!"}, "commit"=>"Save", "id"=>"7"}
+  [1m[36mNotice Load (0.3ms)[0m  [1mSELECT "notices".* FROM "notices" WHERE "notices"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notices/7
+Completed 302 Found in 20.5ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/notices/7" for 127.0.0.1 at 2015-10-28 19:51:25 +0800
+Processing by NoticesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.2ms)[0m  [1mSELECT "notices".* FROM "notices" WHERE "notices"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  Rendered notices/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 53.1ms (Views: 44.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:25 +0800
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:25 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:25 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:25 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:25 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:25 +0800
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:51:25 +0800
+Served asset /sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:26 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:26 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:26 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:26 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:26 +0800
+Served asset /users.js - 304 Not Modified (80ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:51:26 +0800
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.6ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (16.4ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (11ms)  (pid 5747)
+Completed 200 OK in 151.7ms (Views: 143.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /application.css - 304 Not Modified (82ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /extention.css - 200 OK (10ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:29 +0800
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:52:30 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.8ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 75.5ms (Views: 68.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /notices.js - 304 Not Modified (79ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:33 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:52:34 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 19:52:45 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.7ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (10.6ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (6ms)  (pid 5747)
+Completed 200 OK in 135.8ms (Views: 128.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /application.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /extention.css - 200 OK (23ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /scaffolds.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /notices.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:52:46 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 19:53:32 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.6ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 77.8ms (Views: 69.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:53:33 +0800
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:53:34 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (11ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.8ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (13.6ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (9ms)  (pid 5747)
+Completed 200 OK in 165.7ms (Views: 155.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /notices.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /extention.css - 200 OK (19ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:54:25 +0800
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:54:57 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 19:56:01 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (1.2ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (12.0ms)
+Compiled extention.css  (0ms)  (pid 5747)
+Compiled application.css  (8ms)  (pid 5747)
+Completed 200 OK in 228.1ms (Views: 215.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /application.css - 304 Not Modified (90ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /notices.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /extention.css - 200 OK (28ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /users.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:56:02 +0800
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:56:03 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 19:57:06 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.6ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (15.8ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (27ms)  (pid 5747)
+Completed 200 OK in 169.8ms (Views: 161.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:57:06 +0800
+Served asset /application.css - 304 Not Modified (63ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:57:06 +0800
+Served asset /extention.css - 200 OK (16ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /notices.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:57:07 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.6ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (12.9ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (11ms)  (pid 5747)
+Completed 200 OK in 153.7ms (Views: 144.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /application.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /sessions.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /extention.css - 200 OK (6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 19:58:44 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.2ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:58:45 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:58:45 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:58:45 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:58:45 +0800
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:58:45 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (10ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 19:59:21 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.6ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (11.0ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (14ms)  (pid 5747)
+Completed 200 OK in 152.5ms (Views: 143.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /application.css - 304 Not Modified (67ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /extention.css - 200 OK (8ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /sessions.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 19:59:22 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.8ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (12.7ms)
+Compiled extention.css  (0ms)  (pid 5747)
+Compiled application.css  (8ms)  (pid 5747)
+Completed 200 OK in 224.6ms (Views: 213.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /application.css - 304 Not Modified (82ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /extention.css - 200 OK (24ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /sessions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:13 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:14 +0800
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:00:14 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 20:00:46 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.8ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (11.1ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (8ms)  (pid 5747)
+Completed 200 OK in 127.7ms (Views: 118.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:46 +0800
+Served asset /application.css - 304 Not Modified (154ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /extention.css - 200 OK (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:00:47 +0800
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:00:48 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 20:01:35 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.5ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (13.4ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (21ms)  (pid 5747)
+Completed 200 OK in 173.4ms (Views: 166.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /application.css - 304 Not Modified (65ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /extention.css - 200 OK (36ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /sessions.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:01:36 +0800
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:01:39 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 20:02:27 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.7ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (14.4ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (8ms)  (pid 5747)
+Completed 200 OK in 223.2ms (Views: 212.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /application.css - 304 Not Modified (77ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /extention.css - 200 OK (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /notices.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:28 +0800
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:02:29 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 20:02:56 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.6ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (9.2ms)
+Compiled extention.css  (0ms)  (pid 5747)
+Compiled application.css  (7ms)  (pid 5747)
+Completed 200 OK in 244.3ms (Views: 236.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /application.css - 304 Not Modified (60ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /extention.css - 200 OK (38ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (12ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /notices.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:02:57 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 20:04:01 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.8ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (11.3ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (10ms)  (pid 5747)
+Completed 200 OK in 143.5ms (Views: 134.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /application.css - 304 Not Modified (87ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /extention.css - 200 OK (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /notices.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /notices.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:04:02 +0800
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:04:03 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 20:04:59 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.8ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (17.2ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (11ms)  (pid 5747)
+Completed 200 OK in 208.0ms (Views: 196.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /application.css - 304 Not Modified (52ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /extention.css - 200 OK (19ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /notices.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (14ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.7ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:00 +0800
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:05:01 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/notices/" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.5ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (15.0ms)
+Compiled extention.css  (1ms)  (pid 5747)
+Compiled application.css  (11ms)  (pid 5747)
+Completed 200 OK in 265.0ms (Views: 255.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /application.css - 304 Not Modified (69ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /extention.css - 200 OK (16ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (11ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:25 +0800
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:05:26 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/notices/7/edit" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Processing by NoticesController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNotice Load (0.2ms)[0m  [1mSELECT "notices".* FROM "notices" WHERE "notices"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  Rendered notices/_form.html.erb (10.0ms)
+  Rendered notices/edit.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 73.7ms (Views: 67.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /scaffolds.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:34 +0800
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:05:35 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (7ms)
+
+
+Started PUT "/notices/7" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Processing by NoticesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CF86tLsZfokLd+BpesEGsAewpPl3xdm3J4LHh/V+MVg=", "notice"=>{"title"=>"DongNI Barbershop", "content"=>"DongNi Barbershop is ON SALE!"}, "commit"=>"Save", "id"=>"7"}
+  [1m[35mNotice Load (0.3ms)[0m  SELECT "notices".* FROM "notices" WHERE "notices"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/notices/7
+Completed 302 Found in 16.9ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/notices/7" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Processing by NoticesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNotice Load (0.3ms)[0m  SELECT "notices".* FROM "notices" WHERE "notices"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered notices/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 131.7ms (Views: 124.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:37 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:38 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:38 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:38 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:38 +0800
+Served asset /sessions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:38 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:38 +0800
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/notices" for 127.0.0.1 at 2015-10-28 20:05:39 +0800
+Processing by NoticesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNotice Load (0.6ms)[0m  SELECT "notices".* FROM "notices" 
+  Rendered notices/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 81.7ms (Views: 73.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /extention.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /scaffolds.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stylesheets/extention.css" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /stylesheets/extention.css - 404 Not Found (11ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/extention.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mainbg2.jpg" for 127.0.0.1 at 2015-10-28 20:05:40 +0800
+Served asset /mainbg2.jpg - 304 Not Modified (5ms)
