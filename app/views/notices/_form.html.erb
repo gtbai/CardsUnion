@@ -10,7 +10,8 @@
       </ul>
     </div>
   <% end %>
-
+<div class="col-md-4 jumbotron col-md-offset-5">
+  <h1>New notice</h1>
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>
@@ -24,6 +25,7 @@
     <%= f.text_field :user %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Create" , class: "btn btn-block btn-success"%>
   </div>
+</div>
 <% end %>
