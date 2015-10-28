@@ -1,6 +1,46 @@
-<h1>Editing notice</h1>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Sign Up</title>
 
-<%= render 'form' %>
+    <!-- Bootstrap -->
+    <link href="../stylesheets/bootstrap.min.css" rel="stylesheet">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
 
-<%= link_to 'Show', @notice %> |
-<%= link_to 'Back', notices_path %>
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <!--<body style="background:url(../images/mainbg2.jpg);width:100%; height:100%;background-size:100%,90%;no-repeat left top;">-->
+  <body>
+  <div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
+      <!--<img src="../images/mainbg1.jpg" width=100% height=100%>-->
+      <%= image_tag("mainbg2.jpg", width: "100%", height: "100%") %>
+  </div>
+  <h1 class="text-center"> Edit Notice </h1>
+  <%= render 'form' %>
+
+  <!--<%= link_to 'Back', notices_path %>-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
