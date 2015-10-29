@@ -1,6 +1,6 @@
 class NoticesController < ApplicationController
   include AbstractController::Callbacks
-  before_filter :require_user, only: [:index, :show]
+  before_filter :require_user, only: [:show]
   before_filter :require_merchant, only: [:new, :edit]
   # GET /notices
   # GET /notices.json

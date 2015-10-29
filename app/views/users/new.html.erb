@@ -1,28 +1,28 @@
       <div style="position:fixed; left:0; top:0; width:100%; height:100%">
         <img src="../images/signup_bg.jpg" width=100% height=100%>
       </div>
-        <div class="col-md-6 col-md-offset-5"><% @user.errors.full_messages.each do |msg| %>
-           <p><%= msg %></p>
-        <% end %>
-        </div>
       <div class="col-md-3 has-success col-md-offset-5">
         <%= form_for(@user) do |f| %>
         <div class="form-group">
           <label for="exampleInputEmail1" > Email address</label>
+            <%= f.object.errors[:email].to_sentence if f.object.errors[:email] %>
             <%= f.text_field :email, autofocus: true, placeholder: "Email" ,
             class: "form-control", id: "exampleInputEmail1" %>
         </div>
         <div class="form-group">
           <label for="exampleInputPhone1" > Phone number</label>
+           <%= f.object.errors[:phone].to_sentence if f.object.errors[:phone] %>
             <%= f.text_field :phone, placeholder: "Phone", class:"form-control", id:"exampleInputPhone1"%>
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1" style="opacity:.9">Password</label>
+          <%= f.object.errors[:password].to_sentence if f.object.errors[:password] %>
             <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class:"form-control", id: "exampleInputPassword1"%>
         </div>
         <div class="form-group">
+           <%= f.object.errors[:password_confirmation].to_sentence if f.object.errors[:password_confirmation] %>
           <label for="exampleInputPassword1" style="opacity:.9">Password Confirmation:</label>
-            <%= f.password_field :password_confirmation, placeholde: "Repeat Password", class:"form-control", id: "exampleInputPassword1"%>
+            <%= f.password_field :password_confirmation, placeholder: "Repeat Password", class:"form-control", id: "exampleInputPassword1"%>
         </div>
 
         <div class=" form-group">
