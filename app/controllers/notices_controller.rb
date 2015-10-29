@@ -28,7 +28,7 @@ class NoticesController < ApplicationController
   # GET /notices/new.json
   def new
     @notice = Notice.new
-
+    @notice.user = current_user
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @notice }
