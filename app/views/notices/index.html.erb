@@ -20,11 +20,11 @@
     <div class="col-md-8"><h3><%= notice.title %></h3></div>
     <!--<p>Content : <%= notice.content %></p>-->
     <div class="col-md-4">
-    <%= link_to 'Destroy', notice, class: " notices btn btn-lg btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %>
-
-    <%= link_to ' Edit ', edit_notice_path(notice) , class: " notices btn btn-lg btn-success" %>
-     
+    
     <%= link_to 'Details', notice, type: "button", class: " notices btn btn-lg btn-info" %>
+    <%= link_to ' Edit ', edit_notice_path(notice) , class: " notices btn btn-lg btn-success" %>
+    <%= link_to 'Destroy', notice, class: " notices btn btn-lg btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %>
+    
   </div>
   </div>
 <% end %>
