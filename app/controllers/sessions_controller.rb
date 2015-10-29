@@ -4,24 +4,17 @@ class SessionsController < ApplicationController
 
 	def create
 		@user = User.find_by_email(params[:session][:email])
-		# if @user && @user.authenticate(params[:session][:password]) && @user.user_type == params[:session][:user_type]
-		# 	session[:user_id] = @user.id
-		# 	redirect_to '/'
-		# else
-		# 	redirect_to '/login'
-		# end
-
 		if @user
 			if  @user.authenticate(params[:session][:password])
 				if @user.user_type == params[:session][:user_type]
 					#session[:user_id] = @user.id
-					if params[:session][:remember_me]
+					if params[:session][:remember_me] == "1"
 						cookies.permanent[:auth_token] = @user.auth_token
-						puts "hahaha"
 					else
 						cookies[:auth_token] = @user.auth_token
 					end
 					redirect_to '/'
+					return
 				else
 					flash[:usertype_error] = "The user type is unmatched, please try again." 
 				end

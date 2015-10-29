@@ -10,3 +10,9 @@ a.notices:hover{
 a.notices:hover{
 	color: black;
 }
+
+div.bshare-custom{
+	position: relative;
+	left: 450px;
+	top: 20px;
+}
