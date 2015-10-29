@@ -14,7 +14,13 @@ class SessionsController < ApplicationController
 		if @user
 			if  @user.authenticate(params[:session][:password])
 				if @user.user_type == params[:session][:user_type]
-					session[:user_id] = @user.id
+					#session[:user_id] = @user.id
+					if params[:session][:remember_me]
+						cookies.permanent[:auth_token] = @user.auth_token
+						puts "hahaha"
+					else
+						cookies[:auth_token] = @user.auth_token
+					end
 					redirect_to '/'
 				else
 					flash[:usertype_error] = "The user type is unmatched, please try again." 
@@ -29,7 +35,8 @@ class SessionsController < ApplicationController
 	end
 
 	def destroy
-		session[:user_id] = nil
+		#session[:user_id] = nil
+		cookies.delete(:auth_token)
 		redirect_to '/'
 	end
 end

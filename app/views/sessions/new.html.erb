@@ -21,10 +21,9 @@
           <%= f.select :user_type, [['I am a merchant!', 'merchant'], ['I am a consumer!', 'consumer']] , {}, {class: "form-control", id: "selectUserType"} %>
       </div>
 
-      <div class="checkbox">
-        <label>
-          <input type="checkbox"> Remember me
-        </label>
+      <div class="form-group">
+        <label for="rememberMe">Remember Me</label>
+        <%= f.check_box :remember_me,{}, checked_value = 1, unchecked_value = 0 %>
       </div>
       <%= f.submit "Log in" , class: "btn btn-block btn-success"%>
       <%= link_to "Don't have an account? Sign Up", new_user_path, {class: "btn btn-block btn-info"} %>

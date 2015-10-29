@@ -9,9 +9,17 @@ class User < ActiveRecord::Base
   validates_length_of :password, :in => 6..24
   validates_format_of :password, :with => /[0-9]/, :message => "must contain at least one number"
   validates_format_of :password, :with => /[a-zA-Z]/, :message => "must contain at least one character"
+  before_create {generate_token(:auth_token)}
  # validates_confirmation_of :password, :message => "does not match confirmation"
 
   def merchant?
     self.user_type == 'merchant'
   end
+
+  def generate_token(column)
+    begin
+      self[column] = SecureRandom.urlsafe_base64
+    end while User.exists?(column => self[column])
+  end
+
 end
