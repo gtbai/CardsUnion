@@ -28,9 +28,8 @@ ActiveRecord::Schema.define(:version => 20151029121914) do
     t.string   "phone"
     t.string   "password_digest"
     t.string   "user_type"
-    t.datetime "created_at",            :null => false
-    t.datetime "updated_at",            :null => false
-    t.string   "password_confirmation"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
     t.string   "auth_token"
   end
 

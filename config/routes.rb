@@ -1,3 +1,26 @@
+# == Route Map
+#
+#     notices GET    /notices(.:format)          notices#index
+#             POST   /notices(.:format)          notices#create
+#  new_notice GET    /notices/new(.:format)      notices#new
+# edit_notice GET    /notices/:id/edit(.:format) notices#edit
+#      notice GET    /notices/:id(.:format)      notices#show
+#             PUT    /notices/:id(.:format)      notices#update
+#             DELETE /notices/:id(.:format)      notices#destroy
+#       users GET    /users(.:format)            users#index
+#             POST   /users(.:format)            users#create
+#    new_user GET    /users/new(.:format)        users#new
+#   edit_user GET    /users/:id/edit(.:format)   users#edit
+#        user GET    /users/:id(.:format)        users#show
+#             PUT    /users/:id(.:format)        users#update
+#             DELETE /users/:id(.:format)        users#destroy
+#        root        /                           notices#index
+#      signup GET    /signup(.:format)           users#new
+#       login GET    /login(.:format)            sessions#new
+#             POST   /login(.:format)            sessions#create
+#      logout DELETE /logout(.:format)           sessions#destroy
+#
+
 CardsUnion::Application.routes.draw do
   resources :notices
   resources :users
