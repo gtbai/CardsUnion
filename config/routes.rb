@@ -22,9 +22,13 @@
 #
 
 CardsUnion::Application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  root :to => 'notices#index'
+  ActiveAdmin.routes(self)
+
   resources :notices
   resources :users
-  root :to => 'notices#index'
+
   get 'signup' => 'users#new'
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
