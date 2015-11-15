@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: users
+# Table name: accounts
 #
 #  id              :integer          not null, primary key
 #  email           :string(255)
@@ -10,17 +10,18 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #  auth_token      :string(255)
+#  user_id         :integer
 #
 
-class User < ActiveRecord::Base
-  attr_accessible :email, :phone, :password, :password_confirmation, :user_type, :auth_token
-  has_secure_password
+class Account < ActiveRecord::Base
   has_many :notices
+  belongs_to :user, polymorphic: true
+  attr_accessible :email, :phone, :password, :password_confirmation, :user_type, :auth_token, :user_id
+  has_secure_password
   validates_presence_of :email, :message => "must be provided so we can send you emails"
-  validates_uniqueness_of :email, :message => "has been registered, please directly log in"
+  #validates_uniqueness_of :email, :message => "has been registered, please directly log in"
   validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, :message => "does not look like a proper email address"
-  validates_each :phone do |record, attr, value|
-    record.errors.add(attr, 'does not seem in normal length') if value.length != 7 and value.length != 11
+  validates_each :phone do |record, attr, value| record.errors.add(attr, 'does not seem in normal length') if value.length != 7 and value.length != 11
   end
 
   validates :phone, :numericality => {:only_integer => true, :message => "does not look like a proper phone number"}
@@ -40,7 +41,7 @@ class User < ActiveRecord::Base
   def generate_token(column)
     begin
       self[column] = SecureRandom.urlsafe_base64
-    end while User.exists?(column => self[column])
+    end while Account.exists?(column => self[column])
   end
 
 end

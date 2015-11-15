@@ -2,7 +2,7 @@
         <img src="../images/signup_bg.jpg" width=100% height=100%>
       </div>
       <div class="col-md-3 has-success col-md-offset-5">
-        <%= form_for(@user) do |f| %>
+        <%= form_for(@account) do |f| %>
         <div class="form-group">
           <label for="exampleInputEmail1" > Email address</label>
             <%= f.object.errors[:email].to_sentence if f.object.errors[:email] %>
@@ -27,7 +27,7 @@
 
         <div class=" form-group">
         <label for="selectUserType">Choose Your User Type</label>
-          <%= f.select :user_type, [['I am a merchant!', 'merchant'], ['I am a consumer!', 'consumer']] , {}, {class: "form-control", id: "selectUserType"}%>
+          <%= f.select :user_type, [['I am a merchant!', 'Merchant'], ['I am a consumer!', 'Consumer']] , {}, {class: "form-control", id: "selectUserType"}%>
         </div>
         <div>
           <br>

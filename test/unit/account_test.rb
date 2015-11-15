@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: users
+# Table name: accounts
 #
 #  id              :integer          not null, primary key
 #  email           :string(255)
@@ -10,11 +10,12 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #  auth_token      :string(255)
+#  user_id         :integer
 #
 
 require 'test_helper'
 
-class UserTest < ActiveSupport::TestCase
+class AccountTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

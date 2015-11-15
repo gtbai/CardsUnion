@@ -18,7 +18,7 @@
       <div class="form-group">
         <label for="selectUserType">Choose Your User Type</label>
         <% if flash.key?(:usertype_error) %><br/><%= flash[:usertype_error] %> <% end %>
-          <%= f.select :user_type, [['I am a merchant!', 'merchant'], ['I am a consumer!', 'consumer']] , {}, {class: "form-control", id: "selectUserType"} %>
+          <%= f.select :user_type, [['I am a merchant!', 'Merchant'], ['I am a consumer!', 'Consumer']] , {}, {class: "form-control", id: "selectUserType"} %>
       </div>
 
       <div class="form-group">
@@ -26,7 +26,7 @@
         <%= f.check_box :remember_me,{},1 %>
       </div>
       <%= f.submit "Log in" , class: "btn btn-block btn-success"%>
-      <%= link_to "Don't have an account? Sign Up", new_user_path, {class: "btn btn-block btn-info"} %>
+      <%= link_to "Don't have an account? Sign Up", new_account_path, {class: "btn btn-block btn-info"} %>
       <% end %>
     </div>
   </body>

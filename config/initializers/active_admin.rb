@@ -8,7 +8,7 @@ ActiveAdmin.setup do |config|
   config.site_title = "Cards Union"
 
   # Set the link url for the title. For example, to take
-  # users to your main site. Defaults to no link.
+  # Accounts to your main site. Defaults to no link.
   #
   # config.site_title_link = "/"
 
@@ -47,24 +47,24 @@ ActiveAdmin.setup do |config|
   # This will ONLY change the title for the admin section. Other
   # namespaces will continue to use the main "site_title" configuration.
 
-  # == User Authentication
+  # == Account Authentication
   #
   # Active Admin will automatically call an authentication
   # method in a before filter of all controller actions to
-  # ensure that there is a currently logged in admin user.
+  # ensure that there is a currently logged in admin account.
   #
   # This setting changes the method which Active Admin calls
   # within the controller.
   config.authentication_method = :authenticate_admin_user!
 
 
-  # == Current User
+  # == Current Account
   #
   # Active Admin will associate actions with the current
-  # user performing them.
+  # account performing them.
   #
   # This setting changes the method which Active Admin calls
-  # to return the currently logged in user.
+  # to return the currently logged in account.
   config.current_user_method = :current_admin_user
 
 

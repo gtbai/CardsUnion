@@ -1,0 +1,28 @@
+# == Schema Information
+#
+# Table name: consumers
+#
+#  id         :integer          not null, primary key
+#  nickname   :string(255)
+#  gender     :string(255)
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  rails: MyString
+  g: MyString
+  model: MyString
+  Customer: MyString
+  nickname: MyString
+  gender: MyString
+
+two:
+  rails: MyString
+  g: MyString
+  model: MyString
+  Customer: MyString
+  nickname: MyString
+  gender: MyString

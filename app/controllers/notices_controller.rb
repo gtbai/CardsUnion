@@ -18,7 +18,7 @@ class NoticesController < ApplicationController
   # GET /notices/1.json
   def show
     @notice = Notice.find(params[:id])
-    @author = @notice.user
+    @author = @notice.account
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @notice }

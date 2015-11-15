@@ -1,3 +1,3 @@
-ActiveAdmin.register User do
+ActiveAdmin.register Account do
   
 end

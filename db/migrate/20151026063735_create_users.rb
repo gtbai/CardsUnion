@@ -4,7 +4,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       t.string :phone
       t.string :password_digest
-      #in case we have admin users	
+      #in case we have admin Accounts
       t.string :user_type
       t.timestamps
     end

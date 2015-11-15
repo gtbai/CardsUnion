@@ -3,7 +3,7 @@ class CreateNotices < ActiveRecord::Migration
     create_table :notices do |t|
       t.string :title
       t.text :content
-      t.references :user
+      t.references :account
 
       t.timestamps
     end

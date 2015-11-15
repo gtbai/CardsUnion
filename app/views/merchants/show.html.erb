@@ -1,0 +1,30 @@
+<% content_for :map_script do %>
+    <style type="text/css">
+      #allmap{width:100%;height:500px;}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=O3gdrMFORGYG91FQPfqzaYVW"></script>
+<% end %>
+
+<p id="notice"><%= notice %></p>
+<p>Store Name: <%= @merchant.store_name %></p>
+<p>Store Type: <%= @merchant.store_type %></p>
+<p>Brief Introduction: <%= @merchant.introduction %></p>
+<p>Store Address: <%= @merchant.address %></p>
+<p>Email: <%= @account.email %></p>
+<p>Phone: <%= @account.phone %></p>
+<%= link_to 'Edit', edit_merchant_path(@merchant) %> |
+<%= link_to 'Back', notices_path %>
+<div id="allmap"></div>
+
+<% content_for :map_code do %>
+    <script type="text/javascript">
+      // 百度地图API功能
+      var map = new BMap.Map("allmap");
+      map.centerAndZoom(new BMap.Point(126.637, 45.749), 17);
+      var local = new BMap.LocalSearch(map, {
+        renderOptions:{map: map}
+      });
+      local.search("<%= @merchant.address %>");
+    </script>
+<% end %>
+

@@ -16,6 +16,6 @@
 
 class Notice < ActiveRecord::Base
   include ApplicationHelper
-  belongs_to :user
+  belongs_to :account
   attr_accessible :content, :title
 end
