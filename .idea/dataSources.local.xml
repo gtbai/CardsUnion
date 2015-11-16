@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails CardsUnion: test" uuid="50ca4ea0-bb4b-48f7-81ed-55251fdc1c09">
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="Rails CardsUnion: development" uuid="84ec6c2b-6244-4c8b-bc2d-64d4493e1638">
+      <auth-required>false</auth-required>
+    </data-source>
+  </component>
+</project>
