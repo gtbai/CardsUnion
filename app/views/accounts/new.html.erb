@@ -1,0 +1,36 @@
+      <div style="position:fixed; left:0; top:0; width:100%; height:100%">
+        <img src="../images/signup_bg.jpg" width=100% height=100%>
+      </div>
+      <div class="col-md-3 has-success col-md-offset-5">
+        <%= form_for(@account) do |f| %>
+        <div class="form-group">
+          <%= f.label :email, "Email Address" %>
+            <%= f.object.errors[:email].to_sentence if f.object.errors[:email] %>
+            <%= f.text_field :email, autofocus: true, placeholder: "Email", class: "form-control" %>
+        </div>
+        <div class="form-group">
+          <%= f.label :phone, "Phone Number" %>
+           <%= f.object.errors[:phone].to_sentence if f.object.errors[:phone] %>
+            <%= f.text_field :phone, placeholder: "Phone", class:"form-control"%>
+        </div>
+        <div class="form-group">
+          <%= f.label :password, "Password" %>
+          <%= f.object.errors[:password].to_sentence if f.object.errors[:password] %>
+            <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class:"form-control"%>
+        </div>
+        <div class="form-group">
+          <%= f.label :password_confirmation, "Password Condirmation" %>
+           <%= f.object.errors[:password_confirmation].to_sentence if f.object.errors[:password_confirmation] %>
+            <%= f.password_field :password_confirmation, placeholder: "Repeat Password", class:"form-control"%>
+        </div>
+
+        <div class=" form-group">
+          <%= f.label :user_type, "Choose User Type" %>
+          <%= f.select :user_type, [['I am a merchant!', 'Merchant'], ['I am a consumer!', 'Consumer']] , {}, {class: "form-control"}%>
+        </div>
+        <div>
+          <br>
+            <%= f.submit "Sign Up" , class: "btn btn-block btn-success"%>
+        </div>
+        <% end %>
+      </div>

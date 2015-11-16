@@ -1,0 +1,19 @@
+a.notices:link{
+	color: white;
+	opacity: 0.99
+}
+a.notices:visited{
+	color: white;
+}
+a.notices:hover{
+	color: black;
+}
+a.notices:hover{
+	color: black;
+}
+
+div.bshare-custom{
+	position: relative;
+	left: 450px;
+	top: 20px;
+}

@@ -1,0 +1,29 @@
+<%= form_for(@notice) do |f| %>
+  <% if @notice.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@notice.errors.count, "error") %> prohibited this notice from being saved:</h2>
+
+      <ul>
+      <% @notice.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <br />
+<div class="col-md-6 form-group col-md-offset-3">
+  
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title ,class: "form-control"%>
+  </div>
+  <div class="field">
+    <%= f.label :content %><br />
+    <%= f.text_area :content ,class: "form-control" , rows: "15" %>
+    <br />
+  </div>
+  <div class="actions">
+    <%= f.submit "Save" , class: "btn btn-block btn-success"%>
+  </div>
+</div>
+<% end %>

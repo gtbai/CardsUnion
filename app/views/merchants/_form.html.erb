@@ -1,0 +1,39 @@
+<div class="jumbotron">
+<%= form_for(@merchant) do |f| %>
+    <h2 class="text-center">My Information</h2>
+    <div class='form-group'>
+      <%= f.label :store_name, 'Store Name' %>
+      <%= f.object.errors[:store_name].to_sentence if f.object.errors[:store_name] %>
+      <%= f.text_field :store_name, autofocus: true, placeholder: 'Store Name', class: 'form-control' %>
+    </div>
+    <div class=' form-group'>
+      <%= f.label :store_type, 'Choose Your Store Type' %>
+      <%= f.select :store_type, [['Babershop', 'babershop'], ['Cafe', 'cafe'], ['Fruit Shop', 'fruitshop'],
+        ['Stationer', 'stationer'], ['Restaurant', 'restaurant'], ['Supermarket', 'market'], ['Others', 'others']] , {}, {class: 'form-control'}%>
+    </div>
+    <div class='form-group'>
+      <%= f.label :introduction, 'Brief Introduction' %>
+      <%= f.object.errors[:introduction].to_sentence if f.object.errors[:introduction] %>
+      <%= f.text_area :introduction, placeholder: 'Brief Introduction', rows: '8', class: 'form-control' %>
+    </div>
+    <div class='form-group'>
+      <%= f.label :address, 'Store Address' %>
+      <%= f.object.errors[:address].to_sentence if f.object.errors[:address] %>
+      <%= f.text_field :address, placeholder: 'Store Adress', class: 'form-control' %>
+    </div>
+    <%= fields_for(@account) do |account_f| %>
+        <div class='form-group'>
+          <%= account_f.label :email, 'Email' %>
+          <%= account_f.text_field :email, autofocus: true, placeholder: 'Nickname', class: 'form-control', disabled: 'disabled'%>
+        </div>
+        <div class='form-group'>
+          <%= account_f.label :phone, 'Phone Number' %>
+          <%= account_f.object.errors[:phone].to_sentence if f.object.errors[:phone] %>
+          <%= account_f.text_field :phone, autofocus: true, placeholder: 'Phone Number', class: 'form-control' %>
+        </div>
+    <% end %>
+  <div class='actions text-center'>
+    <%= f.submit 'Update', class:'btn-lg btn-info btn-block'%>
+  </div>
+<% end %>
+</div>

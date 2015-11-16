@@ -1,0 +1,32 @@
+  <body background="../images/login_bg.jpg">
+    <br><br>
+    <div class="col-md-3 has-success col-md-offset-8 jumbotron">
+      <%= form_for(:session, url:login_path) do |f| %>
+      <div class="form-group">
+        <label for="exampleInputEmail1" > Email address</label>
+        <% if flash.key?(:email_error) %><br/><%= flash[:email_error] %> <% end %>
+         <%= f.text_field :email, autofocus: true, placeholder: "Email" ,
+            class: "form-control", id: "exampleInputEmail1" %>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputPassword1" style="opacity:.9">Password</label>
+        <% if flash.key?(:password_error) %><br/><%= flash[:password_error] %> <% end %>
+       <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class:"form-control", id: "exampleInputPassword1"%>
+      </div>
+
+      <div class="form-group">
+        <label for="selectUserType">Choose Your User Type</label>
+        <% if flash.key?(:usertype_error) %><br/><%= flash[:usertype_error] %> <% end %>
+          <%= f.select :user_type, [['I am a merchant!', 'Merchant'], ['I am a consumer!', 'Consumer']] , {}, {class: "form-control", id: "selectUserType"} %>
+      </div>
+
+      <div class="form-group">
+        <label for="rememberMe">Remember Me</label>
+        <%= f.check_box :remember_me,{},1 %>
+      </div>
+      <%= f.submit "Log in" , class: "btn btn-block btn-success"%>
+      <%= link_to "Don't have an account? Sign Up", new_account_path, {class: "btn btn-block btn-info"} %>
+      <% end %>
+    </div>
+  </body>
