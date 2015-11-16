@@ -5,6 +5,7 @@
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=O3gdrMFORGYG91FQPfqzaYVW"></script>
 <% end %>
 
+<h2>Store Information</h2>
 <p id="notice"><%= notice %></p>
 <p>Store Name: <%= @merchant.store_name %></p>
 <p>Store Type: <%= @merchant.store_type %></p>
@@ -15,7 +16,6 @@
 <%= link_to 'Edit', edit_merchant_path(@merchant) %> |
 <%= link_to 'Back', notices_path %>
 <div id="allmap"></div>
-
 <% content_for :map_code do %>
     <script type="text/javascript">
       // 百度地图API功能

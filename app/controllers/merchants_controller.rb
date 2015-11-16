@@ -24,14 +24,9 @@ class MerchantsController < ApplicationController
       @account = @merchant.account
     end
 
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @consumer }
-    end
   end
 
-  # GET /merchants/new
-  # GET /merchants/new.json
+  # Maybe it is useful for admins.
   def new
     @merchant = Merchant.new
 
@@ -41,13 +36,12 @@ class MerchantsController < ApplicationController
     end
   end
 
-  # GET /merchants/1/edit
   def edit
-    @merchant = Merchant.find(params[:id])
+    @merchant = Merchant.find(params[:format])
+    @account = @merchant.account
   end
 
-  # POST /merchants
-  # POST /merchants.json
+  # Maybe it is useful for admins.
   def create
     @merchant = Merchant.new(params[:merchant])
 
@@ -62,20 +56,24 @@ class MerchantsController < ApplicationController
     end
   end
 
-  # PUT /merchants/1
-  # PUT /merchants/1.json
-  def update
-    @merchant = Merchant.find(params[:id])
 
-    respond_to do |format|
-      if @merchant.update_attributes(params[:merchant])
-        format.html { redirect_to @merchant, notice: 'Merchant was successfully updated.' }
-        format.json { head :no_content }
+  def update
+    @merchant = Merchant.find(params[:format])
+    @account = @merchant.account
+    if @merchant.update_attributes(params[:merchant])
+      phone = params[:account][:phone]
+      if phone =~ /\A\d+\Z/
+        if phone.length==7 || phone.length==11
+          @account.update_attribute(:phone, phone)
+          redirect_to @merchant, notice: 'Information was successfully updated.' and return
+        else
+          @account.errors.add(:phone, 'does not seem in normal length')
+        end
       else
-        format.html { render action: "edit" }
-        format.json { render json: @merchant.errors, status: :unprocessable_entity }
+        @account.errors.add(:phone, 'does not look like a proper phone number')
       end
     end
+    render action: "edit"
   end
 
   # DELETE /merchants/1

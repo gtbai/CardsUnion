@@ -4,30 +4,29 @@
       <div class="col-md-3 has-success col-md-offset-5">
         <%= form_for(@account) do |f| %>
         <div class="form-group">
-          <label for="exampleInputEmail1" > Email address</label>
+          <%= f.label :email, "Email Address" %>
             <%= f.object.errors[:email].to_sentence if f.object.errors[:email] %>
-            <%= f.text_field :email, autofocus: true, placeholder: "Email" ,
-            class: "form-control", id: "exampleInputEmail1" %>
+            <%= f.text_field :email, autofocus: true, placeholder: "Email", class: "form-control" %>
         </div>
         <div class="form-group">
-          <label for="exampleInputPhone1" > Phone number</label>
+          <%= f.label :phone, "Phone Number" %>
            <%= f.object.errors[:phone].to_sentence if f.object.errors[:phone] %>
-            <%= f.text_field :phone, placeholder: "Phone", class:"form-control", id:"exampleInputPhone1"%>
+            <%= f.text_field :phone, placeholder: "Phone", class:"form-control"%>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1" style="opacity:.9">Password</label>
+          <%= f.label :password, "Password" %>
           <%= f.object.errors[:password].to_sentence if f.object.errors[:password] %>
-            <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class:"form-control", id: "exampleInputPassword1"%>
+            <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class:"form-control"%>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1" style="opacity:.9">Password Confirmation</label>
+          <%= f.label :password_confirmation, "Password Condirmation" %>
            <%= f.object.errors[:password_confirmation].to_sentence if f.object.errors[:password_confirmation] %>
-            <%= f.password_field :password_confirmation, placeholder: "Repeat Password", class:"form-control", id: "exampleInputPassword1"%>
+            <%= f.password_field :password_confirmation, placeholder: "Repeat Password", class:"form-control"%>
         </div>
 
         <div class=" form-group">
-        <label for="selectUserType">Choose Your User Type</label>
-          <%= f.select :user_type, [['I am a merchant!', 'Merchant'], ['I am a consumer!', 'Consumer']] , {}, {class: "form-control", id: "selectUserType"}%>
+          <%= f.label :user_type, "Choose User Type" %>
+          <%= f.select :user_type, [['I am a merchant!', 'Merchant'], ['I am a consumer!', 'Consumer']] , {}, {class: "form-control"}%>
         </div>
         <div>
           <br>

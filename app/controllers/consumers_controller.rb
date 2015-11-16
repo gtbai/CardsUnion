@@ -1,17 +1,4 @@
 class ConsumersController < ApplicationController
-  # GET /consumers
-  # GET /consumers.json
-  def index
-    @consumers = consumer.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @consumers }
-    end
-  end
-
-  # GET /consumers/1
-  # GET /consumers/1.json
   def show
     if current_user.user_id.nil?
       @consumer = Consumer.new(nickname: "", gender: "")
@@ -22,31 +9,13 @@ class ConsumersController < ApplicationController
       @consumer = current_user.user
       @account = @consumer.account
     end
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @consumer }
-    end
   end
 
-  # GET /consumers/new
-  # GET /consumers/new.json
-  def new
-    @consumer = consumer.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @consumer }
-    end
-  end
-
-  # GET /consumers/1/edit
   def edit
-    @consumer = consumer.find(params[:id])
+    @consumer = Consumer.find(params[:format])
+    @account = @consumer.account
   end
 
-  # POST /consumers
-  # POST /consumers.json
   def create
     @consumer = consumer.new(params[:consumer])
 
@@ -61,20 +30,23 @@ class ConsumersController < ApplicationController
     end
   end
 
-  # PUT /consumers/1
-  # PUT /consumers/1.json
   def update
-    @consumer = consumer.find(params[:id])
-
-    respond_to do |format|
+    @consumer = Consumer.find(params[:format])
+    @account = @consumer.account
       if @consumer.update_attributes(params[:consumer])
-        format.html { redirect_to @consumer, notice: 'consumer was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @consumer.errors, status: :unprocessable_entity }
+        phone = params[:account][:phone]
+        if phone =~ /\A\d+\Z/
+          if phone.length==7 || phone.length==11
+            @account.update_attribute(:phone, phone)
+            redirect_to @consumer, notice: 'Information was successfully updated.' and return
+          else
+            @account.errors.add(:phone, 'does not seem in normal length')
+          end
+        else
+          @account.errors.add(:phone, 'does not look like a proper phone number')
+        end
       end
-    end
+      render action: "edit"
   end
 
   # DELETE /consumers/1
