@@ -44,7 +44,7 @@ class NoticesController < ApplicationController
   # POST /notices.json
   def create
     @notice = Notice.new(params[:notice])
-    @notice.user_id = current_user.id
+    @notice.account_id = current_user.id
     respond_to do |format|
       if @notice.save 
         format.html { redirect_to @notice, notice: 'Notice was successfully created.' }

@@ -1,5 +1,5 @@
 <div class="jumbotron">
-<%= form_for(@merchant) do |f| %>
+<%= form_for(@merchant, :html => {:multipart => true}) do |f| %>
     <h2 class="text-center">My Information</h2>
     <div class='form-group'>
       <%= f.label :store_name, 'Store Name' %>
@@ -32,8 +32,17 @@
           <%= account_f.text_field :phone, autofocus: true, placeholder: 'Phone Number', class: 'form-control' %>
         </div>
     <% end %>
+<div class='form-group'>
+     <%= f.label :store_image, "Store Photo" %>
+     <%= f.file_field :store_image %>
+</div>
+<div class='form-group'>
+     <%= f.label :remote_store_image_url, "Or image url" %><br />
+     <%= f.text_field :remote_store_image_url, class: "form-control" %>
+</div>
   <div class='actions text-center'>
     <%= f.submit 'Update', class:'btn-lg btn-info btn-block'%>
   </div>
 <% end %>
+
 </div>
