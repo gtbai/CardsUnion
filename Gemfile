@@ -5,8 +5,7 @@ gem 'rails', '3.2.16'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
+gem 'sqlite3' 
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -41,4 +40,5 @@ gem 'activeadmin'
 gem "meta_search", '>= 1.1.0.pre'
 gem 'jquery-rails', '~> 2.3.0'
 gem 'carrierwave'
+#use rmagick to zoom image
 gem 'rmagick'
