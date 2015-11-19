@@ -2,15 +2,17 @@
 #
 # Table name: accounts
 #
-#  id              :integer          not null, primary key
-#  email           :string(255)
-#  phone           :string(255)
-#  password_digest :string(255)
-#  user_type       :string(255)
-#  created_at      :datetime         not null
-#  updated_at      :datetime         not null
-#  auth_token      :string(255)
-#  user_id         :integer
+#  id                     :integer          not null, primary key
+#  email                  :string(255)
+#  phone                  :string(255)
+#  password_digest        :string(255)
+#  user_type              :string(255)
+#  created_at             :datetime         not null
+#  updated_at             :datetime         not null
+#  auth_token             :string(255)
+#  user_id                :integer
+#  password_reset_token   :string(255)
+#  password_reset_sent_at :datetime
 #
 
 class Account < ActiveRecord::Base
@@ -43,5 +45,10 @@ class Account < ActiveRecord::Base
       self[column] = SecureRandom.urlsafe_base64
     end while Account.exists?(column => self[column])
   end
-
+  def send_password_reset
+    generate_token(:password_reset_token)
+    self.password_reset_sent_at = Time.zone.now
+    save!(:validate => false)
+    UserMailer.password_reset(self).deliver
+  end
 end

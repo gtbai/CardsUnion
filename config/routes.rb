@@ -69,6 +69,8 @@
 
 
 CardsUnion::Application.routes.draw do
+  get "password_resets/new"
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   root :to => 'notices#index'
   ActiveAdmin.routes(self)
@@ -84,6 +86,7 @@ CardsUnion::Application.routes.draw do
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
   delete 'logout' => 'sessions#destroy'
+  resources :password_resets
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
