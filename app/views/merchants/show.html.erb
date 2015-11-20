@@ -12,7 +12,11 @@
     <h2 class="text-center">My Information</h2>
     <h4 id="notice"><%= notice %></h4><br />
     <h4>Store Photo:</h4>
-    <%= image_tag @merchant.store_image_url(:thumb).to_s %>
+    <% if @merchant.store_image? %>
+      <%= image_tag @merchant.store_image_url(:card).to_s %>
+    <% else %>
+      <p>Your store has no image now.</p>
+    <% end %>
     <h4>Store Name: <%= @merchant.store_name %></h4><br />
     <h4>Store Type: <%= @merchant.store_type %></h4><br />
     <h4 class="input-group">Brief Introduction: <%= @merchant.introduction %></h4><br />

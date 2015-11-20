@@ -2,12 +2,13 @@
 #
 # Table name: notices
 #
-#  id         :integer          not null, primary key
-#  title      :string(255)
-#  content    :text
-#  account_id :integer
-#  created_at :datetime         not null
-#  updated_at :datetime         not null
+#  id           :integer          not null, primary key
+#  title        :string(255)
+#  content      :text
+#  account_id   :integer
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#  notice_image :string(255)
 #
 # Indexes
 #

@@ -12,6 +12,9 @@
     <div class="author_info col-md-offset-7">
   </div>
 </div>
+<% if @notice.notice_image? %>
+  <%= image_tag @notice.notice_image_url(:show).to_s %>
+<% end %>
 
 <!--<p>
   <b>Account:</b>
