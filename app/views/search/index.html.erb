@@ -1,0 +1,31 @@
+
+<%= form_for @search,  :url => search_path ,:method => :get do |f| %>
+  <%= f.label :store_name_contains %>
+  <%= f.text_field :store_name_contains %><br />
+
+  <h4>Which kind of shop?</h4>
+  <ul>
+  <% f.checks :store_type_in,
+    [['Barbershop', 'babershop'], ['Cafe', 'cafe'], ['Fruit Shop', 'fruitshop'],['Stationer', 'stationer'],['Restaurant', 'restaurant'],['Supermarket', 'market'],['Others','others']], :class => 'checkboxy' do |check| %>
+    <li>
+      <%= check.box %>
+      <%= check.label %>
+    </li>
+  <% end %>
+  </ul>
+
+<%= sort_link @search, :store_name ,"Sort by Name"%><br />
+<%= sort_link @search, :store_name ,"Sort by Type"%><br />	
+
+  <%= f.submit 'Search' %>
+<% end %>
+
+
+<% @merchants.each do |merchant| %>
+  <div class="jumbotron col-md-offset-1 col-md-10">
+    <div class="col-md-8"><h3><%= merchant.store_name %></h3></div>
+    <div class="col-md-4">
+   <%= link_to 'Details', merchant, type: "button", class: " merchants btn btn-lg btn-info" %>
+  </div>
+  </div>
+<% end %>

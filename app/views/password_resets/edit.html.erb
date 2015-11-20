@@ -4,12 +4,12 @@
 
 <h1>Reset Password</h1>
 
-<%= form_for @user, :url => password_reset_path(params[:id]) do |f| %>
-  <% if @user.errors.any? %>
+<%= form_for @account, :url => password_reset_path(params[:id]) do |f| %>
+  <% if @account.errors.any? %>
     <div class="error_messages">
       <h2>Form is invalid</h2>
       <ul>
-        <% for message in @user.errors.full_messages %>
+        <% for message in @account.errors.full_messages %>
           <li><%= message %></li>
         <% end %>
       </ul>
