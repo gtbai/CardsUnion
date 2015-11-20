@@ -29,9 +29,30 @@
           <%= f.label :user_type, "Choose User Type" %>
           <%= f.select :user_type, [['I am a merchant!', 'Merchant'], ['I am a consumer!', 'Consumer']] , {}, {class: "form-control"}%>
         </div>
+        <label data-toggle="modal" data-target="#myModal">User Protocal</label>
         <div>
           <br>
             <%= f.submit "Sign Up" , class: "btn btn-block btn-success"%>
         </div>
         <% end %>
       </div>
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header  text-center">
+            <h4 class="modal-title" id="myModalLabel">User Protocal</h4>
+          </div>
+          <div class="modal-body">
+            <p>1.It means that you agree with this protocal if yo login our website...</p>
+            <p>2.You agree that we have the rights to...</p>
+            <p>3.You allow us to store and use your personal information for our service...</p>
+            <p>4.We will protect your personal information at all circumstances...</p>
+          </div>
+          <div class="modal-footer">
+            <div class="container-fluid">
+              <button type="button" class="btn btn-warning col-md-4 col-md-offset-4" data-dismiss="modal">close</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
