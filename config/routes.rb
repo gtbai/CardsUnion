@@ -79,9 +79,11 @@ CardsUnion::Application.routes.draw do
   resources :accounts
   resource :consumer
   resource :merchant
+  #resources :search
   # resources :consumers, :except => [:index]
   # resources :merchants
-
+  get 'search' => 'search#index'
+  post 'search' => 'search#index'
   get 'signup' => 'accounts#new'
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
