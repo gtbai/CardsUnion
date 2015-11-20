@@ -8,12 +8,16 @@ a.notices:visited{
 a.notices:hover{
 	color: black;
 }
-a.notices:hover{
-	color: black;
-}
-
 div.bshare-custom{
 	position: relative;
 	left: 450px;
 	top: 20px;
+}
+a.hovernankan:link{
+}
+a.hovernankan:hover{
+	background-color: #EDEDED;
+}
+u.protocol:hover{
+	color: blue;
 }

@@ -18,7 +18,7 @@
 class Account < ActiveRecord::Base
   has_many :notices
   belongs_to :user, polymorphic: true
-  attr_accessible :email, :phone, :password, :password_confirmation, :user_type, :auth_token, :user_id
+  attr_accessible :email, :phone, :password, :password_confirmation, :user_type, :auth_token, :user_id, :protocol
   has_secure_password
   validates_presence_of :email, :message => "must be provided so we can send you emails"
   #validates_uniqueness_of :email, :message => "has been registered, please directly log in"
@@ -33,6 +33,7 @@ class Account < ActiveRecord::Base
   validates_format_of :password, :with => /[a-zA-Z]/, :message => "must contain at least one character"
   validates :password, :confirmation => true
   validates :password_confirmation, :presence => true
+  validates :protocol, :acceptance => true
   before_create {generate_token(:auth_token)}
  # validates_confirmation_of :password, :message => "does not match confirmation"
 
