@@ -28,11 +28,24 @@
         <div class=" form-group">
           <%= f.label :user_type, "Choose User Type" %>
           <%= f.select :user_type, [['I am a merchant!', 'Merchant'], ['I am a consumer!', 'Consumer']] , {}, {class: "form-control"}%>
+        </div >
+        <div class='dl-horizontal' >
+          <label data-toggle="modal" data-target="#myModal"> I Agree On <u class='protocol'>User Protocal</u>
+            </label>
+            <%= f.check_box :protocol, {id: 'test'}, 1%>
         </div>
-        <label data-toggle="modal" data-target="#myModal">User Protocal</label>
         <div>
           <br>
-            <%= f.submit "Sign Up" , class: "btn btn-block btn-success"%>
+          <script>
+            function check_protocol()
+            {
+            if(test.checked==false)
+              {
+              alert("You have to accept our User Protocol to continue!");
+              }
+            }
+          </script>
+            <%= f.submit "Sign Up" , class: "btn btn-block btn-success", onclick: "check_protocol()" %>
         </div>
         <% end %>
       </div>

@@ -2,7 +2,6 @@
   <% if @notice.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@notice.errors.count, "error") %> prohibited this notice from being saved:</h2>
-
       <ul>
       <% @notice.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
@@ -22,8 +21,13 @@
     <%= f.text_area :content ,class: "form-control" , rows: "15" %>
     <br />
   </div>
+  <script>
+    function Success(){
+        alert("Successfully Saved!");
+      }
+  </script>
   <div class="actions">
-    <%= f.submit "Save" , class: "btn btn-block btn-success"%>
+    <%= f.submit "Save" , class: "btn btn-block btn-success", onclick: "Success()"%>
   </div>
 </div>
 <% end %>
