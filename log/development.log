@@ -80807,3 +80807,1236 @@ Served asset /search.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 15:03:03 +0800
 Served asset /application.js - 304 Not Modified (8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Processing by NoticesController#index as HTML
+  [1m[36mNotice Load (0.0ms)[0m  [1mSELECT "notices".* FROM "notices" [0m
+  Rendered notices/index.html.erb within layouts/application (13.0ms)
+Compiled application.css  (3ms)  (pid 4325)
+Compiled application.js  (5ms)  (pid 4325)
+Completed 200 OK in 227.4ms (Views: 219.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /application.css - 304 Not Modified (185ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /notices.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /extention.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /accounts.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /active_admin.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /password_resets.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /search.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:39 +0800
+Served asset /jquery-ui.js - 304 Not Modified (93ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /accounts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin/application.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin/base.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /active_admin.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /notices.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /password_resets.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /search.js - 200 OK (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:40 +0800
+Served asset /application.js - 304 Not Modified (64ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2015-11-20 16:49:50 +0800
+Processing by SearchController#index as HTML
+  [1m[35mMerchant Load (0.3ms)[0m  SELECT "merchants".* FROM "merchants" 
+  Rendered search/index.html.erb within layouts/application (50.1ms)
+Completed 200 OK in 254.1ms (Views: 70.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /application.css - 304 Not Modified (69ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /password_resets.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (76ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin/base.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /active_admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /password_resets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:49:51 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/search?search%5Bmeta_sort%5D=store_name.asc" for 127.0.0.1 at 2015-11-20 16:49:59 +0800
+Processing by SearchController#index as HTML
+  Parameters: {"search"=>{"meta_sort"=>"store_name.asc"}}
+  [1m[36mMerchant Load (0.2ms)[0m  [1mSELECT "merchants".* FROM "merchants" ORDER BY "merchants"."store_name" ASC[0m
+  Rendered search/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 69.8ms (Views: 65.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin.css - 304 Not Modified (85ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /password_resets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /accounts.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /jquery-ui.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin/base.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /active_admin.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /password_resets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:00 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/search?search%5Bmeta_sort%5D=store_name.desc" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Processing by SearchController#index as HTML
+  Parameters: {"search"=>{"meta_sort"=>"store_name.desc"}}
+  [1m[35mMerchant Load (0.2ms)[0m  SELECT "merchants".* FROM "merchants" ORDER BY "merchants"."store_name" DESC
+  Rendered search/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 75.4ms (Views: 74.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /application.css - 304 Not Modified (70ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /password_resets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /sessions.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin/base.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /active_admin.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /password_resets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:04 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/search?search%5Bmeta_sort%5D=store_name.asc" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Processing by SearchController#index as HTML
+  Parameters: {"search"=>{"meta_sort"=>"store_name.asc"}}
+  [1m[36mMerchant Load (3.6ms)[0m  [1mSELECT "merchants".* FROM "merchants" ORDER BY "merchants"."store_name" ASC[0m
+  Rendered search/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 46.2ms (Views: 41.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /application.css - 304 Not Modified (76ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /password_resets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /jquery-ui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin/base.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /active_admin.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /notices.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /password_resets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:08 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 72.6ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /password_resets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin/base.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /active_admin.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /password_resets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /sessions.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:44 +0800
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Processing by AccountsController#new as HTML
+  Rendered accounts/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 135.5ms (Views: 117.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /application.css - 304 Not Modified (48ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /notices.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /extention.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /active_admin.css - 304 Not Modified (94ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /password_resets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /search.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /accounts.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /sessions.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:55 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /active_admin/application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /active_admin/base.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /active_admin.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /password_resets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:50:56 +0800
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72.2ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /password_resets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /notices.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /search.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /jquery-ui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin/application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /active_admin/base.js - 304 Not Modified (92ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /password_resets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:06 +0800
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/notices" for 127.0.0.1 at 2015-11-20 16:51:07 +0800
+Processing by NoticesController#index as HTML
+  [1m[35mNotice Load (0.2ms)[0m  SELECT "notices".* FROM "notices" 
+  Rendered notices/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 42.9ms (Views: 37.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:07 +0800
+Served asset /application.css - 304 Not Modified (102ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /password_resets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /jquery-ui.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /notices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /active_admin/base.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /password_resets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:08 +0800
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2015-11-20 16:51:15 +0800
+Processing by SearchController#index as HTML
+  [1m[36mMerchant Load (0.1ms)[0m  [1mSELECT "merchants".* FROM "merchants" [0m
+  Rendered search/index.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 102.3ms (Views: 101.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:15 +0800
+Served asset /application.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:15 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:15 +0800
+Served asset /active_admin.css - 304 Not Modified (117ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:15 +0800
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notices.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:15 +0800
+Served asset /notices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/extention.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:15 +0800
+Served asset /extention.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/password_resets.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:15 +0800
+Served asset /password_resets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /search.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin/base.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /active_admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notices.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /notices.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/password_resets.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /password_resets.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /search.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-20 16:51:16 +0800
+Served asset /application.js - 304 Not Modified (9ms)
