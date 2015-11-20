@@ -40,7 +40,12 @@
 <% @notices.each do |notice| %>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="../images/bgs1.jpg" alt=notice.title>
+      <% img_path = notice.notice_image_url(:index) %>
+      <% if img_path == nil %>
+        <img src="../images/bgs1.jpg" alt=notice.title>
+      <% else %>
+        <%= image_tag img_path.to_s %>
+      <% end %>
       <div class="caption">
         <h3><%= notice.title %></h3>
         <p><%= link_to 'Details', notice, class: "btn btn-info" %>

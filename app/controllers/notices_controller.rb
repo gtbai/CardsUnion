@@ -7,7 +7,6 @@ class NoticesController < ApplicationController
   # GET /notices.json
   def index
     @notices = Notice.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @notices }

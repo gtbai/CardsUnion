@@ -21,6 +21,17 @@
     <%= f.text_area :content ,class: "form-control" , rows: "15" %>
     <br />
   </div>
+  <div class="field">
+   <%= f.label :notice_image, "Photo" %>
+    <% if @notice.notice_image? %> 
+      <%= image_tag @notice.notice_image_url(:thumbnail)  %>
+      <p><%= f.check_box :remove_notice_image %> Remove photo</p>
+    <% else %>
+      <span>Your notice has no photo now.</span>
+    <% end %>
+    <%= f.file_field :notice_image %>
+    <%= f.hidden_field :notice_image_cache %>
+    </div>
   <script>
     function Success(){
         alert("Successfully Saved!");
