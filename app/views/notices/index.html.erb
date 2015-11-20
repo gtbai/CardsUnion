@@ -15,21 +15,39 @@
   </ul>
 </div>
 <br><br><br><br><br><br>
+<div class="row">
 <% @notices.each do |notice| %>
-  <div class="jumbotron col-md-offset-1 col-md-10">
-    <div class="col-md-8"><h3><%= notice.title %></h3></div>
-    <!--<p>Content : <%= notice.content %></p>-->
-    <div class="col-md-4">
-    
-   <%= link_to 'Details', notice, type: "button", class: " notices btn btn-lg btn-info" %>
+  <!--<div class="col-md-5 col-md-offset-1 jumbotron">
+    <h3><%= notice.title %></h3>
+    <p><%= link_to 'Details', notice, type: "button", class: " notices btn-lg btn-info" %>
     <% if created_by_current_user(notice) %> <%= link_to ' Edit ', edit_notice_path(notice) , class: " notices btn btn-lg btn-success" %><% end %>
-    <% if created_by_current_user(notice) %><%= link_to 'Destroy', notice, class: " notices btn btn-lg btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %><% end %>
-    
-  </div>
+    <% if created_by_current_user(notice) %><%= link_to 'Destroy', notice, class: " notices btn btn-lg btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %><% end %></p>
+  </div>-->
+  <!--<div class="col-md-5 col-md-offset-1">
+    <div class="thumbnail">
+      <img src="../images/signup_bg.jpg" alt="...">
+      <div class="caption">
+        <h3><%= notice.title %></h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>-->
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="../images/bgs1.jpg" alt=notice.title>
+      <div class="caption">
+        <h3><%= notice.title %></h3>
+        <p><%= link_to 'Details', notice, class: "btn btn-info" %>
+        <% if created_by_current_user(notice) %> <%= link_to ' Edit ', edit_notice_path(notice) , class: "btn btn-success" %><% end %>
+        <% if created_by_current_user(notice) %><%= link_to 'Destroy', notice, class: "btn btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %><% end %></p>
+      </div>
+    </div>
   </div>
 <% end %>
+</div>
 <% if current_user && current_user.merchant? %>
 <div>
-  <%= link_to 'New Notice', new_notice_path , class: "notices col-md-offset-1 btn btn-lg btn-success"%>
+  <%= link_to 'New Notice', new_notice_path , class: "notices btn btn-lg btn-info"%>
 </div>
 <% end %>

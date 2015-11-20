@@ -1,9 +1,17 @@
-<h1>Reset Password</h1>
-
-<%= form_tag password_resets_path, :method => :post do %>
-  <div class="field">
-    <%= label_tag :email %>
-    <%= text_field_tag :email, params[:email] %>
-  </div>
-  <div class="actions"><%= submit_tag "Reset Password" %></div>
+<div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
+      <img src="../images/bgs1.jpg" width=100% height=100%>
+</div>
+<br /><br /><br /><br />
+<div class='jumbotron img-thumbnail col-md-offset-4 col-md-4'>
+	<h3 class='text-center'>Password Reset</h3>
+	<br />
+	<%= form_tag password_resets_path, :method => :post do %>
+  	<div class="field text-center block">
+    <%= text_field_tag :email, params[:email], class: 'form-control ',placeholder: 'Input your Email here'%>
+  	</div>
+  	<br />
+  	<div class="actions text-center">
+  		<%= submit_tag "Send Email", class: 'btn-block btn btn-info'%>
+  	</div>
 <% end %>
+</div>
