@@ -20,7 +20,11 @@ class MerchantsController < ApplicationController
       current_user.update_attribute(:user_id, @merchant.id)
       @account = @merchant.account
     else
-      @merchant = current_user.user
+      unless params.has_key?(:format)
+        @merchant = current_user.user
+      else
+        @merchant = Merchant.find(params[:format])
+      end
       @account = @merchant.account
     end
 
