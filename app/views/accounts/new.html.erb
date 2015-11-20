@@ -32,20 +32,23 @@
         <div class='dl-horizontal' >
           <label data-toggle="modal" data-target="#myModal"> I Agree On <u class='protocol'>User Protocal</u>
             </label>
-            <%= f.check_box :protocol, {id: 'test'}, 1%>
+          <script>
+            function reset_button()
+            {
+            if(test.checked==true)
+              {
+                $("#sign_submit").removeAttr("disabled");
+              }
+            else{
+              $("#sign_submit").attr("disabled","readonly");
+            }
+            }
+          </script>
+            <%= f.check_box :protocol, {id: 'test', onclick: "reset_button()"}, 1%>
         </div>
         <div>
           <br>
-          <script>
-            function check_protocol()
-            {
-            if(test.checked==false)
-              {
-              alert("You have to accept our User Protocol to continue!");
-              }
-            }
-          </script>
-            <%= f.submit "Sign Up" , class: "btn btn-block btn-success", onclick: "check_protocol()" %>
+            <%= f.submit "Sign Up" , disabled: "readonly", id: "sign_submit", class: "btn btn-block btn-success", onmouseover: "check_protocol()" %>
         </div>
         <% end %>
       </div>
