@@ -15,9 +15,18 @@ div.bshare-custom{
 }
 a.hovernankan:link{
 }
-a.hovernankan:hover{
+a:hover{
 	background-color: #EDEDED;
 }
 u.protocol:hover{
 	color: blue;
+}
+.thumbnail{
+	height: 350px;
+} 
+.thumbnail:hover{
+	background-color:#C0C0C0;
+}
+img.item#carouselimg{
+	height:450px;
 }
