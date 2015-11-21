@@ -1,0 +1,25 @@
+# == Schema Information
+#
+# Table name: cards
+#
+#  id          :integer          not null, primary key
+#  level       :integer
+#  balance     :decimal(, )
+#  points      :integer
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#  merchant_id :integer
+#  consumer_id :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  level: MyString
+  balance: 9.99
+  points: 1
+
+two:
+  level: MyString
+  balance: 9.99
+  points: 1

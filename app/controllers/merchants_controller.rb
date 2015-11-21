@@ -23,7 +23,6 @@ class MerchantsController < ApplicationController
       @merchant = current_user.user
       @account = @merchant.account
     end
-
   end
 
   # Maybe it is useful for admins.
@@ -64,8 +63,12 @@ class MerchantsController < ApplicationController
       phone = params[:account][:phone]
       if phone =~ /\A\d+\Z/
         if phone.length==7 || phone.length==11
-          @account.update_attribute(:phone, phone)
-          redirect_to @merchant, notice: 'Information was successfully updated.' and return
+          unless (Account.exists?(:phone => phone)) && (phone != @account.phone)
+            @account.update_attribute(:phone, phone)
+            redirect_to @merchant, notice: 'Information was successfully updated.' and return
+          else
+            @account.errors.add(:phone, 'has been used, please change another one')
+          end 
         else
           @account.errors.add(:phone, 'does not seem in normal length')
         end

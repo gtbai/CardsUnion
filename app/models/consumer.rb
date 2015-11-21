@@ -11,5 +11,7 @@
 
 class Consumer < ActiveRecord::Base
   has_one :account, as: :user
+  has_many :cards
+  has_many :merchants, :through => :cards
   attr_accessible :gender, :nickname
 end

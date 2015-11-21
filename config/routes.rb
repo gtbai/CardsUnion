@@ -79,6 +79,7 @@ CardsUnion::Application.routes.draw do
   resources :accounts
   resource :consumer
   resource :merchant
+  resources :cards
   #resources :search
   # resources :consumers, :except => [:index]
   # resources :merchants

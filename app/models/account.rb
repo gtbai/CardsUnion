@@ -18,15 +18,17 @@
 class Account < ActiveRecord::Base
   has_many :notices
   belongs_to :user, polymorphic: true
-  attr_accessible :email, :phone, :password, :password_confirmation, :user_type, :auth_token, :user_id, :protocol
+  attr_accessible :email, :phone, :password, :password_confirmation, :user_type, :auth_token, :user_id, :protocol, :password_digest,
+                  :password_reset_token, :password_reset_sent_at
   has_secure_password
   validates_presence_of :email, :message => "must be provided so we can send you emails"
-  #validates_uniqueness_of :email, :message => "has been registered, please directly log in"
+  validates_uniqueness_of :email, :message => "has been registered, please directly log in"
   validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, :message => "does not look like a proper email address"
-  validates_each :phone do |record, attr, value| record.errors.add(attr, 'does not seem in normal length') if value.length != 7 and value.length != 11
-  end
+  #validates_each :phone do |record, attr, value| record.errors.add(attr, 'does not seem in normal length') if value.length != 7 and value.length != 11
+  #end
 
   validates :phone, :numericality => {:only_integer => true, :message => "does not look like a proper phone number"}
+  validates_uniqueness_of :phone, :message => "has been used, please change another"
   validates_presence_of :password, :message => "must be provided so validate your identy"
   validates_length_of :password, :in => 6..24
   validates_format_of :password, :with => /[0-9]/, :message => "must contain at least one number"

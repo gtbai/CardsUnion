@@ -4,6 +4,9 @@ class SessionsController < ApplicationController
 
 	def create
 		@account = Account.find_by_email(params[:session][:email])
+		if !@account
+			@account = Account.find_by_number(params[:session][:email])
+		end
 		if @account
 			if  @account.authenticate(params[:session][:password])
 				if @account.user_type == params[:session][:user_type]
