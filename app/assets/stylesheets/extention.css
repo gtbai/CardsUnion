@@ -16,7 +16,7 @@ div.bshare-custom{
 a.hovernankan:link{
 }
 a:hover{
-	background-color: #EDEDED;
+	background-color: #CCCCFF;
 }
 u.protocol:hover{
 	color: blue;
@@ -29,4 +29,9 @@ u.protocol:hover{
 }
 img.item#carouselimg{
 	height:450px;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
