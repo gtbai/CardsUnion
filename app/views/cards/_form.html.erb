@@ -10,6 +10,7 @@
       </ul>
     </div>
   <% end %>
+
   <div class="col-md-12">
     <div class="field input-group input-group-lg ">
       <!--<%= f.label :balance %>-->
@@ -23,14 +24,22 @@
     <div class="actions">
       <%= f.submit class: "btn btn-info btn-block btn-lg"%>
     </div>
+
+  <!--This is Bai's Version of AutoCompletion, Comment here to push to dev in case of future needs-->
+  <!--<div class="field">
+    <%= f.label :balance %><br />
+    <%= f.text_field :balance %>
   </div>
+  <div class="input-group input-group-lg">
+    <%= label_tag :consumer , "Consumer's Phone Number"%><br />
+    <%= text_field_tag :consumer, nil, class: "form-control", autocomplete: "off"%>
+  </div>-->
 
   <!--used for autocomplete -->
   <script type="text/javascript">
-  function displayResult(item, val, text) {}
-  $('#demo1').typeahead({
-          name: 'email',
-          remote: '/cards/autocomplete?query='+document.getElementById("demo1").value
+  $('#consumer').typeahead({
+          name: 'phone',
+          remote: '/cards/autocomplete?query=%QUERY'
       });
   </script>
   <script type="text/javascript"></script>
