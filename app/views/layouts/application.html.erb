@@ -4,7 +4,6 @@
   <title>CardsUnion</title>
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= stylesheet_link_tag "extention.css", :media => "all" %>
-  <%= stylesheet_link_tag "twitter-typeahead.css", :media => "all" %>
   <%= stylesheet_link_tag "bootstrap.min.css", :media => "all" %>
 
   <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
@@ -14,10 +13,7 @@
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <script src="/jquery/jquery-1.11.1.min.js"></script>
-  <%= stylesheet_link_tag "bootstrap-theme.min.css", :media => "all" %>
   <%= javascript_include_tag "application" %>
-  <%= javascript_include_tag "jquery" %>
-  <%= javascript_include_tag "bootstrap-typeahead" %>
   <%= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js" %>
   <%= yield :map_script %>
   <%= csrf_meta_tags %>
@@ -49,10 +45,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><%= link_to "Notice Board", notices_path %></li>
-<<<<<<< HEAD
         <li><%= link_to "My Cards", cards_path %></li>
-=======
-        <li><%= link_to "My Cards", "#" %></li>
         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
           <ul class="dropdown-menu">
             <% merchants_path = search_path.to_s %>
@@ -62,7 +55,6 @@
             <li><a href= <%= notices_path %> >Notices</a></li>
           </ul>
         </li>
->>>>>>> dev
       </ul>
       <ul class="nav navbar-nav navbar-right ">
         <% if current_user %>
