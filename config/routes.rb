@@ -1,5 +1,6 @@
 # == Route Map
 #
+#            password_resets_new GET        /password_resets/new(.:format)            password_resets#new
 #         new_admin_user_session GET        /admin/login(.:format)                    active_admin/devise/sessions#new
 #             admin_user_session POST       /admin/login(.:format)                    active_admin/devise/sessions#create
 #     destroy_admin_user_session DELETE|GET /admin/logout(.:format)                   active_admin/devise/sessions#destroy
@@ -49,22 +50,46 @@
 #                        account GET        /accounts/:id(.:format)                   accounts#show
 #                                PUT        /accounts/:id(.:format)                   accounts#update
 #                                DELETE     /accounts/:id(.:format)                   accounts#destroy
-#                       customer POST       /customer(.:format)                       consumers#create
-#                   new_customer GET        /customer/new(.:format)                   consumers#new
-#                  edit_customer GET        /customer/edit(.:format)                  consumers#edit
-#                                GET        /customer(.:format)                       consumers#show
-#                                PUT        /customer(.:format)                       consumers#update
-#                                DELETE     /customer(.:format)                       consumers#destroy
+#                       consumer POST       /consumer(.:format)                       consumers#create
+#                   new_consumer GET        /consumer/new(.:format)                   consumers#new
+#                  edit_consumer GET        /consumer/edit(.:format)                  consumers#edit
+#                                GET        /consumer(.:format)                       consumers#show
+#                                PUT        /consumer(.:format)                       consumers#update
+#                                DELETE     /consumer(.:format)                       consumers#destroy
 #                       merchant POST       /merchant(.:format)                       merchants#create
 #                   new_merchant GET        /merchant/new(.:format)                   merchants#new
 #                  edit_merchant GET        /merchant/edit(.:format)                  merchants#edit
 #                                GET        /merchant(.:format)                       merchants#show
 #                                PUT        /merchant(.:format)                       merchants#update
 #                                DELETE     /merchant(.:format)                       merchants#destroy
+#             autocomplete_cards GET        /cards/autocomplete(.:format)             cards#autocomplete
+#                      card_fees GET        /cards/:card_id/fees(.:format)            fees#index
+#                                POST       /cards/:card_id/fees(.:format)            fees#create
+#                   new_card_fee GET        /cards/:card_id/fees/new(.:format)        fees#new
+#                  edit_card_fee GET        /cards/:card_id/fees/:id/edit(.:format)   fees#edit
+#                       card_fee GET        /cards/:card_id/fees/:id(.:format)        fees#show
+#                                PUT        /cards/:card_id/fees/:id(.:format)        fees#update
+#                                DELETE     /cards/:card_id/fees/:id(.:format)        fees#destroy
+#                          cards GET        /cards(.:format)                          cards#index
+#                                POST       /cards(.:format)                          cards#create
+#                       new_card GET        /cards/new(.:format)                      cards#new
+#                      edit_card GET        /cards/:id/edit(.:format)                 cards#edit
+#                           card GET        /cards/:id(.:format)                      cards#show
+#                                PUT        /cards/:id(.:format)                      cards#update
+#                                DELETE     /cards/:id(.:format)                      cards#destroy
+#                         search GET        /search(.:format)                         search#index
+#                                POST       /search(.:format)                         search#index
 #                         signup GET        /signup(.:format)                         accounts#new
 #                          login GET        /login(.:format)                          sessions#new
 #                                POST       /login(.:format)                          sessions#create
 #                         logout DELETE     /logout(.:format)                         sessions#destroy
+#                password_resets GET        /password_resets(.:format)                password_resets#index
+#                                POST       /password_resets(.:format)                password_resets#create
+#             new_password_reset GET        /password_resets/new(.:format)            password_resets#new
+#            edit_password_reset GET        /password_resets/:id/edit(.:format)       password_resets#edit
+#                 password_reset GET        /password_resets/:id(.:format)            password_resets#show
+#                                PUT        /password_resets/:id(.:format)            password_resets#update
+#                                DELETE     /password_resets/:id(.:format)            password_resets#destroy
 #
 
 
@@ -79,7 +104,12 @@ CardsUnion::Application.routes.draw do
   resources :accounts
   resource :consumer
   resource :merchant
-  resources :cards
+  resources :cards do
+    collection do
+      get :autocomplete
+    end
+    resources :fees
+  end
   #resources :search
   # resources :consumers, :except => [:index]
   # resources :merchants

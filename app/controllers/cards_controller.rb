@@ -3,11 +3,9 @@ class CardsController < ApplicationController
   # GET /cards
   # GET /cards.json
   def index
-    @cards = Card.all
-
+    @cards = current_user.user.cards
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @cards }
     end
   end
 
@@ -24,6 +22,8 @@ class CardsController < ApplicationController
 
   def new
     @card = Card.new
+    @emails = Account.all.map(&:email).uniq
+    #@accounts = @consumers.map { |consumer| consumer.account }
   end
 
   # GET /cards/1/edit
@@ -35,14 +35,14 @@ class CardsController < ApplicationController
   # POST /cards.json
   def create
     @card = Card.new(params[:card])
-
+    @card.consumer = Account.find_by_phone(params[:consumer]).user
+    # here maybe cannot fing a consumer
+    @card.merchant = current_user.user
     respond_to do |format|
       if @card.save
         format.html { redirect_to @card, notice: 'Card was successfully created.' }
-        format.json { render json: @card, status: :created, location: @card }
       else
         format.html { render action: "new" }
-        format.json { render json: @card.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -73,5 +73,11 @@ class CardsController < ApplicationController
       format.html { redirect_to cards_url }
       format.json { head :no_content }
     end
+  end
+
+  def autocomplete
+    accounts = Account.all
+    accounts = accounts.select {|account| account.phone.include?params[:query]}
+    render json: accounts.map(&:phone).uniq
   end
 end

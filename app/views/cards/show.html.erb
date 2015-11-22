@@ -1,5 +1,13 @@
+<h1>Card Details</h1>
 <p id="notice"><%= notice %></p>
-
+<p>
+	<b>Consumer's Phone Number:</b>
+	<%= @card.consumer.account.phone if @card.consumer %>
+</p>
+<p>
+	<b>Consumer's Email:</b>
+	<%= @card.consumer.account.email if @card.consumer %>
+</p>
 <p>
   <b>Level:</b>
   <%= @card.level %>
@@ -9,12 +17,16 @@
   <b>Balance:</b>
   <%= @card.balance %>
 </p>
-
 <p>
   <b>Points:</b>
   <%= @card.points %>
 </p>
 
+<h2>Bill</h2>
+<%= render @card.fees %>
+
+<h2>Pay or Recharge:</h2>
+<%= render "fees/form" %>
 
 <%= link_to 'Edit', edit_card_path(@card) %> |
 <%= link_to 'Back', cards_path %>

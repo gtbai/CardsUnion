@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
 	def create
 		@account = Account.find_by_email(params[:session][:email])
 		if !@account
-			@account = Account.find_by_number(params[:session][:email])
+			@account = Account.find_by_phone(params[:session][:email])
 		end
 		if @account
 			if  @account.authenticate(params[:session][:password])
@@ -24,7 +24,7 @@ class SessionsController < ApplicationController
 				flash[:password_error] = "The password is incorrect, please try again." 
 			end
 		else
-			flash[:email_error] = "This Email has never been regitered, please try again." 
+			flash[:email_error] = "This Email or phone numnber has never been regitered, please try again." 
 		end
 		redirect_to '/login' unless session[:user_id]
 	end

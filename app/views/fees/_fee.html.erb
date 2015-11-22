@@ -1,0 +1,12 @@
+	<strong>Type:</strong>
+	<%= "Recharge" if fee.fee_type %>
+	<%= "Pay" if !fee.fee_type %>
+</p>
+<p>
+	<strong>Amount:</strong>
+	<%= fee.amount %>
+</p>
+<p>
+	<strong>Time:</strong>
+	<%= fee.created_at %>
+</p>

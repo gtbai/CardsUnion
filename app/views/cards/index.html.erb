@@ -2,22 +2,22 @@
 
 <table>
   <tr>
+    <th>Cosumer's Phone number</th>
+    <th>Consumer's Email</th>
     <th>Level</th>
     <th>Balance</th>
     <th>Points</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @cards.each do |card| %>
   <tr>
+    <td><%= card.consumer.account.phone if card.consumer %></td>
+    <td><%= card.consumer.account.email if card.consumer %></td>
     <td><%= card.level %></td>
     <td><%= card.balance %></td>
     <td><%= card.points %></td>
-    <td><%= link_to 'Show', card %></td>
-    <td><%= link_to 'Edit', edit_card_path(card) %></td>
-    <td><%= link_to 'Destroy', card, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Pay/Recharge', card %></td>
+    <td><%= link_to 'Cancel', card, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

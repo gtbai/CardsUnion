@@ -3,7 +3,7 @@
     <div class="col-md-3 has-success col-md-offset-8 jumbotron">
       <%= form_for(:session, url:login_path) do |f| %>
       <div class="form-group">
-        <label for="exampleInputEmail1" > Email address</label>
+        <label for="exampleInputEmail1" > Email address (or Phone Number)</label>
         <% if flash.key?(:email_error) %><br/><%= flash[:email_error] %> <% end %>
          <%= f.text_field :email, autofocus: true, placeholder: "Email" ,
             class: "form-control", id: "exampleInputEmail1" %>
