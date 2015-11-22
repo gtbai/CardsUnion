@@ -1,41 +1,43 @@
+<style type="text/css">
+  #carouselimg{height:450px;}
+  .bigfont{font-size:50px;}
+</style>
 <div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
-      <%= image_tag("mainbg2.jpg", width: "100%", height: "100%") %>
+      <img id="bg" src="../images/bgs5.jpg" width=100% height=100%>
 </div>
-<br><br><br><br>
-<div class="btn-group col-md-10 col-md-offset-1">
-  <div>
-  <%= link_to 'Run to Find Shops!', search_path , class: "notices col-md-offset-1 btn btn-lg btn-success"%>
-</div>
-  <button type="button" class="btn btn-info btn-lg col-md-11">Choose Service You Want Here~</button>
-  <button type="button" class="btn btn-info btn-lg col-md-1 dropdown-toggle" data-toggle="dropdown" >
-    <span class="caret"></span>
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu col-md-12" role="menu">
-    <li><a href="#">Type1</a></li>
-    <li><a href="#">Type2</a></li>
-    <li><a href="#">Type3</a></li>
-  </ul>
-</div>
-<br><br><br><br><br><br>
-<div class="row">
-<% @notices.each do |notice| %>
-  <!--<div class="col-md-5 col-md-offset-1 jumbotron">
-    <h3><%= notice.title %></h3>
-    <p><%= link_to 'Details', notice, type: "button", class: " notices btn-lg btn-info" %>
-    <% if created_by_current_user(notice) %> <%= link_to ' Edit ', edit_notice_path(notice) , class: " notices btn btn-lg btn-success" %><% end %>
-    <% if created_by_current_user(notice) %><%= link_to 'Destroy', notice, class: " notices btn btn-lg btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %><% end %></p>
-  </div>-->
-  <!--<div class="col-md-5 col-md-offset-1">
-    <div class="thumbnail">
-      <img src="../images/signup_bg.jpg" alt="...">
-      <div class="caption">
-        <h3><%= notice.title %></h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+<div class="col-md-10 col-md-offset-1">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div id="carouselimg" class="item active">
+      <img src="../images/bgs5.jpg" alt="..." class="img-thumbnail">
+      <div class="carousel-caption">
+        <div class="bigfont">To Go and Enjoy your Life~</div>
+        <br /><br /><br /><br /><br /><br />
       </div>
     </div>
-  </div>-->
+    <% @notices.each do |notice| %>
+    <div id="carouselimg" class="item">
+      <img src="../images/bgs3.jpg" alt="..." class="img-thumbnail">
+      <div class="carousel-caption">
+        <h3><%= notice.title %></h3>
+        <h3>Go and Enjoy your Life~</h3>
+      </div>
+    </div>
+    <% end %>
+  </div>
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<div class="row col-md-10 col-md-offset-1">
+  <br /><br />
+<% @notices.each do |notice| %>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <% img_path = notice.notice_image_url(:index) %>
@@ -53,9 +55,9 @@
     </div>
   </div>
 <% end %>
-</div>
 <% if current_user && current_user.merchant? %>
-<div>
+<div class="col-sm-6 col-md-4">
   <%= link_to 'New Notice', new_notice_path , class: "notices btn btn-lg btn-info"%>
+</div>
 </div>
 <% end %>
