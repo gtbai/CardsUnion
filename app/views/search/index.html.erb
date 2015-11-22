@@ -26,17 +26,15 @@
 <div class="container col-md-9">
 <% @merchants.each do |merchant| %>
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <% merchant_path = 'merchant.'+merchant.id.to_s %>
+    <div class="thumbnail" onClick="window.location.href='<%= merchant_path %>'" style="cursor:pointer">
       <% if merchant.store_image? %>
-        <%= image_tag merchant.store_image_url.to_s %>
+        <%= image_tag merchant.store_image_url(:search).to_s %>
       <% else %>
         <%= image_tag "../images/bgs1.jpg" %>
       <% end %>
       <div class="caption">
-        <h3><%= merchant.store_name %></h3>
-        <p>
-          <%= link_to 'Details', merchant, type: "button", class: " merchants btn btn-lg btn-info" %>
-        </p>
+        <h4 class="text-center"><%= link_to merchant.store_name , merchant%></h4>
       </div>
     </div>
   </div>

@@ -13,6 +13,7 @@
   <%= stylesheet_link_tag "//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css", :media => "all" %>
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
+  <script src="/jquery/jquery-1.11.1.min.js"></script>
   <%= stylesheet_link_tag "bootstrap-theme.min.css", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= javascript_include_tag "jquery" %>
@@ -20,16 +21,31 @@
   <%= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js" %>
   <%= yield :map_script %>
   <%= csrf_meta_tags %>
+  <script> 
+    var status=1;
+    $(document).ready(function(){
+      $("button").click(function(){
+        if(status==1){
+          $("div.navtobehide").hide(1000);
+          status=0;
+        }else{
+          $("div.navtobehide").show(1000);
+          status=1;
+        }
+      });
+    });
+    </script>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+<button type="button" style="position:fixed">
+  <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+</button>
+<nav class="nav nav-pills navbar-fixed-top navbar-default navbar-inverse" role="navigation">
+  <div class="container-fluid navtobehide">
     <div class="navbar-header">
       <a class="navbar-brand" href="/">Cards Union</a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><%= link_to "Notice Board", notices_path %></li>
@@ -37,23 +53,17 @@
         <li><%= link_to "My Cards", cards_path %></li>
 =======
         <li><%= link_to "My Cards", "#" %></li>
-        <li><%= link_to "Go Search", search_path %></li>
-        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search Here</a>
+        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <% merchants_path = search_path.to_s %>
+            <li><a href= <%= merchants_path %> >Merchants</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">Notices</a></li>
           </ul>
         </li>
 >>>>>>> dev
       </ul>
       <ul class="nav navbar-nav navbar-right ">
-        <!--<li><a href="#">Sign in</a></li>
-        <li><a href="#">Log in</a></li>-->
         <% if current_user %>
             <% if current_user_type == "Consumer" %>
         	    <li><%= link_to current_user.email, consumer_path %></li>
@@ -65,12 +75,14 @@
         	<li><%= link_to "Log in", login_path %></li>
         	<li><%= link_to "Sign up", signup_path %></li>
         <% end %>
+        <button type="button" class="navbar-btn btn btn-default btn-xs">
+          <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+        </button>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
-<br /><br /><br />
-
+<br /><br /><br /><br />
 <%= yield %>
 
 </body>

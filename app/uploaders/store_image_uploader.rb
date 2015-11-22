@@ -34,6 +34,9 @@ class StoreImageUploader < CarrierWave::Uploader::Base
   #an uploaded image will be scaled to be no larger than 800x800 pixels
   process resize_to_fit: [800, 800]
   # Create different versions of your uploaded files:
+  version :search do
+    process :resize_to_fill => [272, 274]
+  end
    version :card do
      process :resize_to_fill => [200, 200]
    end
