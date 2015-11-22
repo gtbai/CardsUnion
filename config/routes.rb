@@ -104,7 +104,7 @@ CardsUnion::Application.routes.draw do
   resources :accounts
   resource :consumer
   resource :merchant
-  resources :cards do
+  resources :cards , :except => [:edit, :update] do
     collection do
       get :autocomplete
     end
@@ -115,6 +115,8 @@ CardsUnion::Application.routes.draw do
   # resources :merchants
   get 'search' => 'search#index'
   post 'search' => 'search#index'
+  get 'searchnotice' => 'searchnotice#index'
+  post 'searchnotice' => 'searchnotice#index'
   get 'signup' => 'accounts#new'
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'

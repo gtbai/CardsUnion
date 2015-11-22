@@ -1,0 +1,27 @@
+<div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
+      <%= image_tag("mainbg2.jpg", width: "100%", height: "100%") %>
+</div>  
+<div>
+<%= form_for @search,  :url => searchnotice_path ,:method => :get do |f| %>
+</div>
+<div class="pull-right col-md-3">
+<ul class="list-group">
+<li class="list-group-item"><%= f.label :title_or_content_contains %></li>
+<li class="list-group-item"><%= f.text_field :title_or_content_contains %></li>
+<li class="list-group-item"><%= sort_link @search, :title ,"Sort by Name"%></li>
+</ul>
+<li class="list-group-item"><%= f.submit 'Search', class: 'btn btn-info btn-block' %></li>
+</div>
+<% end %>
+
+<div class="container col-md-9">
+<% @notices.each do |notice| %>
+  <div class="col-sm-6 col-md-4">
+    <% notice_path = 'notices/'+notice.id.to_s %>
+    <div class="thumbnail" onClick="window.location.href='<%= notice_path %>'" style="cursor:pointer">
+      <div class="caption">
+        <h4 class="text-center"><%= link_to notice.notice_image , notice%></h4>
+      </div>
+    </div>
+  </div>
+<% end %>
