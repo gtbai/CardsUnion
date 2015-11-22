@@ -3,8 +3,7 @@ class NoticesController < ApplicationController
   include NoticesHelper
   before_filter :require_user, only: [:show]
   before_filter :require_merchant, only: [:new, :edit]
-  # GET /notices
-  # GET /notices.json
+
   def index
     @notices = Notice.all
     respond_to do |format|

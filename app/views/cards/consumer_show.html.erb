@@ -1,0 +1,22 @@
+<h1>Card Details</h1>
+<p id="notice"><%= notice %></p>
+<% merchant = @card.merchant %>
+<p><b>Store Photo:</b>
+  <% if merchant.store_image? %>
+    <%= image_tag merchant.store_image_url(:card).to_s %>
+  <% else %>
+    No image
+  <% end %>
+</p>
+<p><b>Store Name:</b><%= merchant.store_name %></p>
+<p><b>Store Type:</b><%= merchant.store_type %></p>
+<p><b>Store Phone Number</b><%= merchant.account.phone if merchant %></p>
+<p><b>Store Email</b><%= merchant.account.email if merchant %></p>
+<p><b>Level:</b><%= @card.level %></p>
+<p><b>Balance:</b><%= @card.balance %></p>
+<p><b>Points:</b><%= @card.points %></p>
+
+<h2>Bill</h2>
+<%= render @card.fees %>
+
+<%= link_to 'Back', cards_path %>

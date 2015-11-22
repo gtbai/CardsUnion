@@ -104,7 +104,7 @@ CardsUnion::Application.routes.draw do
   resources :accounts
   resource :consumer
   resource :merchant
-  resources :cards do
+  resources :cards , :except => [:edit, :update] do
     collection do
       get :autocomplete
     end
