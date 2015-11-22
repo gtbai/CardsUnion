@@ -115,6 +115,8 @@ CardsUnion::Application.routes.draw do
   # resources :merchants
   get 'search' => 'search#index'
   post 'search' => 'search#index'
+  get 'searchnotice' => 'searchnotice#index'
+  post 'searchnotice' => 'searchnotice#index'
   get 'signup' => 'accounts#new'
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
