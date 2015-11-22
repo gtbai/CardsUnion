@@ -9,10 +9,5 @@ class SearchController < ApplicationController
 
 	end
 	end
-	def new
-	end
-	def create
 
-	def destroy
-	end
 end

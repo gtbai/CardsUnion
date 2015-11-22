@@ -56,9 +56,10 @@
         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
           <ul class="dropdown-menu">
             <% merchants_path = search_path.to_s %>
+            <% notices_path = searchnotice_path.to_s %>
             <li><a href= <%= merchants_path %> >Merchants</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Notices</a></li>
+            <li><a href= <%= notices_path %> >Notices</a></li>
           </ul>
         </li>
 >>>>>>> dev
