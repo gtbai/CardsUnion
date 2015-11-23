@@ -1,13 +1,13 @@
 <%= form_for([@card, @card.fees.build]) do |f| %>
 	<p>
 		<%= f.label :fee_type %>
-		<%= f.select :fee_type, [['Pay', false], ['Recharge', true]] %>
+		<%= f.select :fee_type, [['Pay', false], ['Recharge', true]] , class: "form-control"%>
 	</p>
 	<p>
 		<%= f.label :amount %>
 		<%= f.text_field :amount %>
 	</p>
 	<p>
-		<%= f.submit "Submit"%>
+		<%= f.submit "Submit", class: "btn btn-block btn-info"%>
 	</p>
 <% end %>

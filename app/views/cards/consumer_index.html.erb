@@ -1,41 +1,45 @@
-<h1>Listing cards</h1>
-
-<table>
-  <tr>
-    <th>Store Photo</th>
-    <th>Store Name</th>
-    <th>Store Type</th>
-    <th>Store Phone Number</th>
-    <th>Store Email</th>
-    <th>Store Address</th>
-    <th>Level</th>
-    <th>Balance</th>
-    <th>Points</th>
-  </tr>
-
-<% @cards.each do |card| %>
-  <% merchant = card.merchant %>
-  <tr>
-    <td>
-      <% if merchant.store_image? %>
-        <%= image_tag merchant.store_image_url(:card).to_s %>
-      <% else %>
-        No image
+<div class="col-md-10 col-md-offset-1">
+<div class="panel panel-warning">
+  <div class="panel-heading">
+    <h1  class=" text-center">
+      Cards Lists
+    </h1>
+    <br />
+    <table class="table">
+      <tr>
+        <th>Store Photo</th>
+        <th>Store Name</th>
+        <th>Store Type</th>
+        <th>Store Phone Number</th>
+        <th>Store Email</th>
+        <th>Store Address</th>
+        <th>Level</th>
+        <th>Balance</th>
+        <th>Points</th>
+        <th>Opeartion</th>
+      </tr>
+      <% @cards.each do |card| %>
+        <% merchant = card.merchant %>
+        <tr>
+          <td>
+            <% if merchant.store_image? %>
+              <%= image_tag merchant.store_image_url(:card).to_s %>
+            <% else %>
+              No image
+            <% end %>
+          </td>
+          <td><%= merchant.store_name %></td>
+          <td><%= merchant.store_type %></td>
+          <td><%= merchant.account.phone if merchant %></td>
+          <td><%= merchant.account.email if merchant %></td>
+          <td><%= merchant.address if merchant %></td>
+          <td><%= card.level %></td>
+          <td><%= card.balance %></td>
+          <td><%= card.points %></td>
+          <td><%= link_to 'Bill', card, class: "btn btn-warning btn-block btn-sm" %></td>
+        </tr>
       <% end %>
-    </td>
-    <td><%= merchant.store_name %></td>
-    <td><%= merchant.store_type %></td>
-    <td><%= merchant.account.phone if merchant %></td>
-    <td><%= merchant.account.email if merchant %></td>
-    <td><%= card.level %></td>
-    <td><%= card.balance %></td>
-    <td><%= card.points %></td>
-    <td><%= link_to 'Pay/Recharge', card %></td>
-    <td><%= link_to 'Cancel', card, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Card', new_card_path %>
+    </table>
+</div>
+</div>
+</div>

@@ -1,0 +1,57 @@
+<div class="container">
+
+  <div class="col-md-8 pull-right">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h4>Recent Bills</h4>
+      </div>
+      <table class="table table-striped">
+        <tr>
+          <th><strong>Type</strong></th>
+          <th><strong>Amount</strong></th>
+          <th><strong>Time</strong></th>
+        </tr>
+        <%= render @card.fees.reverse %>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-ms-4" style="position:fixed;">
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      <h4>Cards Info</h4>
+    </div>
+    <div class="panel-body">
+      <p id="notice"><%= notice %></p>
+      <p>
+        <b>Consumer's Phone Number:</b>
+        <%= @card.consumer.account.phone if @card.consumer %>
+      </p>
+      <p>
+        <b>Consumer's Email:</b>
+        <%= @card.consumer.account.email if @card.consumer %>
+      </p>
+      <p>
+        <b>Level:</b>
+        <%= @card.level %>
+      </p>
+      <p>
+        <b>Balance:</b>
+        <%= @card.balance %>
+      </p>
+      <p>
+        <b>Points:</b>
+        <%= @card.points %>
+      </p>
+    </div>
+  </div>
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      <h4>Pay or Recharge:</h4>
+    </div>
+    <div class="panel-body">
+      <%= render "fees/form" %>
+    </div>
+  </div>
+  </div>
+</div>

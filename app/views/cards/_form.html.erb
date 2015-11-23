@@ -10,13 +10,18 @@
       </ul>
     </div>
   <% end %>
-  <div class="field">
-    <%= f.label :balance %><br />
-    <%= f.text_field :balance %>
+  <div class="col-md-12">
+  <div class="input-group input-group-lg">
+    <%= f.text_field :balance , class: "form-control", placeholder: "Balance"%>
   </div>
   <div class="input-group input-group-lg">
-    <%= label_tag :consumer , "Consumer's Phone Number"%><br />
-    <%= text_field_tag :consumer, nil, class: "form-control", autocomplete: "off"%>
+    <%= text_field_tag :consumer, nil, class: "form-control", autocomplete: "off", placeholder: "Phone Number"%>
+  </div>
+
+    <br />
+    <div class="actions">
+      <%= f.submit class: "btn btn-info btn-block btn-lg"%>
+    </div>
   </div>
 
   <!--used for autocomplete -->
@@ -26,10 +31,6 @@
           remote: '/cards/autocomplete?query=%QUERY'
       });
   </script>
-
-  <div class="actions">
-    <%= f.submit %>
-  </div>
   <script type="text/javascript"></script>
   <script src="../assets/jquery.js"></script>
 <% end %>

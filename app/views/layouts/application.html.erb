@@ -5,11 +5,8 @@
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= stylesheet_link_tag "extention.css", :media => "all" %>
   <%= stylesheet_link_tag "bootstrap.min.css", :media => "all" %>
-
   <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
   <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <%= stylesheet_link_tag "http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css", :media => "all" %>
-  <%= stylesheet_link_tag "//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css", :media => "all" %>
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <script src="/jquery/jquery-1.11.1.min.js"></script>
@@ -17,20 +14,20 @@
   <%= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js" %>
   <%= yield :map_script %>
   <%= csrf_meta_tags %>
-  <script> 
+  <!--<script> 
     var status=1;
     $(document).ready(function(){
       $("button").click(function(){
         if(status==1){
-          $("div.navtobehide").hide(1000);
+          $(".navtobehide").hide(1000);
           status=0;
         }else{
-          $("div.navtobehide").show(1000);
+          $(".navtobehide").show(1000);
           status=1;
         }
       });
     });
-    </script>
+    </script>-->
 </head>
 <body>
 <button type="button" style="position:fixed">
@@ -68,9 +65,9 @@
         	<li><%= link_to "Log in", login_path %></li>
         	<li><%= link_to "Sign up", signup_path %></li>
         <% end %>
-        <button type="button" class="navbar-btn btn btn-default btn-xs">
-          <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
-        </button>
+        <!--<button type="button" class="navbar-btn btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+        </button>-->
       </ul>
     </div>
   </div>
