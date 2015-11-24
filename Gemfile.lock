@@ -40,6 +40,7 @@ GEM
     activesupport (3.2.16)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
+    acts_as_follower (0.1.1)
     annotate (2.6.10)
       activerecord (>= 3.2, <= 4.3)
       rake (~> 10.4)
@@ -175,6 +176,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
+  acts_as_follower (~> 0.1.1)
   annotate
   bcrypt-ruby (~> 3.0.0)
   carrierwave

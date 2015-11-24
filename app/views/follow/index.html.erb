@@ -1,0 +1,14 @@
+<p>People who are interested in my shop:</p>
+<% if current_user.user_type == "Merchant"%>
+	 <% @followers.each do |follower| %>
+	        <h3><%= Account.find(follower.id).email %></h3>
+	 <% end %>
+<% end %>
+<% if current_user.user_type == "Consumer"%>
+	 <% @followers.each do |follower| %>
+	        <h3><%= follower.followable_id %></h3>
+	        <% merchant_path = 'merchant.' + follower.followable_id.to_s %>
+	        <%= link_to 'details', merchant_path %>
+	 <% end %>
+<% end %>
+

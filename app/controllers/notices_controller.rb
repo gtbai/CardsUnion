@@ -45,6 +45,10 @@ class NoticesController < ApplicationController
     @notice.account_id = current_user.id
     respond_to do |format|
       if @notice.save 
+        @followers = current_user.followers
+        @followers.each do |follower|
+           Account.find(follower.id).send_notice_information
+        end
         format.html { redirect_to @notice, notice: 'Notice was successfully created.' }
         format.json { render json: @notice, status: :created, location: @notice }
       else
