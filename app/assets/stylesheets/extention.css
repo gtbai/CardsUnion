@@ -22,10 +22,13 @@ u.protocol:hover{
 	color: blue;
 }
 .thumbnail{
-	height: 350px;
+	height: 380px;
 } 
 .thumbnail:hover{
 	background-color:#C0C0C0;
+}
+.thumbnail.srch_notices{
+	height: 300px;
 }
 img.item#carouselimg{
 	height:450px;
