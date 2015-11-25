@@ -4,30 +4,20 @@
   <title>CardsUnion</title>
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= stylesheet_link_tag "extention.css", :media => "all" %>
+  <%= stylesheet_link_tag "twitter-typeahead.css", :media => "all" %>
   <%= stylesheet_link_tag "bootstrap.min.css", :media => "all" %>
   <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
   <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
   <script src="/jquery/jquery-1.11.1.min.js"></script>
+  <%= stylesheet_link_tag "bootstrap-theme.min.css", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "bootstrap-typeahead" %>
   <%= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js" %>
   <%= yield :map_script %>
   <%= csrf_meta_tags %>
-  <!--<script> 
-    var status=1;
-    $(document).ready(function(){
-      $("button").click(function(){
-        if(status==1){
-          $(".navtobehide").hide(1000);
-          status=0;
-        }else{
-          $(".navtobehide").show(1000);
-          status=1;
-        }
-      });
-    });
-    </script>-->
 </head>
 <body>
 <button type="button" style="position:fixed">
@@ -43,6 +33,16 @@
       <ul class="nav navbar-nav">
         <li><%= link_to "Notice Board", notices_path %></li>
         <li><%= link_to "My Cards", cards_path %></li>
+         <% if current_user != nil %>
+          <% if current_user.user_type == 'Consumer'%>
+            <% show_follower_path = '/showfollow' %>
+            <li><%= link_to "My favorite",show_follower_path  %></li>
+          <%end%>
+          <% if current_user.user_type == 'Merchant'%>
+            <% show_follower_path = '/showfollow' %>
+            <li><%= link_to "People interest",show_follower_path  %></li>
+          <%end%>
+        <% end %>
         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
           <ul class="dropdown-menu">
             <% merchants_path = search_path.to_s %>
@@ -56,9 +56,17 @@
       <ul class="nav navbar-nav navbar-right ">
         <% if current_user %>
             <% if current_user_type == "Consumer" %>
+              <% if (current_user.user==nil) or (current_user.user.nickname==nil) %> 
         	    <li><%= link_to current_user.email, consumer_path %></li>
+              <% else %>
+              <li><%= link_to current_user.user.nickname, consumer_path %></li>
+              <% end %>
             <% else %>
+              <% if (current_user.user==nil) or (current_user.user.store_name==nil) %> 
               <li><%= link_to current_user.email, merchant_path %></li>
+              <% else %>
+              <li><%= link_to current_user.user.store_name,merchant_path %></li>
+              <% end %>
             <% end %>
         	<li><%= link_to "Log out", logout_path, method: "delete" %></li>
         <% else %>
@@ -73,6 +81,7 @@
   </div>
 </nav>
 <br /><br /><br /><br />
+<p id="notice" class="text-center"><%= notice %></p>
 <%= yield %>
 
 </body>

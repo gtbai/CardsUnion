@@ -17,7 +17,9 @@ class MerchantsController < ApplicationController
       @merchant = Merchant.new({:store_name => "", :store_type => "",
       :introduction => "", :address => ""})
       @merchant.save(validate: false)
+      #current_user.update_attribute(:user_id, @merchant.id)
       current_user.update_attribute(:user_id, @merchant.id)
+      current_user.update_attribute(:user_type, "Merchant")
       @account = @merchant.account
     else
       unless params.has_key?(:format)
@@ -32,7 +34,6 @@ class MerchantsController < ApplicationController
   # Maybe it is useful for admins.
   def new
     @merchant = Merchant.new
-
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @merchant }
@@ -41,6 +42,9 @@ class MerchantsController < ApplicationController
 
   def edit
     @merchant = Merchant.find(params[:format])
+    if (current_user.user_type!="Merchant") or (current_user.user!= @merchant)
+      redirect_to @merchant, notice: "You can not edit other merchants' store profile!"
+    end
     @account = @merchant.account
   end
 

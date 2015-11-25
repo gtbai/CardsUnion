@@ -32,13 +32,8 @@
     <%= f.file_field :notice_image %>
     <%= f.hidden_field :notice_image_cache %>
     </div>
-  <script>
-    function Success(){
-        alert("Successfully Saved!");
-      }
-  </script>
   <div class="actions">
-    <%= f.submit "Save" , class: "btn btn-block btn-success", onclick: "Success()"%>
+    <%= f.submit "Save" , class: "btn btn-block btn-success"%>
   </div>
 </div>
 <% end %>

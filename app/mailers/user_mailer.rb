@@ -10,4 +10,8 @@ class UserMailer < ActionMailer::Base
     @account = account
     mail :to => account.email, :subject => "Password Reset"
   end
+  def notice_information(account)
+    @account = account
+    mail :to => account.email, :subject => "Your Favorite Shop Has Something New!"
+  end
 end

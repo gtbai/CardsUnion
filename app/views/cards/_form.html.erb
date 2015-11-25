@@ -10,28 +10,19 @@
       </ul>
     </div>
   <% end %>
+  <div class="col-md-12">
+  <div class="input-group input-group-lg">
+    <%= f.text_field :balance , class: "form-control", placeholder: "Balance"%>
+  </div>
+  <div class="input-group input-group-lg">
+    <%= text_field_tag :consumer, nil, class: "form-control", autocomplete: "off", placeholder: "Phone Number"%>
+  </div>
 
-    <div class="field input-group input-group-lg ">
-      <!--<%= f.label :balance %>-->
-      <%= f.text_field :balance, placeholder: "Current Balance", class: "form-control"%>
-    </div>
-    <div class="input-group input-group-lg">
-      <!--<%= label_tag :consumer , "Consumer's Phone Number"%>-->
-      <%= text_field_tag :consumer, nil, class: "form-control", id: "demo1", autocomplete: "off", placeholder: "Phone Number"%>
-    </div>
     <br />
     <div class="actions">
       <%= f.submit class: "btn btn-info btn-block btn-lg"%>
-
-  <!--This is Bai's Version of AutoCompletion, Comment here to push to dev in case of future needs-->
-  <!--<div class="field">
-    <%= f.label :balance %><br />
-    <%= f.text_field :balance %>
+    </div>
   </div>
-  <div class="input-group input-group-lg">
-    <%= label_tag :consumer , "Consumer's Phone Number"%><br />
-    <%= text_field_tag :consumer, nil, class: "form-control", autocomplete: "off"%>
-  </div>-->
 
   <!--used for autocomplete -->
   <script type="text/javascript">

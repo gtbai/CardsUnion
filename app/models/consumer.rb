@@ -10,6 +10,8 @@
 #
 
 class Consumer < ActiveRecord::Base
+  acts_as_follower
+  acts_as_followable
   has_one :account, as: :user
   has_many :cards
   has_many :merchants, :through => :cards

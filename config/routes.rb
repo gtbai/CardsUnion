@@ -122,6 +122,8 @@ CardsUnion::Application.routes.draw do
   post 'login' => 'sessions#create'
   delete 'logout' => 'sessions#destroy'
   resources :password_resets
+  get 'showfollow' => 'follow#index'
+  get 'follow' => 'follow#edit'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

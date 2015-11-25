@@ -20,7 +20,7 @@
     <% notice_path = 'notices/'+notice.id.to_s %>
     <div class="thumbnail" onClick="window.location.href='<%= notice_path %>'" style="cursor:pointer">
       <div class="caption">
-        <h4 class="text-center"><%= link_to notice.notice_image , notice%></h4>
+        <h4><%= image_tag notice.notice_image_url(:index).to_s %></h4>
       </div>
     </div>
   </div>

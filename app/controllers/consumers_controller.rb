@@ -13,21 +13,11 @@ class ConsumersController < ApplicationController
 
   def edit
     @consumer = Consumer.find(params[:format])
-    @account = @consumer.account
-  end
-
-  def create
-    @consumer = consumer.new(params[:consumer])
-
-    respond_to do |format|
-      if @consumer.save
-        format.html { redirect_to @consumer, notice: 'consumer was successfully created.' }
-        format.json { render json: @consumer, status: :created, location: @consumer }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @consumer.errors, status: :unprocessable_entity }
-      end
+    #prevent others to change your information
+    if (current_user.user_type!="Consumer") or (current_user.user!=@consumer)
+      render 'show', notice: "You can not edit other consumers' personal profile!"
     end
+    @account = @consumer.account
   end
 
   def update

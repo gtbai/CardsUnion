@@ -8,6 +8,5 @@ class SearchController < ApplicationController
 		  # @articles = @search.paginate(:page => params[:page]) # Who doesn't love will_paginate?
 
 	end
-	end
 
 end

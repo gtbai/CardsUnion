@@ -1,6 +1,6 @@
 <div class="jumbotron">
 <%= form_for(@merchant, :html => {:multipart => true}) do |f| %>
-    <h2 class="text-center">My Information</h2>
+    <h2 class="text-center">Store Profile</h2>
     <div class='form-group'>
       <%= f.label :store_name, 'Store Name' %>
       <%= f.object.errors[:store_name].to_sentence if f.object.errors[:store_name] %>

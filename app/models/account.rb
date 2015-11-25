@@ -16,6 +16,8 @@
 #
 
 class Account < ActiveRecord::Base
+  acts_as_follower
+  acts_as_followable
   has_many :notices
   belongs_to :user, polymorphic: true
   attr_accessible :email, :phone, :password, :password_confirmation, :user_type, :auth_token, :user_id, :protocol, :password_digest,
@@ -53,5 +55,8 @@ class Account < ActiveRecord::Base
     self.password_reset_sent_at = Time.zone.now
     save!(:validate => false)
     UserMailer.password_reset(self).deliver
+  end
+    def send_notice_information
+    UserMailer.notice_information(self).deliver
   end
 end

@@ -9,7 +9,7 @@
 <% end %>
 <div class="col-md-6 col-md-offset-1 container">
   <div class="jumbotron">
-    <h2 class="text-center">My Information</h2>
+    <h2 class="text-center">Store Profile</h2>
     <h4 id="notice"><%= notice %></h4><br />
     <h4>Store Photo:</h4>
     <% if @merchant.store_image? %>
@@ -24,6 +24,10 @@
     <h4>Email: <%= @account.email %></h4><br />
     <h4>Phone: <%= @account.phone %></h4><br />
     <div class="text-center merchants_show_button"><%= link_to 'Edit', edit_merchant_path(@merchant), class:"notices btn btn-lg btn-info"%> <span> | <span> <%= link_to 'Back', notices_path ,class:"notices btn btn-lg btn-info" %></div>
+    <% if current_user.user_type == "Consumer"%>
+      <% follow_path = '/follow.' + @merchant.id.to_s %>
+      <%= link_to 'Add this to my favorite shops', follow_path %>
+    <% end%>
   </div>
 </div>
 <br /><br /><br />
