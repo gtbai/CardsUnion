@@ -4,7 +4,14 @@ class NoticesController < ApplicationController
   before_filter :require_user, only: [:show]
   before_filter :require_merchant, only: [:new, :edit]
 
+  def created_by_current_user?(notice)
+    if (current_user==nil) || (notice.account_id != current_user.id)
+      redirect_to notice, :notice => "You are not the creator of this notice!"
+    end
+  end
+
   def index
+    @scroll_notices = Notice.all.reverse.first(3)
     @notices = Notice.all
     respond_to do |format|
       format.html # index.html.erb
@@ -36,6 +43,9 @@ class NoticesController < ApplicationController
   # GET /notices/1/edit
   def edit
     @notice = Notice.find(params[:id])
+    if !created_by_current_user?(@notice)
+      redirect_to @notice, :notice => "Your are not creator of this notice!"
+    end
   end
 
   # POST /notices
@@ -63,11 +73,10 @@ class NoticesController < ApplicationController
   def update
     @notice = Notice.find(params[:id])
     respond_to do |format|
-      if @notice.update_attributes(params[:notice]) && created_by_current_user(@notice)
+      if @notice.update_attributes(params[:notice])
         format.html { redirect_to @notice, notice: 'Notice was successfully updated.' }
         format.json { head :no_content }
       else
-        flash[:error] = "You are not the creator of this notice, so you cannot update it."
         format.html { render action: "edit" }
         format.json { render json: @notice.errors, status: :unprocessable_entity }
       end

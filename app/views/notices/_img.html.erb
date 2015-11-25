@@ -1,6 +1,6 @@
 <% img_path = notice.notice_image_url(:index) %>
 <% if img_path == nil %>
-<img src="../images/bgs1.jpg" alt=notice.title>
+<%= image_tag "alt_store_image2.jpg" %>
 <% else %>
 <%= image_tag img_path.to_s %>
 <% end %>

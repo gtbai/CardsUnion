@@ -21,12 +21,11 @@
   <%= @notice.account %>
 </p>-->
 <br />
-<p id="notice" class="text-center"><%= notice %></p>
 <br />
 <div class="text-center">
   <h5><strong>Author:</strong><%= @author.email %></h5>
   <h5><strong>Contact:</strong><%= @author.phone %></h5>
-  <%= link_to 'Edit', edit_notice_path(@notice) ,class:"notices btn btn-lg btn-info" %>
+  <% if created_by_current_user(@notice) %><%= link_to 'Edit', edit_notice_path(@notice) ,class:"notices btn btn-lg btn-info" %><% end %>
   <%= link_to 'Back', notices_path , class:"notices btn btn-lg btn-info" %>
 </div>
 

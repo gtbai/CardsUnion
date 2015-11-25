@@ -1,6 +1,6 @@
 <div class="jumbotron">
 <%= form_for(@consumer) do |f| %>
-  <h2 class="text-center">My Information</h2>
+  <h2 class="text-center">Personal Profile</h2>
   <div class="form-group">
     <%= f.label :nickname, "Nickname" %>
     <%= f.object.errors[:nickname].to_sentence if f.object.errors[:nickname] %>

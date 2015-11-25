@@ -19,6 +19,7 @@ class CardsController < ApplicationController
 
   def show
     @card = Card.find(params[:id])
+    own_card?(@card)
     respond_to do |format|
       format.html do
         if current_user_type == 'Merchant'

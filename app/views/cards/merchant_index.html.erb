@@ -7,6 +7,7 @@
     <br />
     <table class="table">
       <tr>
+        <th>Cosumer's Nickname</th>
         <th>Cosumer's Phone number</th>
         <th>Consumer's Email</th>
         <th>Level</th>
@@ -16,6 +17,7 @@
       </tr>
       <% @cards.each do |card| %>
         <tr>
+          <td><%= card.consumer.nickname %></td>
           <td><%= card.consumer.account.phone if card.consumer %></td>
           <td><%= card.consumer.account.email if card.consumer %></td>
           <td><%= card.level %></td>

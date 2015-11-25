@@ -5,10 +5,23 @@ class ApplicationController < ActionController::Base
   end
 
   def require_user
-   	redirect_to '/login' unless current_user
+    if current_user == nil
+   	  redirect_to '/login', :notice => "PLease login"
+    end 
   end 
 
   def require_merchant
-  	redirect_to '/' unless current_user.merchant?
+    if current_user.merchant? == false
+  	 redirect_to :root, :notice => "Only merchant can do this!"
+    end 
+  end
+
+    def own_card?(card)
+    if (current_user.user_type == "merchant") && (current_user.user.id != card.merchant_id)
+      render 'index', notice: "This card does not belong to your store!"
+    end
+    if (current_user.user_type == "consumer") && (current_user.user.id != card.consumer.id)
+      render 'index', notice: "This card does not belong to you!"
+    end
   end
 end
