@@ -16,6 +16,7 @@
         <th>Operations</th>
       </tr>
       <% @cards.each do |card| %>
+        <% if card.consumer %>
         <tr>
           <td><%= card.consumer.nickname %></td>
           <td><%= card.consumer.account.phone if card.consumer %></td>
@@ -28,6 +29,7 @@
             <%= link_to 'Cancel', card, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger"%>
           </td>
         </tr>
+        <% end %>
       <% end %>
     </table>
       <%= link_to 'New Card', new_card_path,class: "btn btn-block btn-info"%>

@@ -29,12 +29,14 @@
           <th><strong>Link To It</strong></th>
         </tr>
 	 <% @followers.each do |follower| %>
+	 	<% if Account.find(follower.followable_id).user %>
 	 	<tr>
 	        <th><%= Account.find(follower.followable_id).user.store_name %></th>
 	        <th><%= Account.find(follower.followable_id).email %></th>
-	        <% merchant_path = 'merchant.' + follower.followable_id.to_s %>
+	        <% merchant_path = 'merchant.' + Account.find(follower.followable_id).user.id.to_s %>
 	        <th><%= link_to 'details', merchant_path %></th>
 	    </tr>
+	    <% end %>
 	 <% end %>
 	</table>
 	</div>

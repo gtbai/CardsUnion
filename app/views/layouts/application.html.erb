@@ -59,13 +59,13 @@
       <ul class="nav navbar-nav navbar-right ">
         <% if current_user %>
             <% if current_user_type == "Consumer" %>
-              <% if (current_user.user==nil) or (current_user.user.nickname==nil) %> 
+              <% if (current_user.user==nil) or (current_user.user.nickname==nil) or (current_user.user.nickname=="")%> 
         	    <li><%= link_to current_user.email, consumer_path %></li>
               <% else %>
               <li><%= link_to current_user.user.nickname, consumer_path %></li>
               <% end %>
             <% else %>
-              <% if (current_user.user==nil) or (current_user.user.store_name==nil) %> 
+              <% if (current_user.user==nil) or (current_user.user.store_name==nil) or (current_user.user.store_name=="")%> 
               <li><%= link_to current_user.email, merchant_path %></li>
               <% else %>
               <li><%= link_to current_user.user.store_name,merchant_path %></li>
