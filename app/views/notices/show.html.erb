@@ -1,6 +1,3 @@
-<div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
-      <img src="../images/mainbg2.jpg" width=100% height=100%>
-  </div>
   <br />
   <br />
 <div class="jumbotron col-md-6 col-md-offset-3">
@@ -8,14 +5,16 @@
     <%= @notice.title %>
   </h2>
   <div class="col-md-offset-1 input-group">
-    <h3><strong>Content: </strong><%= @notice.content %></h3>
+    <h3><strong>Content: </strong></h3>
+    <h4> &nbsp&nbsp <%= @notice.content %> </h4>
     <div class="author_info col-md-offset-7">
   </div>
 </div>
+<div>
 <% if @notice.notice_image? %>
-  <%= image_tag @notice.notice_image_url(:show).to_s %>
+  <%= image_tag @notice.notice_image_url(:show).to_s ,  class: "center-block"%>
 <% end %>
-
+</div>
 <!--<p>
   <b>Account:</b>
   <%= @notice.account %>
@@ -23,8 +22,8 @@
 <br />
 <br />
 <div class="text-center">
-  <h5><strong>Author:</strong><%= @author.email %></h5>
-  <h5><strong>Contact:</strong><%= @author.phone %></h5>
+  <h4><strong>Author:</strong><%= @author.email %></h4>
+  <h4><strong>Contact:</strong><%= @author.phone %></h4>
   <% if created_by_current_user(@notice) %><%= link_to 'Edit', edit_notice_path(@notice) ,class:"notices btn btn-lg btn-info" %><% end %>
   <%= link_to 'Back', notices_path , class:"notices btn btn-lg btn-info" %>
 </div>

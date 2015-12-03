@@ -1,14 +1,42 @@
-<p>People who are interested in my shop:</p>
 <% if current_user.user_type == "Merchant"%>
-	 <% @followers.each do |follower| %>
-	        <h3><%= Account.find(follower.id).email %></h3>
-	 <% end %>
+	<div class="panel panel-info col-md-offset-2 col-md-8">
+      <div class="panel-heading">
+        <h4 class="text-center">Customers Follows Me</h4>
+      </div>
+      <table class="table table-striped">
+      	<tr>
+          <th><strong>Consumer Name</strong></th>
+          <th><strong>Email</strong></th>
+        </tr>
+		 <% @followers.each do |follower| %>
+		 <tr>
+			 <th><%= Account.find(follower.id).user.nickname %></th>
+		     <th><%= Account.find(follower.id).email %></th>
+		 </tr>
+		 <% end %>
+		</table>
+	</div>
 <% end %>
 <% if current_user.user_type == "Consumer"%>
+	<div class="panel panel-warning col-md-offset-2 col-md-8">
+      <div class="panel-heading">
+        <h4 class="text-center">My Favorite List</h4>
+      </div>
+      <table class="table table-striped">
+      	<tr>
+          <th><strong>Store Name</strong></th>
+          <th><strong>Email</strong></th>
+          <th><strong>Link To It</strong></th>
+        </tr>
 	 <% @followers.each do |follower| %>
-	        <h3><%= follower.followable_id %></h3>
+	 	<tr>
+	        <th><%= Account.find(follower.followable_id).user.store_name %></th>
+	        <th><%= Account.find(follower.followable_id).email %></th>
 	        <% merchant_path = 'merchant.' + follower.followable_id.to_s %>
-	        <%= link_to 'details', merchant_path %>
+	        <th><%= link_to 'details', merchant_path %></th>
+	    </tr>
 	 <% end %>
+	</table>
+	</div>
 <% end %>
 

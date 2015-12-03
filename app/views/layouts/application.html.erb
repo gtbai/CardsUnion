@@ -5,7 +5,7 @@
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= stylesheet_link_tag "extention.css", :media => "all" %>
   <%= stylesheet_link_tag "twitter-typeahead.css", :media => "all" %>
-  <%= stylesheet_link_tag "bootstrap.min.css", :media => "all" %>
+  <%= stylesheet_link_tag "//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css", :media => "all" %>
   <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
   <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="jquery.min.js"></script>
@@ -20,6 +20,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
+    <%= image_tag("bgs.jpg", width: "100%", height: "100%") %>
+</div>
 <button type="button" style="position:fixed">
   <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
 </button>
@@ -81,7 +84,13 @@
   </div>
 </nav>
 <br /><br /><br /><br />
-<p id="notice" class="text-center"><%= notice %></p>
+<% if !notice.nil? %>
+<div class="alert alert-info alert-dismissible col-md-4 col-md-offset-4 " role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <p class="text-center"><%= notice %></p>
+</div>
+
+<% end %>
 <%= yield %>
 
 </body>
