@@ -43,9 +43,6 @@ class NoticesController < ApplicationController
   # GET /notices/1/edit
   def edit
     @notice = Notice.find(params[:id])
-    if !created_by_current_user?(@notice)
-      redirect_to @notice, :notice => "Your are not creator of this notice!"
-    end
   end
 
   # POST /notices
