@@ -13,6 +13,9 @@
 #
 
 class Card < ActiveRecord::Base
+	validates_presence_of :consumer_id, message: "This phone number is not owned by any 
+	exsistent consumer"
+	validates_uniqueness_of :consumer_id, message: "This phone number has a card already"
 	belongs_to :consumer
 	belongs_to :merchant
 	has_many :fees

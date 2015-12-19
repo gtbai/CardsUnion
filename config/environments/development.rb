@@ -17,7 +17,7 @@ CardsUnion::Application.configure do
   config.action_mailer.raise_delivery_errors = false
 
   # Print deprecation notices to the Rails logger
-  config.active_support.deprecation = :log
+  config.active_support.deprecation = :silenced
   config.action_mailer.default_url_options = { :host => "localhost:3000" }
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
@@ -42,5 +42,5 @@ CardsUnion::Application.configure do
     :authentication => :login,
     :user_name => "m15636335259@163.com",
     :password => "hyymlcmwljdqdriv"   
-}
+  }
 end

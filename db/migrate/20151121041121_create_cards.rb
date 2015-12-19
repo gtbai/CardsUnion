@@ -4,7 +4,6 @@ class CreateCards < ActiveRecord::Migration
       t.string :level
       t.decimal :balance
       t.integer :points
-
       t.timestamps
     end
   end

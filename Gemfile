@@ -39,6 +39,6 @@ gem 'dynamic_form'
 gem 'activeadmin'
 gem "meta_search", '>= 1.1.0.pre'
 gem 'jquery-rails', '~> 2.3.0'
-gem 'carrierwave'
+gem 'carrierwave', github: 'satoruk/carrierwave', ref: '43179f94d6a4e62f69e812f5082d6447c9138480'
 #use rmagick to zoom image
-gem 'rmagick'
+gem 'rmagick', require: false

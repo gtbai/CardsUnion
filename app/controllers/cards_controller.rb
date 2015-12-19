@@ -33,13 +33,12 @@ class CardsController < ApplicationController
 
   def new
     @card = Card.new
-    @emails = Account.all.map(&:email).uniq
   end
 
   def create
     @card = Card.new(params[:card])
-    @card.consumer = Account.find_by_phone(params[:consumer]).user
-    # here maybe cannot fing a consumer
+    consumer_account = Account.find_by_phone(params[:consumer]) #find account first
+    @card.consumer = consumer_account.user if consumer_account
     @card.merchant = current_user.user
     respond_to do |format|
       if @card.save
@@ -62,7 +61,7 @@ class CardsController < ApplicationController
 
   def autocomplete
     accounts = Account.all
-    accounts = accounts.select {|account| account.phone.include?params[:query]}
+    accounts = accounts.select {|account| account.phone.start_with?params[:query]}
     render json: accounts.map(&:phone).uniq
   end
 end

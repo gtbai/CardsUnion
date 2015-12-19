@@ -1,5 +1,5 @@
 <%= form_for(@card) do |f| %>
-  <% if @card.errors.any? %>
+<!--   <% if @card.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@card.errors.count, "error") %> prohibited this card from being saved:</h2>
 
@@ -9,12 +9,15 @@
       <% end %>
       </ul>
     </div>
-  <% end %>
+  <% end %> -->
+
   <div class="col-md-12">
   <div class="input-group input-group-lg">
     <%= f.text_field :balance , class: "form-control", placeholder: "Balance"%>
   </div>
   <div class="input-group input-group-lg">
+    <!-- Maybe we can decorate it a bit. -->
+    <%= f.object.errors[:consumer_id].to_sentence if f.object.errors[:consumer_id] %>
     <%= text_field_tag :consumer, nil, class: "form-control", autocomplete: "off", placeholder: "Phone Number"%>
   </div>
 
