@@ -30,6 +30,28 @@
     <h4>Store Address: <%= @merchant.address %></h4><br />
     <h4>Email: <%= @account.email %></h4><br />
     <h4>Phone: <%= @account.phone %></h4><br />
+    <table>
+      <tr>
+        <th>Level</th>
+        <th>Level Up Points</th>
+        <th>Discount Rate</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <td><%= @merchant.level_1 %></td>
+        <td><%= @merchant.discount_1 %></td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td><%= @merchant.level_2 %></td>
+        <td><%= @merchant.discount_2 %></td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td>-</td>
+        <td><%= @merchant.discount_3 %></td>
+      </tr>
+    </table>
     <div class="text-center merchants_show_button"><%= link_to 'Edit', edit_merchant_path(@merchant), class:"notices btn btn-lg btn-info"%> <span> | <span> <%= link_to 'Back', notices_path ,class:"notices btn btn-lg btn-info" %></div>
   </div>
 </div>

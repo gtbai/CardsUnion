@@ -4,8 +4,14 @@
 		<%= f.select :fee_type, [['Pay', false], ['Recharge', true]] , class: "form-control"%>
 	</p>
 	<p>
-		<%= f.label :amount %>
-		<%= f.text_field :amount %>
+		<%= label_tag "Discount" %>
+		<%= getDiscount(@card) %>
+	</p>
+	<p>
+		<!-- Use javascript to hide this passage when recharge -->
+		<%= f.label :original_amount, "Original Amount"%>
+		<br />
+		<%= f.text_field :original_amount %>
 	</p>
 	<p>
 		<%= f.submit "Submit", class: "btn btn-block btn-info"%>

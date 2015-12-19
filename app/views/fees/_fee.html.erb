@@ -1,13 +1,27 @@
 
 <tr>
-	<th>
+	<td>
 		<%= "Recharge" if fee.fee_type %>
 		<%= "Pay" if !fee.fee_type %>
-	</th>
-	<th>
-		<%= fee.amount %>
-	</th>
-	<th>
+	</td>
+	<td>
+		<%= fee.original_amount %>
+	</td>
+	<td>
+		<% if fee.fee_type %>
+			-
+		<% else %>
+			<%= fee.discount %>
+		<% end %>
+	</td>
+	<td>
+		<% if fee.fee_type %>
+			-
+		<% else %>
+			<%= fee.original_amount*fee.discount %>
+		<% end %>	
+	</td>
+	<td>
 		<%= fee.created_at %>
-	</th>
+	</td>
 </tr>

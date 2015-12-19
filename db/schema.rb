@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20151124025830) do
+ActiveRecord::Schema.define(:version => 20151219140738) do
 
   create_table "accounts", :force => true do |t|
     t.string   "email"
@@ -78,10 +78,11 @@ ActiveRecord::Schema.define(:version => 20151124025830) do
 
   create_table "fees", :force => true do |t|
     t.boolean  "fee_type"
-    t.decimal  "amount"
+    t.decimal  "original_amount"
     t.integer  "card_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.decimal  "discount"
   end
 
   create_table "follows", :force => true do |t|
@@ -102,9 +103,14 @@ ActiveRecord::Schema.define(:version => 20151124025830) do
     t.string   "store_type"
     t.text     "introduction"
     t.string   "address"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
     t.string   "store_image"
+    t.integer  "level_1",      :default => 100
+    t.integer  "level_2",      :default => 200
+    t.decimal  "discount_1",   :default => 0.95
+    t.decimal  "discount_2",   :default => 0.9
+    t.decimal  "discount_3",   :default => 0.85
   end
 
   create_table "notices", :force => true do |t|

@@ -10,6 +10,11 @@
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
 #  store_image  :string(255)
+#  level_1      :integer          default(100)
+#  level_2      :integer          default(200)
+#  discount_1   :decimal(, )      default(0.95)
+#  discount_2   :decimal(, )      default(0.9)
+#  discount_3   :decimal(, )      default(0.85)
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html

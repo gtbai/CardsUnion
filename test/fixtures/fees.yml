@@ -2,12 +2,13 @@
 #
 # Table name: fees
 #
-#  id         :integer          not null, primary key
-#  fee_type   :boolean
-#  amount     :decimal(, )
-#  card_id    :integer
-#  created_at :datetime         not null
-#  updated_at :datetime         not null
+#  id              :integer          not null, primary key
+#  fee_type        :boolean
+#  original_amount :decimal(, )
+#  card_id         :integer
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#  discount        :decimal(, )
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
