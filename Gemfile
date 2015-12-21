@@ -1,11 +1,19 @@
-source 'https://ruby.taobao.org'
+source 'https://rubygems.org'
 
 gem 'rails', '3.2.16'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3' 
+group :development, :test do
+	gem 'sqlite3' # use SQLite only in development and testing
+end
+
+group :production do
+	gem 'pg' # use PostgreSQL in production (Heroku)
+	gem 'rails_12factor' # Heroku-specific production settings
+end
+
 gem "acts_as_follower", '~> 0.1.1'
 # Gems used only for assets and not required
 # in production environments by default.
