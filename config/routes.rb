@@ -10,7 +10,14 @@
 #                                PUT        /admin/password(.:format)                 active_admin/devise/passwords#update
 #                           root            /                                         notices#index
 #                     admin_root            /admin(.:format)                          admin/dashboard#index
-#                           root            /                                         dashboard#index
+#   batch_action_admin_merchants POST       /admin/merchants/batch_action(.:format)   admin/merchants#batch_action
+#                admin_merchants GET        /admin/merchants(.:format)                admin/merchants#index
+#                                POST       /admin/merchants(.:format)                admin/merchants#create
+#             new_admin_merchant GET        /admin/merchants/new(.:format)            admin/merchants#new
+#            edit_admin_merchant GET        /admin/merchants/:id/edit(.:format)       admin/merchants#edit
+#                 admin_merchant GET        /admin/merchants/:id(.:format)            admin/merchants#show
+#                                PUT        /admin/merchants/:id(.:format)            admin/merchants#update
+#                                DELETE     /admin/merchants/:id(.:format)            admin/merchants#destroy
 # batch_action_admin_admin_users POST       /admin/admin_users/batch_action(.:format) admin/admin_users#batch_action
 #              admin_admin_users GET        /admin/admin_users(.:format)              admin/admin_users#index
 #                                POST       /admin/admin_users(.:format)              admin/admin_users#create
@@ -19,23 +26,19 @@
 #               admin_admin_user GET        /admin/admin_users/:id(.:format)          admin/admin_users#show
 #                                PUT        /admin/admin_users/:id(.:format)          admin/admin_users#update
 #                                DELETE     /admin/admin_users/:id(.:format)          admin/admin_users#destroy
-#                admin_dashboard            /admin/dashboard(.:format)                admin/dashboard#index
-#    batch_action_admin_accounts POST       /admin/accounts/batch_action(.:format)    admin/accounts#batch_action
-#                 admin_accounts GET        /admin/accounts(.:format)                 admin/accounts#index
-#                                POST       /admin/accounts(.:format)                 admin/accounts#create
-#              new_admin_account GET        /admin/accounts/new(.:format)             admin/accounts#new
-#             edit_admin_account GET        /admin/accounts/:id/edit(.:format)        admin/accounts#edit
-#                  admin_account GET        /admin/accounts/:id(.:format)             admin/accounts#show
-#                                PUT        /admin/accounts/:id(.:format)             admin/accounts#update
-#                                DELETE     /admin/accounts/:id(.:format)             admin/accounts#destroy
+#                admin_dashboard GET        /admin/dashboard(.:format)                admin/dashboard#index
+#   batch_action_admin_consumers POST       /admin/consumers/batch_action(.:format)   admin/consumers#batch_action
+#                admin_consumers GET        /admin/consumers(.:format)                admin/consumers#index
+#                                POST       /admin/consumers(.:format)                admin/consumers#create
+#             new_admin_consumer GET        /admin/consumers/new(.:format)            admin/consumers#new
+#            edit_admin_consumer GET        /admin/consumers/:id/edit(.:format)       admin/consumers#edit
+#                 admin_consumer GET        /admin/consumers/:id(.:format)            admin/consumers#show
+#                                PUT        /admin/consumers/:id(.:format)            admin/consumers#update
+#                                DELETE     /admin/consumers/:id(.:format)            admin/consumers#destroy
 #    batch_action_admin_comments POST       /admin/comments/batch_action(.:format)    admin/comments#batch_action
 #                 admin_comments GET        /admin/comments(.:format)                 admin/comments#index
 #                                POST       /admin/comments(.:format)                 admin/comments#create
 #                  admin_comment GET        /admin/comments/:id(.:format)             admin/comments#show
-#          batch_action_comments POST       /comments/batch_action(.:format)          comments#batch_action
-#                       comments GET        /comments(.:format)                       comments#index
-#                                POST       /comments(.:format)                       comments#create
-#                        comment GET        /comments/:id(.:format)                   comments#show
 #                        notices GET        /notices(.:format)                        notices#index
 #                                POST       /notices(.:format)                        notices#create
 #                     new_notice GET        /notices/new(.:format)                    notices#new
@@ -56,6 +59,13 @@
 #                                GET        /consumer(.:format)                       consumers#show
 #                                PUT        /consumer(.:format)                       consumers#update
 #                                DELETE     /consumer(.:format)                       consumers#destroy
+#              merchant_messages GET        /merchant/messages(.:format)              messages#index
+#                                POST       /merchant/messages(.:format)              messages#create
+#           new_merchant_message GET        /merchant/messages/new(.:format)          messages#new
+#          edit_merchant_message GET        /merchant/messages/:id/edit(.:format)     messages#edit
+#               merchant_message GET        /merchant/messages/:id(.:format)          messages#show
+#                                PUT        /merchant/messages/:id(.:format)          messages#update
+#                                DELETE     /merchant/messages/:id(.:format)          messages#destroy
 #                       merchant POST       /merchant(.:format)                       merchants#create
 #                   new_merchant GET        /merchant/new(.:format)                   merchants#new
 #                  edit_merchant GET        /merchant/edit(.:format)                  merchants#edit
@@ -73,12 +83,12 @@
 #                          cards GET        /cards(.:format)                          cards#index
 #                                POST       /cards(.:format)                          cards#create
 #                       new_card GET        /cards/new(.:format)                      cards#new
-#                      edit_card GET        /cards/:id/edit(.:format)                 cards#edit
 #                           card GET        /cards/:id(.:format)                      cards#show
-#                                PUT        /cards/:id(.:format)                      cards#update
 #                                DELETE     /cards/:id(.:format)                      cards#destroy
 #                         search GET        /search(.:format)                         search#index
 #                                POST       /search(.:format)                         search#index
+#                   searchnotice GET        /searchnotice(.:format)                   searchnotice#index
+#                                POST       /searchnotice(.:format)                   searchnotice#index
 #                         signup GET        /signup(.:format)                         accounts#new
 #                          login GET        /login(.:format)                          sessions#new
 #                                POST       /login(.:format)                          sessions#create
@@ -90,6 +100,8 @@
 #                 password_reset GET        /password_resets/:id(.:format)            password_resets#show
 #                                PUT        /password_resets/:id(.:format)            password_resets#update
 #                                DELETE     /password_resets/:id(.:format)            password_resets#destroy
+#                     showfollow GET        /showfollow(.:format)                     follow#index
+#                         follow GET        /follow(.:format)                         follow#edit
 #
 
 
@@ -103,7 +115,9 @@ CardsUnion::Application.routes.draw do
   resources :notices
   resources :accounts
   resource :consumer
-  resource :merchant
+  resource :merchant do
+    resources :messages
+  end
   resources :cards , :except => [:edit, :update] do
     collection do
       get :autocomplete

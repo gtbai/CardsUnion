@@ -1,9 +1,10 @@
 <div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
       <img src="../images/bgs3.jpg" width=100% height=100%>
 </div>
+
 <% content_for :map_script do %>
     <style type="text/css">
-      #allmap{height:520px;}
+      #allmap{height:900px;}
     </style>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=O3gdrMFORGYG91FQPfqzaYVW"></script>
 <% end %>
@@ -52,14 +53,25 @@
         <td><%= @merchant.discount_3 %></td>
       </tr>
     </table>
+
+    <!-- Click the link to send message to the merchant, only shown
+          when the consumer has a card in the store -->
+
+    <% if (current_user_type=="Consumer" && current_user.user.merchants.include?(@merchant) )%>
+      <%= link_to 'Send Message', new_merchant_message_path(@merchant) %>
+    <% end %>
     <div class="text-center merchants_show_button"><%= link_to 'Edit', edit_merchant_path(@merchant), class:"notices btn btn-lg btn-info"%> <span> | <span> <%= link_to 'Back', notices_path ,class:"notices btn btn-lg btn-info" %></div>
   </div>
 </div>
-<br /><br /><br />
-<div id="allmap" class="col-md-3 col-md-offset-1 img-circle">
+
+<div class="map-div panel panel-default col-md-4">
+<div class="panel-heading">
+    <h3 class="panel-title">Store Location</h3>
+</div>
+<div id="allmap" class="panel-body">
   <% content_for :map_code do %>
       <script type="text/javascript">
-        // 百度地图API功能
+        // Baidu Map API
         var map = new BMap.Map("allmap");
         map.centerAndZoom(new BMap.Point(126.637, 45.749), 17);
         //map.setZoom();
@@ -69,4 +81,5 @@
         local.search("<%= @merchant.address %>");
       </script>
   <% end %>
+</div>
 </div>

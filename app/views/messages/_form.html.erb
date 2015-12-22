@@ -1,0 +1,15 @@
+<div class="col-md-3 has-success col-md-offset-5">
+<%= form_for(@message, url: merchant_messages_path(@merchant)) do |f| %>
+  <div class="form-group">
+    <p>Store Name: <%= @merchant.store_name %></p>
+  </div>
+  <div class="form-group">
+    <%= f.label :content, "Your Compliant" %>
+    <%= f.object.errors[:content].to_sentence if f.object.errors[:content] %>
+      <%= f.text_area :content, placeholder: "Compliant", class:"form-control"%>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Submit'%>
+  </div>
+<% end %>
+</div>

@@ -9,6 +9,7 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #  discount        :decimal(, )
+#  remark          :text
 #
 
 require 'test_helper'

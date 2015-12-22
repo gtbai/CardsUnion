@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20151219140738) do
+ActiveRecord::Schema.define(:version => 20151222031102) do
 
   create_table "accounts", :force => true do |t|
     t.string   "email"
@@ -83,6 +83,7 @@ ActiveRecord::Schema.define(:version => 20151219140738) do
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
     t.decimal  "discount"
+    t.text     "remark"
   end
 
   create_table "follows", :force => true do |t|
@@ -112,6 +113,17 @@ ActiveRecord::Schema.define(:version => 20151219140738) do
     t.decimal  "discount_2",   :default => 0.9
     t.decimal  "discount_3",   :default => 0.85
   end
+
+  create_table "messages", :force => true do |t|
+    t.text     "content"
+    t.integer  "consumer_id"
+    t.integer  "merchant_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "messages", ["consumer_id"], :name => "index_messages_on_consumer_id"
+  add_index "messages", ["merchant_id"], :name => "index_messages_on_merchant_id"
 
   create_table "notices", :force => true do |t|
     t.string   "title"

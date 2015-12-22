@@ -29,4 +29,6 @@ class Merchant < ActiveRecord::Base
   validates_presence_of :introduction, :message => 'must be provided so customers get to know you.'
   validates_presence_of :address, :message => 'must be provided so customers know where your store locates.'
   mount_uploader :store_image, StoreImageUploader
+
+  has_many :messages
 end
