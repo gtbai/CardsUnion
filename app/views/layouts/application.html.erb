@@ -18,20 +18,23 @@
   <%= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js" %>
   <%= yield :map_script %>
   <%= csrf_meta_tags %>
+   <style type="text/css"> 
+      body{
+      background:-moz-linear-gradient(white,silver);
+      background:-ms-linear-gradient(white,silver);
+      background:-o-linear-gradient(white,silver);
+      background:-webkit-linear-gradient(white,silver);
+      background:linear-gradient(0,white,silver);
+      background-size: 1500px 2000px;
+    }
+  </style>
 </head>
-<body>
-<div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
-    <%= image_tag("bgs.jpg", width: "100%", height: "100%") %>
-</div>
-<button type="button" style="position:fixed">
-  <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-</button>
-<nav class="nav nav-pills navbar-fixed-top navbar-default navbar-inverse" role="navigation">
+<body class="container-fluid">
+<nav class="nav navbar-fixed-top navbar-default hidden-xs" role="navigation" >
   <div class="container-fluid navtobehide">
     <div class="navbar-header">
-      <a class="navbar-brand notices" href="/">Cards Union</a>
+      <a class="navbar-brand no-decor" href="/">Cards Union</a>
     </div>
-
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><%= link_to "Notice Board", notices_path , class: "notices"%></li>
@@ -83,7 +86,71 @@
     </div>
   </div>
 </nav>
-<br /><br /><br /><br />
+<nav class="navbar navbar-fixed-top navbar-default visible-xs">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand no-decor" href="/">
+        Cards Union
+      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav text-center">
+        <li><%= link_to "Notice Board", notices_path , class: "btn notices"%></li>
+        <li><%= link_to "My Cards", cards_path , class: "notices btn" %></li>
+         <% if current_user != nil %>
+          <% if current_user.user_type == 'Consumer'%>
+            <% show_follower_path = '/showfollow' %>
+            <li><%= link_to "My favorite",show_follower_path, class: "notices btn" %></li>
+          <%end%>
+          <% if current_user.user_type == 'Merchant'%>
+            <% show_follower_path = '/showfollow' %>
+            <li><%= link_to "People interest",show_follower_path, class: "notices btn"  %></li>
+          <%end%>
+        <% end %>
+        <li><a href="#" class="dropdown-toggle notices" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
+          <ul class="dropdown-menu">
+            <% merchants_path = search_path.to_s %>
+            <% notices_path = searchnotice_path.to_s %>
+            <li><a class = "no-decor btn text-center" href= <%= merchants_path %> >Merchants</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a class = "no-decor btn text-center" href= <%= notices_path %> >Notices</a></li>
+            <li role="separator" class="divider"></li>
+          </ul>
+        </li>
+        <ul class="nav navbar-nav text-center">
+        <% if current_user %>
+            <% if current_user_type == "Consumer" %>
+              <% if (current_user.user==nil) or (current_user.user.nickname==nil) or (current_user.user.nickname=="")%> 
+              <li><%= link_to current_user.email, consumer_path , class: "btn notices" %></li>
+              <% else %>
+              <li><%= link_to current_user.user.nickname, consumer_path , class: "btn notices" %></li>
+              <% end %>
+            <% else %>
+              <% if (current_user.user==nil) or (current_user.user.store_name==nil) or (current_user.user.store_name=="")%> 
+              <li><%= link_to current_user.email, merchant_path , class: "btn notices"%></li>
+              <% else %>
+              <li><%= link_to current_user.user.store_name,merchant_path , class: "btn notices"%></li>
+              <% end %>
+            <% end %>
+          <li><%= link_to "Log out", logout_path, method: "delete" , class: "notices"%></li>
+        <% else %>
+          <li><%= link_to "Log in", login_path  , class: "notices" %></li>
+          <li><%= link_to "Sign up", signup_path , class: "notices" %></li>
+        <% end %>
+        <!--<button type="button" class="navbar-btn btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+        </button>-->
+      </ul>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <% if !notice.nil? %>
 <div class="alert alert-info alert-dismissible col-md-4 col-md-offset-4 " role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>

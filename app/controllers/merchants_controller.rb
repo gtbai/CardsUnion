@@ -17,7 +17,6 @@ class MerchantsController < ApplicationController
       @merchant = Merchant.new({:store_name => "", :store_type => "",
       :introduction => "", :address => ""})
       @merchant.save(validate: false)
-      #current_user.update_attribute(:user_id, @merchant.id)
       current_user.update_attribute(:user_id, @merchant.id)
       current_user.update_attribute(:user_type, "Merchant")
       @account = @merchant.account

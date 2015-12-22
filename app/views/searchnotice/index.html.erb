@@ -1,13 +1,16 @@
+<br /><br />
 <div>
 <%= form_for @search,  :url => searchnotice_path ,:method => :get do |f| %>
 </div>
 <div class="pull-right col-md-3">
 <ul class="list-group">
 <li class="list-group-item"><%= f.label :title_or_content_contains %></li>
-<li class="list-group-item"><%= f.text_field :title_or_content_contains %></li>
-<li class="list-group-item"><%= sort_link @search, :title ,"Sort by Name"%></li>
+<li class="list-group-item"><%= f.text_field :title_or_content_contains, class:"item-block"%></li>
+<li class="list-group-item item-block"><%= f.submit 'Search', class: 'btn btn-info btn-block' %></li>
 </ul>
-<li class="list-group-item"><%= f.submit 'Search', class: 'btn btn-info btn-block' %></li>
+<ul class="list-group">
+<li class="list-group-item text-center"><%= sort_link @search, :title ,"Sort by Name" %></li>
+</ul>
 </div>
 <% end %>
 

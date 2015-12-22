@@ -3,7 +3,30 @@ a.notices:link{
 	text-decoration: none;
 	opacity: 0.99
 }
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #999;
+}
+body.container{
+	padding: 0;
+	width:1286px;
+}
+img.add-notice{
+	opacity: 0.1;
+}
+img.add-notice:hover{
+	opacity: 0.8;
+}
 .no-decor{
+	text-decoration: none;
+}
+a.no-decor{
+	text-decoration: none;
+}
+a.sort_link.no-decor{
 	text-decoration: none;
 }
 a.no-decor:hover{
