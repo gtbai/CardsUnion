@@ -16,6 +16,7 @@
 #
 
 class Message < ActiveRecord::Base
+  validates_presence_of :content, :message => "cannot be empty!"
   belongs_to :consumer
   belongs_to :merchant
   attr_accessible :content

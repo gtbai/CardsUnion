@@ -1,0 +1,17 @@
+<br />
+<br />
+<div class="jumbotron col-md-6 col-md-offset-3">
+  <div class="col-md-offset-1 input-group">
+    <h1>Complaint Detials</h1>
+    <% consumer = @message.consumer %>
+    <h3><strong>Consumer's Nickname: </strong></h3>
+    <h4> &nbsp&nbsp <%= consumer.nickname %> </h4>
+    <h3><strong>Consumer's Phone Number: </strong></h3>
+    <h4> &nbsp&nbsp <%= consumer.account.phone %> </h4>
+    <h3><strong>Consumer's Email: </strong></h3>
+    <h4> &nbsp&nbsp <%= consumer.account.email %> </h4>
+    <h3><strong>Content: </strong></h3>
+    <h4> &nbsp&nbsp <%= @message.content %> </h4>
+  </div>
+</div>
+</div>

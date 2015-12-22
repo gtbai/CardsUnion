@@ -40,11 +40,11 @@
           <% if current_user.user_type == 'Consumer'%>
             <% show_follower_path = '/showfollow' %>
             <li><%= link_to "My favorite",show_follower_path  %></li>
-          <%end%>
-          <% if current_user.user_type == 'Merchant'%>
+          <% elsif current_user.user_type == 'Merchant'%>
             <% show_follower_path = '/showfollow' %>
             <li><%= link_to "People interest",show_follower_path  %></li>
-          <%end%>
+            <li><%= link_to "Received Complaint", merchant_messages_path(current_user.user) %></li>
+          <% end %>
         <% end %>
         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
           <ul class="dropdown-menu">

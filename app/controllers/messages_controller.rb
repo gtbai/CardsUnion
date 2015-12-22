@@ -1,79 +1,38 @@
 class MessagesController < ApplicationController
+  include ApplicationHelper
   # GET /messages
-  # GET /messages.json
   def index
-    @messages = Message.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @messages }
-    end
+    @merchant = Merchant.find(params[:format])
+    @messages = @merchant.messages
+    render :index
   end
 
   # GET /messages/1
-  # GET /messages/1.json
   def show
     @message = Message.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @message }
-    end
+    render :show    
   end
 
   # GET /messages/new
   def new
     @merchant = Merchant.find(params[:format])
     @message = @merchant.messages.new
-    render 'messages/new'
-  end
-
-  # GET /messages/1/edit
-  def edit
-    @message = Message.find(params[:id])
+    render :new
   end
 
   # POST /messages
-  # POST /messages.json
   def create
-    @message = Message.new(params[:message])
-
-    respond_to do |format|
+    @merchant = Merchant.find(params[:format])
+    @message = @merchant.messages.new(params[:message])
+    if (current_user_type == "Consumer" && current_user.user.merchants.include?(@merchant))
+      @message.consumer = current_user.user # Set the consumer_id of this message
       if @message.save
-        format.html { redirect_to @message, notice: 'Message was successfully created.' }
-        format.json { render json: @message, status: :created, location: @message }
+        redirect_to @merchant, :notice => "Your complaint was sent to the merchant successfully."
       else
-        format.html { render action: "new" }
-        format.json { render json: @message.errors, status: :unprocessable_entity }
+        render :new
       end
-    end
-  end
-
-  # PUT /messages/1
-  # PUT /messages/1.json
-  def update
-    @message = Message.find(params[:id])
-
-    respond_to do |format|
-      if @message.update_attributes(params[:message])
-        format.html { redirect_to @message, notice: 'Message was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @message.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  # DELETE /messages/1
-  # DELETE /messages/1.json
-  def destroy
-    @message = Message.find(params[:id])
-    @message.destroy
-
-    respond_to do |format|
-      format.html { redirect_to messages_url }
-      format.json { head :no_content }
+    else
+      redirect_to @message, :notice => "Only consumers who have a card in this merchant can do this!"
     end
   end
 end

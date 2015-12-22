@@ -1,9 +1,20 @@
+<script type="text/javascript">
+function setDiscount(x)
+{
+	if (x=="true") {
+		$("p.discount").hide();
+	}else{
+		$("p.discount").show();
+	};
+}
+</script>
 <%= form_for([@card, @card.fees.build]) do |f| %>
 	<p>
 		<%= f.label :fee_type %>
-		<%= f.select :fee_type, [['Pay', false], ['Recharge', true]] , class: "form-control"%>
+		<%= f.select :fee_type, [['Pay', false], ['Recharge', true]] ,{}, {class: "form-control",onchange: "setDiscount(this.value)"} %>
 	</p>
-	<p>
+	<br />
+	<p class="discount">
 		<%= label_tag "Discount" %>
 		<%= getDiscount(@card) %>
 	</p>
@@ -13,6 +24,7 @@
 		<br />
 		<%= f.text_field :original_amount %>
 	</p>
+	<br />
 	<p>
 		<%= f.submit "Submit", class: "btn btn-block btn-info"%>
 	</p>

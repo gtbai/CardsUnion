@@ -1,0 +1,30 @@
+<div class="col-md-10 col-md-offset-1">
+<div class="panel panel-info ">
+  <div class="panel-heading">
+    <h1  class=" text-center">
+      Received Complaints
+    </h1>
+    <br />
+    <table class="table">
+      <tr>
+        <th>Cosumer's Nickname</th>
+        <th>Cosumer's Phone number</th>
+        <th>Consumer's Email</th>
+        <th>Abstract</th>
+      </tr>
+      <% @messages.each do |msg| %>
+        <% consumer = msg.consumer %>
+        <tr>
+          <td><%= consumer.nickname %></td>
+          <td><%= consumer.account.phone %></td>
+          <td><%= consumer.account.email %></td>
+          <td><%= getAbstract(msg.content) %></td>
+          <td>
+            <%= link_to 'Read More', merchant_message_path(msg,@merchant) , class: "btn btn-warning"%>
+          </td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
+</div>
