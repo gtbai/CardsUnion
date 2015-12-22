@@ -6,13 +6,13 @@
         <label for="exampleInputEmail1" > Email address (or Phone Number)</label>
         <% if flash.key?(:email_error) %><br/><%= flash[:email_error] %> <% end %>
          <%= f.text_field :email, autofocus: true, placeholder: "Email" ,
-            class: "form-control", id: "exampleInputEmail1" %>
+            class: "form-control item-block", id: "exampleInputEmail1" %>
       </div>
 
       <div class="form-group">
         <label for="exampleInputPassword1" style="opacity:.9">Password</label>
         <% if flash.key?(:password_error) %><br/><%= flash[:password_error] %> <% end %>
-       <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class:"form-control", id: "exampleInputPassword1"%>
+       <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class:"form-control item-block", id: "exampleInputPassword1"%>
       </div>
 
       <div class="form-group">
@@ -27,11 +27,11 @@
         &nbsp
         &nbsp
         <label>
-          <%= link_to "forget password?", new_password_reset_path, {class: 'hovernankan'} %>
+          <%= link_to "forget password?", new_password_reset_path, {class: 'hovernankan forget'} %>
         </label>
         </div>
       <%= f.submit "Log in" , class: "btn btn-block btn-success"%>
-      <%= link_to "No Account ?  Sign Up", new_account_path, {class: "btn btn-block btn-info"} %>
+      <%= link_to "No Account ?  Sign Up", new_account_path, {class: "btn btn-block btn-info notices" } %>
       <% end %>
     </div>
   </body>

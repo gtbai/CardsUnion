@@ -5,7 +5,7 @@
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= stylesheet_link_tag "extention.css", :media => "all" %>
   <%= stylesheet_link_tag "twitter-typeahead.css", :media => "all" %>
-  <%= stylesheet_link_tag "//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css", :media => "all" %>
+  <%= stylesheet_link_tag "bootstrap.min.css", :media => "all" %>
   <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
   <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="jquery.min.js"></script>
@@ -29,13 +29,13 @@
 <nav class="nav nav-pills navbar-fixed-top navbar-default navbar-inverse" role="navigation">
   <div class="container-fluid navtobehide">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/">Cards Union</a>
+      <a class="navbar-brand notices" href="/">Cards Union</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><%= link_to "Notice Board", notices_path %></li>
-        <li><%= link_to "My Cards", cards_path %></li>
+        <li><%= link_to "Notice Board", notices_path , class: "notices"%></li>
+        <li><%= link_to "My Cards", cards_path , class: "notices" %></li>
          <% if current_user != nil %>
           <% if current_user.user_type == 'Consumer'%>
             <% show_follower_path = '/showfollow' %>
@@ -43,16 +43,16 @@
           <%end%>
           <% if current_user.user_type == 'Merchant'%>
             <% show_follower_path = '/showfollow' %>
-            <li><%= link_to "People interest",show_follower_path  %></li>
+            <li><%= link_to "People interest",show_follower_path, class: "notices"  %></li>
           <%end%>
         <% end %>
-        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
+        <li><a href="#" class="dropdown-toggle notices" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
           <ul class="dropdown-menu">
             <% merchants_path = search_path.to_s %>
             <% notices_path = searchnotice_path.to_s %>
-            <li><a href= <%= merchants_path %> >Merchants</a></li>
+            <li><a class = "no-decor" href= <%= merchants_path %> >Merchants</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href= <%= notices_path %> >Notices</a></li>
+            <li><a class = "no-decor" href= <%= notices_path %> >Notices</a></li>
           </ul>
         </li>
       </ul>
@@ -60,21 +60,21 @@
         <% if current_user %>
             <% if current_user_type == "Consumer" %>
               <% if (current_user.user==nil) or (current_user.user.nickname==nil) or (current_user.user.nickname=="")%> 
-        	    <li><%= link_to current_user.email, consumer_path %></li>
+        	    <li><%= link_to current_user.email, consumer_path , class: "notices" %></li>
               <% else %>
-              <li><%= link_to current_user.user.nickname, consumer_path %></li>
+              <li><%= link_to current_user.user.nickname, consumer_path , class: "notices" %></li>
               <% end %>
             <% else %>
               <% if (current_user.user==nil) or (current_user.user.store_name==nil) or (current_user.user.store_name=="")%> 
-              <li><%= link_to current_user.email, merchant_path %></li>
+              <li><%= link_to current_user.email, merchant_path , class: "notices"%></li>
               <% else %>
-              <li><%= link_to current_user.user.store_name,merchant_path %></li>
+              <li><%= link_to current_user.user.store_name,merchant_path , class: "notices"%></li>
               <% end %>
             <% end %>
-        	<li><%= link_to "Log out", logout_path, method: "delete" %></li>
+        	<li><%= link_to "Log out", logout_path, method: "delete" , class: "notices"%></li>
         <% else %>
-        	<li><%= link_to "Log in", login_path %></li>
-        	<li><%= link_to "Sign up", signup_path %></li>
+        	<li><%= link_to "Log in", login_path  , class: "notices" %></li>
+        	<li><%= link_to "Sign up", signup_path , class: "notices" %></li>
         <% end %>
         <!--<button type="button" class="navbar-btn btn btn-default btn-xs">
         <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>

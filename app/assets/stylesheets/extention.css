@@ -1,6 +1,19 @@
 a.notices:link{
 	color: white;
+	text-decoration: none;
 	opacity: 0.99
+}
+.no-decor{
+	text-decoration: none;
+}
+a.no-decor:hover{
+	text-decoration: none;
+}
+a.notices.btn{
+	border-radius: 200px;
+}
+a.forget:link{
+	text-decoration: none;
 }
 a.notices:visited{
 	color: white;
@@ -37,6 +50,9 @@ img.item#carouselimg{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.item-block{
+	width: 100% !important;
 }
 div.map-div{
 	padding: 0;

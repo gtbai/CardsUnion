@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <style type="text/css">
   #carouselimg{height:500px;}
   .bigfont{font-size:51px;}
@@ -45,7 +46,7 @@
       <%= render partial: 'img', locals: {notice: notice} %>
       <div class="caption">
         <h3><%= notice.title %></h3>
-        <p><%= link_to 'Details', notice, class: "btn btn-info" %>
+        <p><%= link_to 'Details', notice, class: "btn btn-info notices" %>
         <% if created_by_current_user(notice) %> <%= link_to ' Edit ', edit_notice_path(notice) , class: "btn btn-success" %><% end %>
         <% if created_by_current_user(notice) %><%= link_to 'Destroy', notice, class: "btn btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %><% end %></p>
       </div>

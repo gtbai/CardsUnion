@@ -7,22 +7,22 @@
         <div class="form-group">
           <%= f.label :email, "Email Address" %>
             <%= f.object.errors[:email].to_sentence if f.object.errors[:email] %>
-            <%= f.text_field :email, autofocus: true, placeholder: "Email", class: "form-control" %>
+            <%= f.text_field :email, autofocus: true, placeholder: "Email", class: "form-control item-block" %>
         </div>
         <div class="form-group">
           <%= f.label :phone, "Phone Number" %>
            <%= f.object.errors[:phone].to_sentence if f.object.errors[:phone] %>
-            <%= f.text_field :phone, placeholder: "Phone", class:"form-control"%>
+            <%= f.text_field :phone, placeholder: "Phone", class:"form-control item-block" %>
         </div>
         <div class="form-group">
           <%= f.label :password, "Password" %>
           <%= f.object.errors[:password].to_sentence if f.object.errors[:password] %>
-            <%= f.password_field :password, placeholder: "Password", class:"form-control"%>
+            <%= f.password_field :password, placeholder: "Password", class:"form-control item-block"%>
         </div>
         <div class="form-group">
           <%= f.label :password_confirmation, "Password Condirmation" %>
            <%= f.object.errors[:password_confirmation].to_sentence if f.object.errors[:password_confirmation] %>
-            <%= f.password_field :password_confirmation, placeholder: "Repeat Password", class:"form-control"%>
+            <%= f.password_field :password_confirmation, placeholder: "Repeat Password", class:"form-control item-block"%>
         </div>
 
         <div class=" form-group">

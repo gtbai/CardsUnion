@@ -1,10 +1,6 @@
-<div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
-      <img src="../images/bgs3.jpg" width=100% height=100%>
-</div>
-
 <% content_for :map_script do %>
     <style type="text/css">
-      #allmap{height:900px;}
+      #allmap{height:700px;}
     </style>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=O3gdrMFORGYG91FQPfqzaYVW"></script>
 <% end %>
@@ -66,7 +62,8 @@
 
 <div class="map-div panel panel-default col-md-4">
 <div class="panel-heading">
-    <h3 class="panel-title">Store Location</h3>
+    <br />
+    <h1 class="panel-title text-center">Location</h1>
 </div>
 <div id="allmap" class="panel-body">
   <% content_for :map_code do %>
