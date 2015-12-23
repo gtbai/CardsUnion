@@ -52,8 +52,7 @@
 
     <!-- Click the link to send message to the merchant, only shown
           when the consumer has a card in the store -->
-
-    <% if (current_user_type=="Consumer" && current_user.user.merchants.include?(@merchant) )%>
+    <% if current_user_type=="Consumer" and current_user.user and (current_user.user.merchants.include?(@merchant) )%>
       <%= link_to 'Send Message', new_merchant_message_path(@merchant) %>
     <% end %>
     <div class="text-center merchants_show_button"><%= link_to 'Edit', edit_merchant_path(@merchant), class:"notices btn btn-lg btn-info"%> <span> | <span> <%= link_to 'Back', notices_path ,class:"notices btn btn-lg btn-info" %></div>

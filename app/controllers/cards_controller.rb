@@ -38,6 +38,10 @@ class CardsController < ApplicationController
   def create
     @card = Card.new(params[:card])
     consumer_account = Account.find_by_phone(params[:consumer]) #find account first
+    if consumer_account or consumer_account.user_type == "Merchant"
+      redirect_to new_card_path, :notice => "No consumer has this phone number!"
+      return
+    end
     @card.consumer = consumer_account.user if consumer_account
     @card.merchant = current_user.user
     respond_to do |format|

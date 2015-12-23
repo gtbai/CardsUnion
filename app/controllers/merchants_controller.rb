@@ -3,7 +3,6 @@ class MerchantsController < ApplicationController
   # GET /merchants.json
   def index
     @merchants = Merchant.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @merchants }
@@ -13,7 +12,7 @@ class MerchantsController < ApplicationController
   # GET /merchants/1
   # GET /merchants/1.json
   def show
-    if current_user.user_id.nil?
+    if current_user.user_type=="Merchant" && current_user.user_id.nil?
       @merchant = Merchant.new({:store_name => "", :store_type => "",
       :introduction => "", :address => ""})
       @merchant.save(validate: false)
