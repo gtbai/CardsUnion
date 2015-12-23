@@ -43,4 +43,5 @@ CardsUnion::Application.configure do
     :user_name => "m15636335259@163.com",
     :password => "hyymlcmwljdqdriv"   
   }
+  config.serve_static_files = true
 end
