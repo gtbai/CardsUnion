@@ -17,6 +17,8 @@
   <%= javascript_include_tag "bootstrap-typeahead" %>
   <%= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js" %>
   <%= yield :map_script %>
+  <script src="https://use.typekit.net/qwb1tyw.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <%= csrf_meta_tags %>
    <style type="text/css"> 
       body{
@@ -27,13 +29,19 @@
       background:linear-gradient(0,white,silver);
       background-size: 1500px 2000px;
     }
+    @font-face {
+      font-family: "VolutaScript";
+      src: url("/assets/VolutaScript.woff") format("woff"),
+      url("/assets/VolutaScript.ttf") format("truetype"),
+      url("/assets/VolutaScript.svg#volutascript") format("svg");
+    }
   </style>
 </head>
 <body class="container-fluid">
 <nav class="nav navbar-fixed-top navbar-default hidden-xs" role="navigation" >
   <div class="container-fluid navtobehide">
     <div class="navbar-header">
-      <a class="navbar-brand no-decor" href="/">Cards Union</a>
+      <a class="navbar-brand no-decor" href="/" style="font-family:volutascript;font-size:60px;margin-top:10px;">Cards Union</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -159,7 +167,6 @@
 
 <% end %>
 <%= yield %>
-
 </body>
 </html>
 
