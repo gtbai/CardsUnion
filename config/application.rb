@@ -60,6 +60,6 @@ module CardsUnion
     config.assets.version = '1.0'
 
     config.assets.initialize_on_precompile = false
-    config.assets.precompile << /\A(?!active_admin).*\.(js|css)\z/
+    config.assets.precompile << /\A(?!active_admin).*\.(js|css|eot|svg|ttf|woff|woff2|png|jpg|jpeg|)\z/
   end
 end
