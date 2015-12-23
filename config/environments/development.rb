@@ -34,16 +34,7 @@ CardsUnion::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
-  ActionMailer::Base.delivery_method = :smtp
-  ActionMailer::Base.smtp_settings = {
-    :address => "smtp.163.com",
-    :port => 25,
-    #:domain => "www.163.com",
-    :authentication => :login,
-    :user_name => "m15636335259@163.com",
-    :password => "hyymlcmwljdqdriv"   
-  }
-
+  
   # Control whether allows to use files in the pulic folder
   config.serve_static_assets = true
 
