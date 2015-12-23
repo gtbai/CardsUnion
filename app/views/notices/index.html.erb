@@ -2,31 +2,32 @@
   #carouselimg{height:500px;}
   .bigfont{font-size:51px;}
 </style>
-<div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
-  <img id="bg" src="../images/bgs7.jpg" width=100% height=100%>
-</div>
-<div class="col-md-10 col-md-offset-1">
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width:100%">
   <div class="carousel-inner" role="listbox">
-    <div id="carouselimg" class="item active">
-      <%= image_tag "bgs.jpg", width: "1033px", height: "687px" %>
+    <div id="carouselimg" class="item active" style:"width:100%">
+      <%= image_tag "scroll_image.jpg", style: "width:100%;"%>
       <div class="carousel-caption">
-        <div class="bigfont">To Go and Enjoy your Life~</div>
-        <br /><br /><br /><br /><br /><br />
+        <h3>Go and Enjoy your Life~</h3>
       </div>
     </div>
     <% count = 1 %>
     <% @scroll_notices.each do |notice| %>
-    <div id="carouselimg" class="item img-thumbnail">
-      <%= image_tag "scroll_image"+count.to_s+".jpeg",  width: "1033px", height: "687px"%>
+    <div id="carouselimg" class="item" style="width:100%;">
+      <%= image_tag "scroll_image"+count.to_s+".jpeg",  style: "width:100%"%>
       <% count += 1 %>
       <div class="carousel-caption">
         <h3><%= notice.title %></h3>
-        <h3>Go and Enjoy your Life~</h3>
       </div>
     </div>
     <% end %>
   </div>
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <!-- link to other slides -->
+    <% (1...count).each do |index| %>
+    <li data-target="#carousel-example-generic" data-slide-to=<%= index.to_s %>></li>
+    <% end %>
+  </ol>
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -36,25 +37,30 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-</div>
-<div class="row col-md-10 col-md-offset-1">
+<div class="row col-md-10 col-md-offset-1 ">
   <br /><br />
 <% @notices.each do |notice| %>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+  <div class="col-sm-6">
+    <div class="thumbnail" onClick="window.location.href='<%= new_notice_path %>'" style="cursor:pointer;height:500px;">
       <%= render partial: 'img', locals: {notice: notice} %>
       <div class="caption">
         <h3><%= notice.title %></h3>
-        <p><%= link_to 'Details', notice, class: "btn btn-info" %>
-        <% if created_by_current_user(notice) %> <%= link_to ' Edit ', edit_notice_path(notice) , class: "btn btn-success" %><% end %>
-        <% if created_by_current_user(notice) %><%= link_to 'Destroy', notice, class: "btn btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %><% end %></p>
+        <p style="position:absolute;bottom:27px;">
+          <%= link_to 'Details', notice, class: "btn btn-info notices" %>
+          <% if created_by_current_user(notice) %> <%= link_to ' Edit ', edit_notice_path(notice) , class: "btn btn-success" %><% end %>
+          <% if created_by_current_user(notice) %><%= link_to 'Destroy', notice, class: "btn btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %><% end %>
+        </p>
       </div>
     </div>
   </div>
 <% end %>
 <% if current_user && current_user.merchant? %>
-<div class="col-sm-6 col-md-4">
-  <%= link_to 'New Notice', new_notice_path , class: "notices btn btn-lg btn-info"%>
+
+<div class="col-sm-6">
+  <div class="thumbnail" onClick="window.location.href='<%= new_notice_path %>'" style="cursor:pointer;height:500px;">
+    <%= image_tag '1.png', class: "add-notice", style: "cursor:pointer;width:481px;height:500px;"%>
+  </div>
 </div>
+
 </div>
 <% end %>

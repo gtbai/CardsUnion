@@ -1,26 +1,12 @@
 <%= form_for(@card) do |f| %>
-<!--   <% if @card.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@card.errors.count, "error") %> prohibited this card from being saved:</h2>
-
-      <ul>
-      <% @card.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %> -->
-
-  <div class="col-md-12">
-  <div class="input-group input-group-lg">
+  <div class="input-group input-group-lg" style="width:100%">
     <%= f.text_field :balance , class: "form-control", placeholder: "Balance"%>
   </div>
-  <div class="input-group input-group-lg">
+  <br />
+  <div class="input-group input-group-lg" style="width:100%">
     <!-- Maybe we can decorate it a bit. -->
     <%= f.object.errors[:consumer_id].to_sentence if f.object.errors[:consumer_id] %>
     <%= text_field_tag :consumer, nil, class: "form-control", autocomplete: "off", placeholder: "Phone Number"%>
-  </div>
-
     <br />
     <div class="actions">
       <%= f.submit class: "btn btn-info btn-block btn-lg"%>
