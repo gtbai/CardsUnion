@@ -43,5 +43,8 @@ CardsUnion::Application.configure do
     :user_name => "m15636335259@163.com",
     :password => "hyymlcmwljdqdriv"   
   }
-  config.serve_static_files = true
+
+  # Control whether allows to use files in the pulic folder
+  config.serve_static_assets = true
+
 end
