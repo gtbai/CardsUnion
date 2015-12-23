@@ -41,7 +41,7 @@
   <br /><br />
 <% @notices.each do |notice| %>
   <div class="col-sm-6">
-    <div class="thumbnail" onClick="window.location.href='<%= new_notice_path %>'" style="cursor:pointer;height:500px;">
+    <div class="thumbnail" onClick="window.location.href='<%= notice_path(notice) %>'" style="cursor:pointer;height:500px;">
       <%= render partial: 'img', locals: {notice: notice} %>
       <div class="caption">
         <h3><%= notice.title %></h3>
@@ -57,7 +57,7 @@
 <% if current_user && current_user.merchant? %>
 
 <div class="col-sm-6">
-  <div class="thumbnail" onClick="window.location.href='<%= new_notice_path %>'" style="cursor:pointer;height:500px;">
+  <div class="thumbnail new" onClick="window.location.href='<%= new_notice_path %>'" style="cursor:pointer;height:500px;">
     <%= image_tag '1.png', class: "add-notice", style: "cursor:pointer;width:481px;height:500px;"%>
   </div>
 </div>

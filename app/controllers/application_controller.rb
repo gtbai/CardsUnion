@@ -11,9 +11,13 @@ class ApplicationController < ActionController::Base
   end 
 
   def require_merchant
-    if current_user.merchant? == false
-  	 redirect_to :root, :notice => "Only merchant can do this!"
-    end 
+    if current_user == nil
+      redirect_to '/login', :notice => "PLease login"
+      return
+      if current_user.merchant? == false
+        redirect_to :root, :notice => "Only merchant can do this!"
+      end
+    end
   end
 
     def own_card?(card)

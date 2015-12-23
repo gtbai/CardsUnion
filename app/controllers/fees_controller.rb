@@ -6,6 +6,7 @@ class FeesController < ApplicationController
 	def create
 		@card = Card.find(params[:card_id])
 		@fee = @card.fees.create(fee_params)
+		@fee.update_attribute(:discount, getDiscount(@card))
 		if @fee.fee_type
 			@card.balance += @fee.original_amount
 		else
@@ -22,7 +23,6 @@ class FeesController < ApplicationController
 			@card.level = 1
 		end
 		@card.save
-		@fee.update_attribute(:discount, getDiscount(@card))
 		redirect_to card_path(@card)
 	end
 	private

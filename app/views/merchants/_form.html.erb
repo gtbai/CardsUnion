@@ -32,11 +32,6 @@
           <%= account_f.text_field :phone, autofocus: true, placeholder: 'Phone Number', class: 'form-control item-block' %>
         </div>
     <% end %>
-    <div class='form-group'>
-      <%= f.label :address, 'Store Address' %>
-      <%= f.object.errors[:address].to_sentence if f.object.errors[:address] %>
-      <%= f.text_field :address, placeholder: 'Store Adress', class: 'form-control item-block' %>
-    </div>
     <!-- The UI is too ugly!!! -->
     <div class='form-group row'>
       <div class="col-md-6 pull-left">
