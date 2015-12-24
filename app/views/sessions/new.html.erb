@@ -1,6 +1,6 @@
-  <body background-img="our-vision.jpg">
+  <body >
     <div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
-      <%= image_tag 'our-vision.jpg', style: "width:100%;"%>
+      <%= image_tag 'ss.jpg', style: "width:100%;"%>
     </div>
     
     <style type="text/css">
@@ -12,7 +12,9 @@
       }
     </style>
     <br><br><br>
-    <div class="col-md-3 col-md-offset-8 has-info jumbotron">
+    <div class="col-md-4 col-md-offset-4 has-info jumbotron">
+      <%= image_tag 'ss.jpg', style: "width:100px;height:100px;", class: "img-circle center-block"%>
+      <br /><br />
       <%= form_for(:session, url:login_path) do |f| %>
       <div class="form-group">
         <label for="exampleInputEmail1" > Email address (or Phone Number)</label>
