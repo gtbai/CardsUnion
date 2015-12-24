@@ -31,7 +31,7 @@
       <% if merchant.store_image? %>
         <%= image_tag merchant.store_image_url(:search).to_s %>
       <% else %>
-        <%= image_tag "bgs.jpg" %>
+        <%= image_tag "alt_store_image.jpg" %>
       <% end %>
       <div class="caption">
         <h4 class="text-center"><%= link_to merchant.store_name , merchant, class: "no-decor"%></h4>

@@ -38,6 +38,13 @@ class CardsController < ApplicationController
   def create
     @card = Card.new(params[:card])
     consumer_account = Account.find_by_phone(params[:consumer]) #find account first
+    if consumer_account.nil? or consumer_account.user_type == "Merchant"
+      flash[:notice] = "No consumer has this phone number!"
+      render 'new' and return
+    elsif consumer_account.user.merchants.include?(current_user.user)
+      flash[:notice] = "This consumer already has card in this store!"
+      render 'new' and return
+    end
     @card.consumer = consumer_account.user if consumer_account
     @card.merchant = current_user.user
     respond_to do |format|

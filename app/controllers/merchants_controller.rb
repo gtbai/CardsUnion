@@ -3,7 +3,6 @@ class MerchantsController < ApplicationController
   # GET /merchants.json
   def index
     @merchants = Merchant.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @merchants }

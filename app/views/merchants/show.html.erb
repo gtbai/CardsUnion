@@ -56,7 +56,6 @@
 
     <!-- Click the link to send message to the merchant, only shown
           when the consumer has a card in the store -->
-
     <% if (current_user and current_user_type=="Consumer" and current_user.user.merchants.include?(@merchant))%>
       <%= link_to 'Send Message', new_merchant_message_path(@merchant) %>
     <% end %>
