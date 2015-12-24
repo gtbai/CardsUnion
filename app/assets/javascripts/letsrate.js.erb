@@ -10,7 +10,7 @@ $(function(){
 			return $(this).attr('data-star-count')
 		},
 		click: function(score, evt) {
-		   	$.post('<%= Rails.application.class.routes.url_helpers.rate_path %>', 
+		   	$.post('/rate', 
 				{
 					score: score, 
 					dimension: $(this).attr('data-dimension'),  

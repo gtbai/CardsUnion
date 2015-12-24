@@ -3635,3 +3635,724 @@ Compiled settings/_prefixer.css  (11ms)  (pid 2937)
 Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_px-to-em.scssc: can't dump anonymous class #<Class:0x8903ca8>
 Compiled settings/_px-to-em.css  (7ms)  (pid 2937)
 Compiled coffee-script.js  (8ms)  (pid 2937)
+Compiled accounts.js  (1556ms)  (pid 4390)
+Compiled jquery.js  (6ms)  (pid 4390)
+Compiled jquery_ujs.js  (1ms)  (pid 4390)
+Compiled jquery-ui.js  (9ms)  (pid 4390)
+Compiled active_admin/lib/namespace.js  (550ms)  (pid 4390)
+Compiled active_admin/components/jquery.aa.checkbox-toggler.js  (604ms)  (pid 4390)
+Compiled active_admin/components/jquery.aa.dropdown-menu.js  (651ms)  (pid 4390)
+Compiled active_admin/components/jquery.aa.popover.js  (710ms)  (pid 4390)
+Compiled active_admin/components/jquery.aa.table-checkbox-toggler.js  (576ms)  (pid 4390)
+Compiled active_admin/pages/application.js  (558ms)  (pid 4390)
+Compiled active_admin/pages/batch_actions.js  (603ms)  (pid 4390)
+Compiled active_admin/application.js  (4519ms)  (pid 4390)
+Compiled active_admin/base.js  (4608ms)  (pid 4390)
+Compiled active_admin.js  (4639ms)  (pid 4390)
+Compiled bootstrap.min.js  (1ms)  (pid 4390)
+Compiled fees.js  (505ms)  (pid 4390)
+Compiled follow.js  (549ms)  (pid 4390)
+Compiled jquery.min.js  (93ms)  (pid 4390)
+Compiled jquery.raty.js  (1ms)  (pid 4390)
+Compiled accounts.js  (959ms)  (pid 4464)
+Compiled jquery.js  (6ms)  (pid 4464)
+Compiled jquery_ujs.js  (1ms)  (pid 4464)
+Compiled jquery-ui.js  (8ms)  (pid 4464)
+Compiled active_admin/lib/namespace.js  (598ms)  (pid 4464)
+Compiled active_admin/components/jquery.aa.checkbox-toggler.js  (638ms)  (pid 4464)
+Compiled active_admin/components/jquery.aa.dropdown-menu.js  (555ms)  (pid 4464)
+Compiled active_admin/components/jquery.aa.popover.js  (496ms)  (pid 4464)
+Compiled active_admin/components/jquery.aa.table-checkbox-toggler.js  (334ms)  (pid 4464)
+Compiled active_admin/pages/application.js  (400ms)  (pid 4464)
+Compiled active_admin/pages/batch_actions.js  (369ms)  (pid 4464)
+Compiled active_admin/application.js  (3568ms)  (pid 4464)
+Compiled active_admin/base.js  (3637ms)  (pid 4464)
+Compiled active_admin.js  (3664ms)  (pid 4464)
+Compiled bootstrap.min.js  (0ms)  (pid 4464)
+Compiled fees.js  (274ms)  (pid 4464)
+Compiled follow.js  (263ms)  (pid 4464)
+Compiled jquery.min.js  (54ms)  (pid 4464)
+Compiled jquery.raty.js  (1ms)  (pid 4464)
+Compiled letsrate.js  (3ms)  (pid 4464)
+Compiled notices.js  (256ms)  (pid 4464)
+Compiled password_resets.js  (241ms)  (pid 4464)
+Compiled search.js  (274ms)  (pid 4464)
+Compiled searchnotice.js  (217ms)  (pid 4464)
+Compiled sessions.js  (303ms)  (pid 4464)
+Compiled typeahead.min.js  (1ms)  (pid 4464)
+Compiled application.js  (5833ms)  (pid 4464)
+Compiled bootstrap-theme.min.css  (1ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/accounts.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled accounts.css  (52ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/active_admin.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_mixins.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_all.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_variables.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_reset.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_gradients.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_shadows.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_icons.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_rounded.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_buttons.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_sections.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_utilities.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_typography.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_prefixer.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_px-to-em.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_asset-pipeline.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_gradient-positions-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_linear-positions-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-arg-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-positions-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_render-gradients.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_shape-size-stripper.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_color-lightness.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_flex-grid.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_golden-ratio.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_grid-width.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_linear-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_modular-scale.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-em.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-rem.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_radial-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_strip-units.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_tint-shade.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_transition-property-name.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_unpack.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_animation.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_appearance.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_backface-visibility.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background-image.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-image.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-radius.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_box-sizing.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_calc.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_columns.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_filter.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_flex-box.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-face.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-feature-settings.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hyphens.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hidpi-media-query.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_image-rendering.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_inline-block.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_keyframes.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_linear-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_perspective.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_radial-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transform.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transition.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_user-select.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_placeholder.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_button.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_clearfix.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_directional-values.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_ellipsis.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_font-family.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_hide-text.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_html5-input-types.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_position.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_prefixer.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_retina-image.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_size.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_timing-functions.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_triangle.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_word-wrap.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon-deprecated-upcoming.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_base.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_typography.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_header.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_forms.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_comments.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_flash_messages.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_date_picker.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_popovers.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_tables.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_batch_actions.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_blank_slates.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_breadcrumbs.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_dropdown_menu.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_buttons.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_grid.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_links.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_pagination.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_panels.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_columns.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_scopes.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_status_tags.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_table_tools.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_index_list.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1ca1cbb3ec9086597217786f6fd66f4b6aacdd95/_logged_out.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/22b95534af12676b493e62700c6d89eec7e77767/_footer.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/22b95534af12676b493e62700c6d89eec7e77767/_main_structure.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/22b95534af12676b493e62700c6d89eec7e77767/_title_bar.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled active_admin.css  (7138ms)  (pid 4464)
+Compiled bootstrap.min.css  (3ms)  (pid 4464)
+Compiled extention.css  (0ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/fees.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled fees.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/follow.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled follow.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/notices.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled notices.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/password_resets.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled password_resets.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/scaffolds.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled scaffolds.css  (31ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/search.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled search.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/searchnotice.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled searchnotice.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/sessions.css.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled sessions.css  (6ms)  (pid 4464)
+Compiled twitter-typeahead.css  (0ms)  (pid 4464)
+Compiled application.css  (7435ms)  (pid 4464)
+Compiled jquery-ui.min.js  (5ms)  (pid 4464)
+Compiled formtastic.css  (1ms)  (pid 4464)
+Compiled formtastic_ie6.css  (1ms)  (pid 4464)
+Compiled formtastic_ie7.css  (0ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon-deprecated-upcoming.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled _bourbon-deprecated-upcoming.css  (17ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_prefixer.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_px-to-em.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_asset-pipeline.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_gradient-positions-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_linear-positions-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-arg-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-positions-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_render-gradients.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_shape-size-stripper.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_color-lightness.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_flex-grid.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_golden-ratio.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_grid-width.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_linear-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_modular-scale.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-em.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-rem.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_radial-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_strip-units.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_tint-shade.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_transition-property-name.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_unpack.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_animation.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_appearance.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_backface-visibility.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background-image.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-image.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-radius.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_box-sizing.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_calc.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_columns.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_filter.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_flex-box.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-face.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-feature-settings.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hyphens.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hidpi-media-query.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_image-rendering.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_inline-block.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_keyframes.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_linear-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_perspective.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_radial-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transform.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transition.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_user-select.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_placeholder.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_button.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_clearfix.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_directional-values.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_ellipsis.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_font-family.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_hide-text.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_html5-input-types.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_position.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_prefixer.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_retina-image.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_size.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_timing-functions.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_triangle.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_word-wrap.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon-deprecated-upcoming.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled _bourbon.css  (3610ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_button.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_button.css  (533ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_clearfix.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_clearfix.css  (11ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_directional-values.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_directional-values.css  (169ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_ellipsis.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_ellipsis.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_font-family.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_font-family.css  (15ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_hide-text.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_hide-text.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_html5-input-types.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_html5-input-types.css  (67ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_position.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_position.css  (43ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_prefixer.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_prefixer.css  (29ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_retina-image.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_retina-image.css  (30ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_size.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_size.css  (40ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_timing-functions.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_timing-functions.css  (72ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_triangle.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_triangle.css  (76ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_word-wrap.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled addons/_word-wrap.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_animation.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_animation.css  (51ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_appearance.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_appearance.css  (9ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_backface-visibility.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_backface-visibility.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background-image.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_background-image.css  (40ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_background.css  (76ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-image.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_border-image.css  (52ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-radius.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_border-radius.css  (22ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_box-sizing.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_box-sizing.css  (7ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_calc.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_calc.css  (9ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_columns.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_columns.css  (40ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_filter.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_filter.css  (9ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_flex-box.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_flex-box.css  (173ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-face.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_font-face.css  (32ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-feature-settings.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_font-feature-settings.css  (12ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hidpi-media-query.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_hidpi-media-query.css  (16ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hyphens.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_hyphens.css  (7ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_image-rendering.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_image-rendering.css  (9ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_inline-block.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_inline-block.css  (10ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_keyframes.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_keyframes.css  (24ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_linear-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_linear-gradient.css  (50ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_perspective.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_perspective.css  (16ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_placeholder.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_placeholder.css  (11ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_radial-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_radial-gradient.css  (51ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transform.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_transform.css  (15ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transition.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_transition.css  (58ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_user-select.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled css3/_user-select.css  (11ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_color-lightness.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_color-lightness.css  (25ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_flex-grid.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_flex-grid.css  (30ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_golden-ratio.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_golden-ratio.css  (10ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_grid-width.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_grid-width.css  (17ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_linear-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_linear-gradient.css  (24ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_modular-scale.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_modular-scale.css  (62ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-em.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_px-to-em.css  (18ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-rem.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_px-to-rem.css  (20ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_radial-gradient.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_radial-gradient.css  (29ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_strip-units.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_strip-units.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_tint-shade.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_tint-shade.css  (12ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_transition-property-name.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_transition-property-name.css  (17ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_unpack.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled functions/_unpack.css  (28ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_gradient-positions-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled helpers/_gradient-positions-parser.css  (17ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_linear-positions-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled helpers/_linear-positions-parser.css  (80ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-arg-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled helpers/_radial-arg-parser.css  (58ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-positions-parser.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled helpers/_radial-positions-parser.css  (21ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_render-gradients.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled helpers/_render-gradients.css  (31ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_shape-size-stripper.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled helpers/_shape-size-stripper.css  (14ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_asset-pipeline.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled settings/_asset-pipeline.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_prefixer.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled settings/_prefixer.css  (14ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_px-to-em.scssc: can't dump anonymous class #<Class:0xb1303d4>
+Compiled settings/_px-to-em.css  (6ms)  (pid 4464)
+Compiled coffee-script.js  (8ms)  (pid 4464)
+Compiled accounts.js  (1049ms)  (pid 4464)
+Compiled jquery.js  (6ms)  (pid 4464)
+Compiled jquery_ujs.js  (1ms)  (pid 4464)
+Compiled jquery-ui.js  (10ms)  (pid 4464)
+Compiled active_admin/lib/namespace.js  (552ms)  (pid 4464)
+Compiled active_admin/components/jquery.aa.checkbox-toggler.js  (578ms)  (pid 4464)
+Compiled active_admin/components/jquery.aa.dropdown-menu.js  (816ms)  (pid 4464)
+Compiled active_admin/components/jquery.aa.popover.js  (664ms)  (pid 4464)
+Compiled active_admin/components/jquery.aa.table-checkbox-toggler.js  (639ms)  (pid 4464)
+Compiled active_admin/pages/application.js  (574ms)  (pid 4464)
+Compiled active_admin/pages/batch_actions.js  (637ms)  (pid 4464)
+Compiled active_admin/application.js  (4677ms)  (pid 4464)
+Compiled active_admin/base.js  (4861ms)  (pid 4464)
+Compiled active_admin.js  (4889ms)  (pid 4464)
+Compiled bootstrap.min.js  (1ms)  (pid 4464)
+Compiled fees.js  (524ms)  (pid 4464)
+Compiled follow.js  (454ms)  (pid 4464)
+Compiled jquery.min.js  (3ms)  (pid 4464)
+Compiled jquery.raty.js  (1ms)  (pid 4464)
+Compiled letsrate.js  (3ms)  (pid 4464)
+Compiled notices.js  (489ms)  (pid 4464)
+Compiled password_resets.js  (613ms)  (pid 4464)
+Compiled search.js  (543ms)  (pid 4464)
+Compiled searchnotice.js  (562ms)  (pid 4464)
+Compiled sessions.js  (461ms)  (pid 4464)
+Compiled typeahead.min.js  (1ms)  (pid 4464)
+Compiled application.js  (8983ms)  (pid 4464)
+Compiled bootstrap-theme.min.css  (1ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/accounts.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled accounts.css  (27ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/active_admin.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_mixins.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_all.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_variables.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_reset.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_gradients.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_shadows.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_icons.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_rounded.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_buttons.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_sections.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_utilities.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/58f33698ecef34835499f83b09284e0ca69f506f/_typography.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_prefixer.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_px-to-em.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_asset-pipeline.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_gradient-positions-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_linear-positions-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-arg-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-positions-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_render-gradients.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_shape-size-stripper.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_color-lightness.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_flex-grid.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_golden-ratio.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_grid-width.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_linear-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_modular-scale.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-em.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-rem.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_radial-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_strip-units.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_tint-shade.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_transition-property-name.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_unpack.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_animation.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_appearance.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_backface-visibility.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background-image.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-image.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-radius.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_box-sizing.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_calc.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_columns.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_filter.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_flex-box.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-face.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-feature-settings.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hyphens.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hidpi-media-query.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_image-rendering.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_inline-block.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_keyframes.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_linear-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_perspective.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_radial-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transform.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transition.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_user-select.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_placeholder.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_button.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_clearfix.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_directional-values.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_ellipsis.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_font-family.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_hide-text.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_html5-input-types.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_position.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_prefixer.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_retina-image.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_size.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_timing-functions.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_triangle.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_word-wrap.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon-deprecated-upcoming.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_base.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_typography.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_header.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/91b6f55c44c65aa42644f6f369e316d0fe3ff7db/_forms.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_comments.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_flash_messages.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_date_picker.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_popovers.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_tables.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_batch_actions.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_blank_slates.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_breadcrumbs.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_dropdown_menu.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_buttons.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_grid.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_links.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_pagination.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_panels.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_columns.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_scopes.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_status_tags.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_table_tools.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/a8acaad53e49c1f9ac9416d97259b69392da5fe6/_index_list.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1ca1cbb3ec9086597217786f6fd66f4b6aacdd95/_logged_out.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/22b95534af12676b493e62700c6d89eec7e77767/_footer.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/22b95534af12676b493e62700c6d89eec7e77767/_main_structure.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/22b95534af12676b493e62700c6d89eec7e77767/_title_bar.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled active_admin.css  (6926ms)  (pid 4464)
+Compiled bootstrap.min.css  (2ms)  (pid 4464)
+Compiled extention.css  (0ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/fees.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled fees.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/follow.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled follow.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/notices.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled notices.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/password_resets.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled password_resets.css  (4ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/scaffolds.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled scaffolds.css  (31ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/search.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled search.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/searchnotice.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled searchnotice.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/98ee1017077de1784e6f9bdb31c659352464ce13/sessions.css.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled sessions.css  (6ms)  (pid 4464)
+Compiled twitter-typeahead.css  (1ms)  (pid 4464)
+Compiled application.css  (7208ms)  (pid 4464)
+Compiled jquery-ui.min.js  (6ms)  (pid 4464)
+Compiled formtastic.css  (2ms)  (pid 4464)
+Compiled formtastic_ie6.css  (1ms)  (pid 4464)
+Compiled formtastic_ie7.css  (1ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon-deprecated-upcoming.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled _bourbon-deprecated-upcoming.css  (20ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_prefixer.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_px-to-em.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_asset-pipeline.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_gradient-positions-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_linear-positions-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-arg-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-positions-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_render-gradients.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_shape-size-stripper.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_color-lightness.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_flex-grid.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_golden-ratio.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_grid-width.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_linear-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_modular-scale.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-em.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-rem.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_radial-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_strip-units.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_tint-shade.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_transition-property-name.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_unpack.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_animation.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_appearance.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_backface-visibility.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background-image.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-image.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-radius.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_box-sizing.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_calc.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_columns.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_filter.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_flex-box.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-face.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-feature-settings.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hyphens.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hidpi-media-query.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_image-rendering.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_inline-block.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_keyframes.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_linear-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_perspective.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_radial-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transform.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transition.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_user-select.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_placeholder.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_button.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_clearfix.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_directional-values.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_ellipsis.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_font-family.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_hide-text.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_html5-input-types.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_position.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_prefixer.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_retina-image.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_size.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_timing-functions.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_triangle.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_word-wrap.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/e38b4d9e660acbb87c0325f336d2b5cf970ff761/_bourbon-deprecated-upcoming.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled _bourbon.css  (3815ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_button.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_button.css  (428ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_clearfix.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_clearfix.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_directional-values.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_directional-values.css  (123ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_ellipsis.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_ellipsis.css  (11ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_font-family.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_font-family.css  (9ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_hide-text.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_hide-text.css  (9ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_html5-input-types.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_html5-input-types.css  (37ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_position.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_position.css  (29ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_prefixer.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_prefixer.css  (19ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_retina-image.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_retina-image.css  (17ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_size.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_size.css  (18ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_timing-functions.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_timing-functions.css  (36ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_triangle.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_triangle.css  (37ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/16043c46a4823f123814b5a3036371a12abdefdf/_word-wrap.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled addons/_word-wrap.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_animation.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_animation.css  (21ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_appearance.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_appearance.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_backface-visibility.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_backface-visibility.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background-image.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_background-image.css  (21ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_background.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_background.css  (41ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-image.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_border-image.css  (29ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_border-radius.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_border-radius.css  (14ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_box-sizing.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_box-sizing.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_calc.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_calc.css  (7ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_columns.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_columns.css  (23ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_filter.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_filter.css  (10ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_flex-box.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_flex-box.css  (143ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-face.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_font-face.css  (19ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_font-feature-settings.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_font-feature-settings.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hidpi-media-query.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_hidpi-media-query.css  (23ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_hyphens.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_hyphens.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_image-rendering.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_image-rendering.css  (16ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_inline-block.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_inline-block.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_keyframes.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_keyframes.css  (17ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_linear-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_linear-gradient.css  (31ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_perspective.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_perspective.css  (12ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_placeholder.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_placeholder.css  (7ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_radial-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_radial-gradient.css  (46ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transform.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_transform.css  (9ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_transition.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_transition.css  (35ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/583a8eed4135b0d901380aaeadfa0392769185d1/_user-select.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled css3/_user-select.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_color-lightness.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_color-lightness.css  (10ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_flex-grid.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_flex-grid.css  (28ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_golden-ratio.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_golden-ratio.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_grid-width.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_grid-width.css  (7ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_linear-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_linear-gradient.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_modular-scale.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_modular-scale.css  (22ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-em.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_px-to-em.css  (10ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_px-to-rem.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_px-to-rem.css  (7ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_radial-gradient.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_radial-gradient.css  (10ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_strip-units.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_strip-units.css  (4ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_tint-shade.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_tint-shade.css  (6ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_transition-property-name.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_transition-property-name.css  (9ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/1cc76a6b6e88780c4c426f55bab64f4a843bebb5/_unpack.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled functions/_unpack.css  (14ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_gradient-positions-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled helpers/_gradient-positions-parser.css  (7ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_linear-positions-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled helpers/_linear-positions-parser.css  (42ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-arg-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled helpers/_radial-arg-parser.css  (29ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_radial-positions-parser.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled helpers/_radial-positions-parser.css  (16ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_render-gradients.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled helpers/_render-gradients.css  (18ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/175b2a336168b0ea444ff4a9234f7b8b97a3bdf8/_shape-size-stripper.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled helpers/_shape-size-stripper.css  (8ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_asset-pipeline.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled settings/_asset-pipeline.css  (5ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_prefixer.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled settings/_prefixer.css  (7ms)  (pid 4464)
+Warning. Error encountered while saving cache /home/saasbook/Documents/CardsUnion/tmp/cache/sass/49717e76b045714099ba0ad898a00044370d035f/_px-to-em.scssc: can't dump anonymous class #<Class:0xa24dd44>
+Compiled settings/_px-to-em.css  (4ms)  (pid 4464)
+Compiled coffee-script.js  (5ms)  (pid 4464)

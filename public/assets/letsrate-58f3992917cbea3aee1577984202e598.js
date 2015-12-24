@@ -1,0 +1,1 @@
+$.fn.raty.defaults.path="/assets",$.fn.raty.defaults.half_show=!0,$(function(){$(".star").raty({score:function(){return $(this).attr("data-rating")},number:function(){return $(this).attr("data-star-count")},click:function(t,a){$.post("/rate",{score:t,dimension:$(this).attr("data-dimension"),id:$(this).attr("data-id"),klass:$(this).attr("data-classname")},function(t){})}})});
