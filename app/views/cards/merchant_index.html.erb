@@ -25,14 +25,14 @@
           <td><%= card.balance %></td>
           <td><%= card.points %></td>
           <td>
-            <%= link_to 'Pay/Recharge', card , class: "btn btn-warning"%>
-            <%= link_to 'Cancel', card, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger"%>
+            <%= link_to 'Pay/Recharge', card , class: "btn btn-warning notices"%>
+            <%= link_to 'Cancel', card, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn notices btn-danger"%>
           </td>
         </tr>
         <% end %>
       <% end %>
     </table>
-      <%= link_to 'New Card', new_card_path,class: "notices btn btn-block btn-info"%>
+      <%= link_to 'New Card', new_card_path,class: "notices btn btn-block btn-info notices"%>
       <br />
   </div>
 </div>

@@ -5,7 +5,7 @@
     <style type="text/css">
       #allmap{height:700px;}
     </style>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=O3gdrMFORGYG91FQPfqzaYVW"></script>
+
 <% end %>
 <br />
 <div class="col-md-6 col-md-offset-1 container">
@@ -14,8 +14,13 @@
       &nbsp&nbsp&nbsp&nbsp&nbsp
     <% if current_user and current_user_type == "Consumer"%>
       <% follow_path = '/follow.' + @merchant.id.to_s %>
-      <div class="pull-right" onClick="window.location.href='<%= follow_path %>'" style="cursor:pointer">
-      <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></div>
+    <div class="pull-right" onClick="" style="cursor:pointer">
+      <% if current_user.following?(@merchant.account)%>
+        <span class="glyphicon glyphicon-star follow" aria-hidden="true" ></span>
+      <% else %>
+      <span class="glyphicon glyphicon-star-empty unfollow" aria-hidden="true" ></span>
+      <% end %>
+    </div>
     <% end%>
   </h2>
     <h4>Service Quality:</h4><%= rating_for @merchant, "service_quality" %>
@@ -83,3 +88,13 @@
   <% end %>
 </div>
 </div>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".unfollow").click(function(){
+  window.location.href='<%= follow_path %>'
+  });
+  $(".follow").click(function(){
+  //window.location.href='<%= follow_path %>'
+  });
+});
+</script>

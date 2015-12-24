@@ -9,7 +9,7 @@ class FollowController < ApplicationController
   def edit
     if current_user.user_type == "Consumer"
      	@m = Merchant.find(params[:format]).account
-      current_user.follow(@m)
+        current_user.follow(@m)
     end
     redirect_to Merchant.find(params[:format])
   end

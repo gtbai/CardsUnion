@@ -5,11 +5,12 @@
 <div class="col-md-6 col-md-offset-3 container">
 	<div class="jumbotron ">
 		<h2 class="text-center">Personal Profile</h2>
+		<br />
 		<p>Nickname: <%= @consumer.nickname %></p><br/>
 		<p>Gender: <%= @consumer.gender %></p><br/>
 		<p>Email: <%= @account.email %></p><br/>
 		<p>Phone: <%= @account.phone %></p><br/>
-		<div class="text-center"><%= link_to 'Edit', edit_consumer_path(@consumer),class:'btn btn-success btn-lg'%> |
-		<%= link_to 'Back', notices_path,class:'btn btn-success btn-lg'%></div>
+		<div class="text-center"><%= link_to 'Edit', edit_consumer_path(@consumer),class:'btn btn-success notices btn-lg'%> |
+		<%= link_to 'Back', notices_path,class:'btn btn-success notices btn-lg'%></div>
 	</div>
 </div>

@@ -10,7 +10,7 @@ GIT
       mime-types (>= 1.16)
 
 GEM
-  remote: https://rubygems.org/
+  remote: https://ruby.taobao.org/
   specs:
     actionmailer (3.2.16)
       actionpack (= 3.2.16)
@@ -212,3 +212,6 @@ DEPENDENCIES
   strong_parameters
   thin
   uglifier (>= 1.0.3)
+
+BUNDLED WITH
+   1.10.6
