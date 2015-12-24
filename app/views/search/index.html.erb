@@ -1,3 +1,6 @@
+<% content_for :javascript_includes do %>
+  <%= javascript_include_tag 'jquery.raty.js','letsrate.js'%>
+<% end %>
 <div> 
 <%= form_for @search,  :url => search_path ,:method => :get do |f| %>
 </div>
@@ -32,6 +35,9 @@
       <% end %>
       <div class="caption">
         <h4 class="text-center"><%= link_to merchant.store_name , merchant, class: "no-decor"%></h4>
+        <div style="display:table;margin-left:auto;margin-right:auto">
+          <%= rating_for merchant, "service_quality"%>
+        </div>
       </div>
     </div>
   </div>

@@ -106,6 +106,8 @@
 
 
 CardsUnion::Application.routes.draw do
+  match '/rate' => 'rater#create', :as => 'rate'
+
   get "password_resets/new"
 
   devise_for :admin_users, ActiveAdmin::Devise.config

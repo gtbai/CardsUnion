@@ -16,4 +16,5 @@ class Consumer < ActiveRecord::Base
   has_many :cards
   has_many :merchants, :through => :cards
   attr_accessible :gender, :nickname
+  letsrate_rater
 end

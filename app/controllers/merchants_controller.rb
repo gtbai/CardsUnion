@@ -13,7 +13,7 @@ class MerchantsController < ApplicationController
   # GET /merchants/1
   # GET /merchants/1.json
   def show
-    if current_user.user_id.nil?
+    if current_user and current_user.user_type=="Merchant" and current_user.user_id.nil?
       @merchant = Merchant.new({:store_name => "", :store_type => "",
       :introduction => "", :address => ""})
       @merchant.save(validate: false)

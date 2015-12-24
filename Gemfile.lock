@@ -104,6 +104,7 @@ GEM
     kaminari (0.16.3)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    letsrate (1.0.8)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -200,6 +201,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   dynamic_form
   jquery-rails (~> 2.3.0)
+  letsrate (= 1.0.8)
   meta_search (>= 1.1.0.pre)
   pg
   rails (= 3.2.16)

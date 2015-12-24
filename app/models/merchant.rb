@@ -31,4 +31,5 @@ class Merchant < ActiveRecord::Base
   mount_uploader :store_image, StoreImageUploader
 
   has_many :messages
+  letsrate_rateable "service_quality"
 end

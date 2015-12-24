@@ -53,3 +53,4 @@ gem 'rmagick', require: false
 
 #use thin to replace webbrick
 gem 'thin'
+gem 'letsrate', '1.0.8'

@@ -12,6 +12,7 @@
   <%= javascript_include_tag "application" %>
   <%= javascript_include_tag "jquery" %>
   <%= javascript_include_tag "typeahead.min.js" %>
+  <%= yield :javascript_includes %> 
   <%= yield :map_script %>
   <%= csrf_meta_tags %>
    <style type="text/css"> 
