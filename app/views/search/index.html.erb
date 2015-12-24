@@ -13,16 +13,19 @@
 </ul>
 <ul class="list-group">
 <li class="list-group-item"><%= f.label :store_name_contains %></li>
-<li class="list-group-item"><%= f.text_field :store_name_contains, class:"col-md-10"%></li>
-<li class="list-group-item"><%= sort_link @search, :store_name ,"Sort by Name" %></li>
+<li class="list-group-item"><%= f.text_field :store_name_contains %></li>
 </ul>
+<ul class="list-group">
+<!-- <li class="list-group-item text-center"><%= sort_link @search, :store_name ,"Sort by Name" %></li> -->
+
 <li class="list-group-item"><%= f.submit 'Search', class: 'btn btn-info btn-block' %></li>
+</ul>
 </div>
 <% end %>
 
-<div class="container col-md-9">
+<div class="col-md-9">
 <% @merchants.each do |merchant| %>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-xs-6 col-md-4">
     <% merchant_path = 'merchant.'+merchant.id.to_s %>
     <div class="thumbnail" onClick="window.location.href='<%= merchant_path %>'" style="cursor:pointer">
       <% if merchant.store_image? %>

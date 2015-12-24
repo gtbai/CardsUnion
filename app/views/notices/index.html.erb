@@ -47,8 +47,8 @@
         <h3><%= notice.title %></h3>
         <p style="position:absolute;bottom:27px;">
           <%= link_to 'Details', notice, class: "btn btn-info notices" %>
-          <% if created_by_current_user(notice) %> <%= link_to ' Edit ', edit_notice_path(notice) , class: "btn btn-success" %><% end %>
-          <% if created_by_current_user(notice) %><%= link_to 'Destroy', notice, class: "btn btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %><% end %>
+          <% if created_by_current_user(notice) %> <%= link_to ' Edit ', edit_notice_path(notice) , class: "btn notices btn-success" %><% end %>
+          <% if created_by_current_user(notice) %><%= link_to 'Destroy', notice, class: "btn notices btn-warning" , method: :delete, data: { confirm: 'Are you sure?' } %><% end %>
         </p>
       </div>
     </div>

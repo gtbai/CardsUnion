@@ -4,7 +4,7 @@
   <div class="form-group">
     <%= f.label :nickname, "Nickname" %>
     <%= f.object.errors[:nickname].to_sentence if f.object.errors[:nickname] %>
-    <%= f.text_field :nickname, autofocus: true, placeholder: "Nickname", class: "form-control" %>
+    <%= f.text_field :nickname, autofocus: true, placeholder: "Nickname", class: "form-control item-block" %>
   </div>
     <div class=" form-group">
       <%= f.label :gender, "Choose Your Gender" %>
@@ -13,14 +13,15 @@
     <%= fields_for(@account) do |account_f| %>
         <div class="form-group">
           <%= account_f.label :email, "Email" %>
-          <%= account_f.text_field :email, autofocus: true, placeholder: "Nickname", class: "form-control", disabled: "disabled"%>
+          <%= account_f.text_field :email, autofocus: true, placeholder: "Nickname", class: "form-control item-block", disabled: "disabled"%>
         </div>
         <div class="form-group">
           <%= account_f.label :phone, "Phone Number" %>
           <%= account_f.object.errors[:phone].to_sentence if f.object.errors[:phone] %>
-          <%= account_f.text_field :phone, autofocus: true, placeholder: "Phone Number", class: "form-control" %>
+          <%= account_f.text_field :phone, autofocus: true, placeholder: "Phone Number", class: "form-control item-block" %>
         </div>
     <% end %>
+    <br />
   <div class="actions text-center">
     <%= f.submit 'Update',class:'btn-lg btn-success btn-block'%>
   </div>

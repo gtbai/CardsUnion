@@ -45,11 +45,11 @@
          <% if current_user != nil %>
           <% if current_user.user_type == 'Consumer'%>
             <% show_follower_path = '/showfollow' %>
-            <li><%= link_to "My favorite",show_follower_path ,class: "notices btn no-decor"%></li>
+            <li><%= link_to "My favorite",show_follower_path ,class: "notices"%></li>
           <% elsif current_user.user_type == 'Merchant'%>
             <% show_follower_path = '/showfollow' %>
-            <li><%= link_to "People interest",show_follower_path, class: "notices btn no-decor"%></li>
-            <li><%= link_to "Received Complaints", merchant_messages_path(current_user.user), class: "notices btn no-decor"%></li>
+            <li><%= link_to "People interest",show_follower_path, class: "notices "%></li>
+            <li><%= link_to "Received Complaints", merchant_messages_path(current_user.user), class: "notices "%></li>
           <% end %>
         <% end %>
         <li><a href="#" class="dropdown-toggle notices" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
@@ -103,17 +103,17 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav text-center">
-        <li><%= link_to "Notice Board", notices_path , class: "btn notices"%></li>
-        <li><%= link_to "My Cards", cards_path , class: "notices btn" %></li>
+        <li><%= link_to "Notice Board", notices_path , class: "notices"%></li>
+        <li><%= link_to "My Cards", cards_path , class: "notices" %></li>
          <% if current_user != nil %>
           <% if current_user.user_type == 'Consumer'%>
             <% show_follower_path = '/showfollow' %>
-            <li><%= link_to "My favorite",show_follower_path, class: "notices btn no-decor" %></li>
+            <li><%= link_to "My favorite",show_follower_path, class: "notices" %></li>
           <%end%>
           <% if current_user.user_type == 'Merchant'%>
             <% show_follower_path = '/showfollow' %>
-            <li><%= link_to "People interest",show_follower_path, class: "notices btn no-decor"  %></li>
-            <li><%= link_to "Received Complaints", merchant_messages_path(current_user.user), class: "notices btn no-decor"%></li>
+            <li><%= link_to "People interest",show_follower_path, class: "notices "  %></li>
+            <li><%= link_to "Received Complaints", merchant_messages_path(current_user.user), class: "notices"%></li>
           <%end%>
         <% end %>
         <li><a href="#" class="dropdown-toggle notices" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore</a>
@@ -130,15 +130,15 @@
         <% if current_user %>
             <% if current_user_type == "Consumer" %>
               <% if (current_user.user==nil) or (current_user.user.nickname==nil) or (current_user.user.nickname=="")%> 
-              <li><%= link_to current_user.email, consumer_path , class: "btn notices" %></li>
+              <li><%= link_to current_user.email, consumer_path , class: "notices" %></li>
               <% else %>
-              <li><%= link_to current_user.user.nickname, consumer_path , class: "btn notices" %></li>
+              <li><%= link_to current_user.user.nickname, consumer_path , class: "notices" %></li>
               <% end %>
             <% else %>
               <% if (current_user.user==nil) or (current_user.user.store_name==nil) or (current_user.user.store_name=="")%> 
-              <li><%= link_to current_user.email, merchant_path , class: "btn notices"%></li>
+              <li><%= link_to current_user.email, merchant_path , class: "notices"%></li>
               <% else %>
-              <li><%= link_to current_user.user.store_name,merchant_path , class: "btn notices"%></li>
+              <li><%= link_to current_user.user.store_name,merchant_path , class: "notices"%></li>
               <% end %>
             <% end %>
           <li><%= link_to "Log out", logout_path, method: "delete" , class: "notices"%></li>

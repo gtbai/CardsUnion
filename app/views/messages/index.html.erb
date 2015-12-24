@@ -10,7 +10,7 @@
         <th>Cosumer's Nickname</th>
         <th>Cosumer's Phone number</th>
         <th>Consumer's Email</th>
-        <th>Abstract</th>
+        <th class="hidd">Abstract</th>
       </tr>
       <% @messages.each do |msg| %>
         <% consumer = msg.consumer %>
@@ -18,13 +18,45 @@
           <td><%= consumer.nickname %></td>
           <td><%= consumer.account.phone %></td>
           <td><%= consumer.account.email %></td>
-          <td><%= getAbstract(msg.content) %></td>
+          <td class="full-td"  id='<%= msg.id %>'><%= msg.content %></td>
           <td>
-            <%= link_to 'Read More', merchant_message_path(msg,@merchant) , class: "btn btn-warning"%>
+            <a class="shoo btn btn-info notices" id="<%= msg.id %>" onclick=fuck(this.id)>Show Details</a>
+            <a class="hidd btn btn-info notices ">Hide</a>
           </td>
         </tr>
-      <% end %>
+        <% end %>
     </table>
+    
   </div>
 </div>
 </div>
+<script type="text/javascript"> 
+// $(document).ready(function(){
+// $(".hidd").click(function(){
+//     $(".full-td").hide();
+//     $(".shoo").show();
+//     $(".hidd").hide();
+//   });
+// });
+// $(document).ready(function(){
+// $(".shoo").click(function(){
+//     alert($(".full-td").attr("id"));
+//     $(".full-td").show();
+//     $(".shoo").hide();
+//     $(".hidd").show();
+//   });
+// });
+function fuck(x){
+  document.getElementById(x).show();
+  var w= "#"+x;
+  alert(w);
+  $("#"+x).show();
+}
+</script>
+ 
+<style type="text/css"> 
+td.full-td,a.hidd,th.hidd
+{
+display:none;
+}
+</style>

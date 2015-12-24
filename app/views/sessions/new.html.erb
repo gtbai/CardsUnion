@@ -1,6 +1,18 @@
-  <body background="../images/bg.jpg">
-    <br><br>
-    <div class="col-md-3 has-success col-md-offset-8 jumbotron">
+  <body background-img="our-vision.jpg">
+    <div style="position:fixed; left:0; top:0; width:100%; height:100%; z-index:-5000">
+      <%= image_tag 'our-vision.jpg', style: "width:100%;"%>
+    </div>
+    
+    <style type="text/css">
+    @font-face {
+        font-family: "VolutaScript";       
+        src: url("/assets/VolutaScript.woff") format("woff"),       
+        url("/assets/VolutaScript.ttf") format("truetype"),       
+        url("/assets/VolutaScript.svg#volutascript") format("svg");     
+      }
+    </style>
+    <br><br><br>
+    <div class="col-md-3 col-md-offset-8 has-info jumbotron">
       <%= form_for(:session, url:login_path) do |f| %>
       <div class="form-group">
         <label for="exampleInputEmail1" > Email address (or Phone Number)</label>

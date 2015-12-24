@@ -9,13 +9,13 @@
 
 <% @customers.each do |customer| %>
   <tr>
-    <td><%= link_to 'Show', customer %></td>
-    <td><%= link_to 'Edit', edit_customer_path(customer) %></td>
-    <td><%= link_to 'Destroy', customer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Show', customer , class: "no-decor"%></td>
+    <td><%= link_to 'Edit', edit_customer_path(customer) , class: "no-decor"%></td>
+    <td><%= link_to 'Destroy', customer, method: :delete, data: { confirm: 'Are you sure?' } , class: "no-decor"%></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Consumer', new_customer_path %>
+<%= link_to 'New Consumer', new_customer_path , class: "no-decor"%>

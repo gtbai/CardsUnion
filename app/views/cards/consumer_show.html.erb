@@ -1,6 +1,6 @@
-<div class="container rows">
-
-  <div class="col-md-8 pull-right">
+<div>
+  <br />
+  <div class="col-md-8 pull-right" style="margin-right:30px;">
     <div class="panel panel-warning">
       <div class="panel-heading">
         <h4>Recent Bills In This Merchant</h4>
@@ -9,6 +9,8 @@
         <tr>
           <th><strong>Type</strong></th>
           <th><strong>Amount</strong></th>
+          <th><strong>Discount</strong></th>
+          <th><strong>Cost</strong></th>
           <th><strong>Time</strong></th>
         </tr>
         <%= render @card.fees %>
@@ -16,20 +18,19 @@
     </div>
   </div>
 
-  <div class="col-md-3" style="position:fixed;">
+  <div class="col-md-3" style="margin-left:30px;">
   <div class="panel panel-warning">
     <div class="panel-heading">
       <h4>Card Details</h4>
     </div>
     <div class="panel-body">
 		<% merchant = @card.merchant %>
-		<p><b>Store Photo:</b>
+		<p><b>Store Photo:</b></p>
 		  <% if merchant.store_image? %>
 		    <%= image_tag merchant.store_image_url(:card).to_s %>
 		  <% else %>
 		    No image
 		  <% end %>
-		</p>
 		<p><b>Store Name:</b><%= merchant.store_name %></p>
 		<p><b>Store Type:</b><%= merchant.store_type %></p>
 		<p><b>Store Phone Number</b><%= merchant.account.phone if merchant %></p>
