@@ -3,7 +3,7 @@
 </div>
 <div class="jumbotron col-md-4 col-md-offset-4">
 <h3 class="text-center">Reset Password</h3>
-
+<br />
 <%= form_for @account, :url => password_reset_path(params[:id]) do |f| %>
   <% if @account.errors.any? %>
     <div class="error_messages">
@@ -16,12 +16,12 @@
     </div>
   <% end %>
   <div class="field">
-    <%= f.password_field :password , placeholder: "Password",class: "center-block"%>
+    <%= f.password_field :password , placeholder: "Password",class: "item-block"%>
   </div>
   <div class="field">
-    <%= f.password_field :password_confirmation, placeholder: "Password Confirmtion", class: "center-block" %>
+    <%= f.password_field :password_confirmation, placeholder: "Password Confirmtion", class: "item-block" %>
   </div>
   <br />
-  <div class="actions"><%= f.submit "Update Password", class: "btn btn-info center-block" %></div>
+  <div class="actions"><%= f.submit "Update Password", class: "btn btn-info item-block" %></div>
 <% end %>
 </div>

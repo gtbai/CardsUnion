@@ -19,7 +19,12 @@
   <div class="col-sm-6 col-md-4">
     <% notice_path = 'notices/'+notice.id.to_s %>
     <div class="thumbnail srch_notices" onClick="window.location.href='<%= notice_path %>'" style="cursor:pointer">
-    	<%= image_tag notice.notice_image_url(:index).to_s %>
+    	<% image_path=notice.notice_image_url(:index) %>
+    	<% if image_path == nil %>
+    	<%= image_tag "alt_store_image2.jpg" %>
+    	<% else %>
+    	<%= image_tag image_path.to_s %>
+    	<% end %>
     	<div class="caption">
        		<h4 class="text-center"><%=notice.title%></h4>
     	</div>

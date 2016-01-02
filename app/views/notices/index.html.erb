@@ -39,9 +39,10 @@
 </div>
 <div class="row col-md-10 col-md-offset-1 ">
   <br /><br />
+<% @notices = Notice.all %>
 <% @notices.each do |notice| %>
   <div class="col-sm-6">
-    <div class="thumbnail" onClick="window.location.href='<%= notice_path(notice) %>'" style="cursor:pointer;height:500px;">
+    <div class="thumbnail" style="cursor:pointer;height:500px;">
       <%= render partial: 'img', locals: {notice: notice} %>
       <div class="caption">
         <h3><%= notice.title %></h3>

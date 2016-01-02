@@ -20,8 +20,8 @@
           <td><%= consumer.account.email %></td>
           <td class="full-td"  id='<%= msg.id %>'><%= msg.content %></td>
           <td>
-            <a class="shoo btn btn-info notices" id="<%= msg.id %>" onclick=fuck(this.id)>Show Details</a>
-            <a class="hidd btn btn-info notices ">Hide</a>
+            <a class="shoo btn btn-info notices" id='<%= msg.id %>0' onclick=showw('<%= msg.id %>')>Show Details</a>
+            <a class="hidd btn btn-info notices" id='<%= msg.id %>1' onclick=hidee('<%= msg.id %>')> Hide</a>
           </td>
         </tr>
         <% end %>
@@ -31,27 +31,22 @@
 </div>
 </div>
 <script type="text/javascript"> 
-// $(document).ready(function(){
-// $(".hidd").click(function(){
-//     $(".full-td").hide();
-//     $(".shoo").show();
-//     $(".hidd").hide();
-//   });
-// });
-// $(document).ready(function(){
-// $(".shoo").click(function(){
-//     alert($(".full-td").attr("id"));
-//     $(".full-td").show();
-//     $(".shoo").hide();
-//     $(".hidd").show();
-//   });
-// });
-function fuck(x){
-  document.getElementById(x).show();
-  var w= "#"+x;
-  alert(w);
-  $("#"+x).show();
-}
+  function showw(x){
+    var td= ".full-td#"+x;
+    $(td).show();
+    var show = ".shoo#"+x+"0";
+    $(show).hide();
+    var hidd = ".hidd#"+x+"1";
+    $(hidd).show();
+  }
+  function hidee(x){
+    var td= ".full-td#"+x;
+    $(td).hide();
+    var show = ".shoo#"+x+"0";
+    $(show).show();
+    var hidd = ".hidd#"+x+"1";
+    $(hidd).hide();
+  }
 </script>
  
 <style type="text/css"> 

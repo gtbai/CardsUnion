@@ -12,7 +12,7 @@
 class Consumer < ActiveRecord::Base
   acts_as_follower
   acts_as_followable
-  has_one :account, as: :user
+  has_one :account, as: :user, :dependent => :destroy
   has_many :cards
   has_many :merchants, :through => :cards
   attr_accessible :gender, :nickname
